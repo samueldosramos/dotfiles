@@ -1,0 +1,9 @@
+[user]
+	name = Samuel Ramos
+	email = samramox@gmail.com
+
+[github]
+	user = samuelramox
+
+[core]
+	excludesfile = ~/.gitignore

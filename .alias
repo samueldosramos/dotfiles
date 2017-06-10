@@ -1,0 +1,10 @@
+#Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+#Update Brew and Cask formulaes
+#Include -f to update apps that are marked as latest
+alias update="brew update && brew upgrade && brew cu --all"
+
+#Cleanup Brew and Cask cache
+alias cleanup="brew cleanup && brew cask cleanup"
