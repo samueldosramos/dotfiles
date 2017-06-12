@@ -8,3 +8,8 @@ alias update="brew update && brew upgrade && brew cu --all"
 
 #Cleanup Brew and Cask cache
 alias cleanup="brew cleanup && brew cask cleanup"
+
+#LS aliases
+alias ls="ls -GF"
+alias ll="ls -lG"
+alias la="ls -aGF"
