@@ -10,7 +10,7 @@ function manpdf() {
  man -t "${1}" | open -f -a /Applications/Preview.app/
 }
 
-# Extra many types of compressed packages
+# Extract many types of compressed packages
 # Credit: http://nparikh.org/notes/zshrc.txt
 extract() {
   if [ -f "$1" ]; then
