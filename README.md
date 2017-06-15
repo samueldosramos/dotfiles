@@ -1,6 +1,3 @@
-Work in progress.
-In test!
-
 
 # Samuel Ramos Dotfiles
 
