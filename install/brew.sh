@@ -40,6 +40,7 @@ brew cask install netbeans-php
 brew cask install opera
 brew cask install qbittorrent
 brew cask install spotify
+brew cask install the-unarchiver
 brew cask install visual-studio-code
 brew cask install vlc
 brew cask install winbox
