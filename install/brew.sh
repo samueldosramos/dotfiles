@@ -36,6 +36,7 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install google-drive
 brew cask install imageoptim
+brew cask install iterm2 
 brew cask install netbeans-php
 brew cask install opera
 brew cask install qbittorrent
