@@ -63,5 +63,5 @@ brew update
 brew cu
 
 
-#Cleans up cached downloads
+# Cleans up cached downloads
 brew cleanup && brew cask cleanup

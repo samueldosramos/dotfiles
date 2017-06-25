@@ -10,7 +10,6 @@ dockutil --no-restart --add "/Applications/Visual Studio Code.app"
 dockutil --no-restart --add '' --type spacer --section apps --after Visual Studio Code
 dockutil --no-restart --add '~/.Trash' --view grid --display folder --allhomes
 
-
 killall Dock
 
 echo "Success! Dock is set."
