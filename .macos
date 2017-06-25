@@ -51,6 +51,9 @@ defaults -currentHost write com.apple.trackpad.enableSecondaryClick -bool true
 # Turn off keyboard illumination when computer is not used for 5 minutes
 defaults write com.apple.BezelServices kDimTime -int 300
 
+# Enable Tab in modal dialogs (default is 0)
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
 #-----------------------------------------------------------------------------
 
 
@@ -110,6 +113,9 @@ defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
 
+# Sets default save target to be a local disk, not iCloud
+defaults write -g NSDocumentSaveNewDocumentsToCloud -bool false
+
 #-----------------------------------------------------------------------------
 
 
@@ -122,7 +128,7 @@ defaults write com.apple.dock tilesize -int 36
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
-#Screen Edge Position
+# Screen Edge Position
 defaults write com.apple.dock orientation -string left
 
 # Change minimize/maximize window effect
@@ -152,7 +158,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0
 # Speed up Mission Control animations
 defaults write com.apple.dock expose-animation-duration -float 0.1
 
-#  Disable Dashboard
+# Disable Dashboard
 defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Don’t show Dashboard as a Space
@@ -317,5 +323,8 @@ defaults write com.bohemiancoding.sketch3 exportCompactSVG -bool yes
 
 # Enable Firewall Service
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
+
+# FileVault Service
+sudo fdesetup enable
 
 #-----------------------------------------------------------------------------
