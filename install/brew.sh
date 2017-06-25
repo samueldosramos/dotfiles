@@ -6,15 +6,17 @@ sudo softwareupdate -ia
 brew update
 brew upgrade
 
+
 # Install Homebrew packages
-brew install dockutil
-brew install git
-brew install python
-brew install unrar
-brew install node
-brew install openssl
-#brew install zsh
-#brew install zsh-completions
+brew install dockutil                      # Command line tool for dock
+brew install git                           # Git client (more updated)
+brew install python                        # Python language support
+brew install unrar                         # RAR and ZIP file support
+brew install node                          # Node.js client
+brew install openssl                       # SSL protocol client
+#brew install zsh                          # Zsh shell
+#brew install zsh-completions              # Additional completion definitions for Zsh
+
 
 # Wait a bit before moving on...
 sleep 1
@@ -28,24 +30,25 @@ brew tap caskroom/cask
 brew tap homebrew/science
 brew tap caskroom/fonts
 
-# Install Cask packages
 
-brew cask install android-file-transfer
-brew cask install coconutbattery
-brew cask install firefox
-brew cask install google-chrome
-brew cask install google-drive
-brew cask install imageoptim
-brew cask install iterm2
-brew cask install netbeans-php
-brew cask install opera
-brew cask install qbittorrent
-brew cask install spectacle
-brew cask install spotify
-brew cask install the-unarchiver
-brew cask install visual-studio-code
-brew cask install vlc
-brew cask install winbox
+# Install Cask packages
+#brew cask install android-file-transfer    # For Android smartphone user's
+brew cask install coconutbattery            # Battery health monitor
+brew cask install firefox                   # Firefox browser
+brew cask install google-chrome             # Chrome browser
+brew cask install google-drive              # Google Drive client
+brew cask install imageoptim                # Images optimizer
+brew cask install iterm2                    # Better terminal for macOS
+brew cask install netbeans-php              # PHP IDE
+brew cask install opera                     # Opera browser
+brew cask install qbittorrent               # Torrent client
+brew cask install spectacle                 # Window control
+brew cask install spotify                   # Spotify client
+brew cask install the-unarchiver            # Archive extraction program (RAR)
+brew cask install visual-studio-code        # Code editor
+brew cask install vlc                       # Media player
+brew cask install winbox                    # Winbox client
+
 
 # Wait a bit before moving on...
 sleep 1
