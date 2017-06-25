@@ -34,3 +34,11 @@ extract() {
      echo "'$1' is not a valid file to extract"
   fi
 }
+
+# Changes the terminal to a current finder folder
+# Credit: http://br-mac.org/2013/07/fcd-um-atalho-para-mudar-o-diretorio-corrente-do-terminal-para-a-pasta-aberta-no-finder.html
+fcd() {
+	pFinder=`osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)'`
+	[ -n "$pFinder" ] && cd "$pFinder"
+	pwd
+}
