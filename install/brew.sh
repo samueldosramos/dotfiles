@@ -43,6 +43,7 @@ brew cask install netbeans-php              # PHP IDE
 brew cask install opera                     # Opera browser
 brew cask install qbittorrent               # Torrent client
 brew cask install spectacle                 # Window control
+brew cask install smcfancontrol             # Fan controls and monitor temperature
 brew cask install spotify                   # Spotify client
 brew cask install the-unarchiver            # Archive extraction program (RAR)
 brew cask install visual-studio-code        # Code editor
