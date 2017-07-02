@@ -29,6 +29,7 @@ echo "Success! Brew packages are installed."
 brew tap caskroom/cask
 brew tap homebrew/science
 brew tap caskroom/fonts
+brew tap caskroom/drivers
 
 
 # Install Cask packages
