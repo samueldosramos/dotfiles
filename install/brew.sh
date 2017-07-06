@@ -35,6 +35,7 @@ brew tap caskroom/drivers
 # Install Cask packages
 #brew cask install android-file-transfer    # For Android smartphone user's
 brew cask install coconutbattery            # Battery health monitor
+brew cask install dash                      # Offline documentations
 brew cask install firefox                   # Firefox browser
 brew cask install google-chrome             # Chrome browser
 brew cask install google-drive              # Google Drive client
