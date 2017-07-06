@@ -1,8 +1,7 @@
 
 # Simple Dotfiles
 
-This is my dotfiles and scripts I use for customizing macOS.
-
+This is a simple dotfiles and scripts I use for customizing macOS.
 
 ## What are dotfiles?
 
@@ -11,26 +10,55 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 * Easy to format a new computer;
 * Automation of tasks;
 * Easy maintenance;
+* Storage in remote locations (GitHub, Dropbox, etc);
 * Versioning;
-* Storage in remote locations (GitHub, Dropbox, etc)
+* Import to multiple computers.
 
 
-## What's in it?
+## What's in it? Features?
+_Check linked files to more details_
 
-### Permanent Settings Files:
+### Settings Files:
 
-* Aliases: contains all system aliases;
-* Functions: contains custom functions to perform certain tasks with more practicality. Eg: extract files.
-* Gitconfig: basic git settings.
-* Gitignore: global gitignore.
-* Macos: macOS preferences commands.
-* VSCode: VSCode editor settings.
+* [Aliases](.alias) - all system aliases.
+* [Bash Profile](.bash_profile) - terminal configs.
+* [Functions](.functions) - custom functions to perform certain tasks with more practicality. Eg: extract files.
+* [Gitconfig](.gitconfig) - basic git settings.
+* [Gitignore](.gitconfig) - global gitignore.
+* [Inputrc](.inpurc) - terminal typing configs.
+* [macOS](.macos) - macOS preferences configs.
 
-### Temporary installation files:
+### Installation files:
+
+* [Brew.sh](install/brew.sh) - installs Homebrew, Cask, Homebrew Cask Upgrade and some basic app's.
+* [Dock.sh](install/dock.sh) - dock customization.
+* [Setup.sh](install/setup.sh) - main installer.
+* [Util.sh](install/util.sh) - support functions for other installers.
+* [Vscode.sh](install/vscode.sh) - VSCode plugins installer.
+
+_Note: These files may be discarded later._
+
+### Others files:
+
+* [Setting.json](vscode/setting.json) - VSCode customization.
 
 
 ## Installation:
 
+```
+$ git clone https://github.com/samuelramox/dotfiles.git
+$ cd ~/dotfiles
+$ chmod +x install/setup.sh
+$ ./install/setup.sh
+```
 
 ## Resources:
+
+* [Dotfiles Repositories](https://dotfiles.github.io/)
+* [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles)
+
+## TODO:
+
+
+
 
