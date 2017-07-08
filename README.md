@@ -26,12 +26,12 @@ _Check linked files to more details_
 * [Gitconfig](.gitconfig) - basic git settings.
 * [Gitignore](.gitconfig) - global gitignore.
 * [Inputrc](.inpurc) - terminal typing configs.
-* [macOS](.macos) - macOS preferences configs.
 
 ### Installation files:
 
 * [Brew.sh](install/brew.sh) - installs Homebrew, Cask, Homebrew Cask Upgrade and some basic app's.
 * [Dock.sh](install/dock.sh) - dock customization.
+* [macOS.sh](install/macos.sh) - macOS defaults configs.
 * [Setup.sh](install/setup.sh) - main installer.
 * [Util.sh](install/util.sh) - support functions for other installers.
 * [Vscode.sh](install/vscode.sh) - VSCode plugins installer.
