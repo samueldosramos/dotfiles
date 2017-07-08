@@ -45,7 +45,6 @@ mirrorfiles() {
     link ".functions"     ".functions"
     link ".gitconfig"     ".gitconfig"
     link ".gitignore"     ".gitignore"
-    link ".macos"         ".macos"
     link ".inputrc"       ".inputrc"
 
     e_success "Dotfiles update complete!"
@@ -66,7 +65,7 @@ fi
 seek_confirmation "Warning: This step may modify your macOS system defaults."
 
 if is_confirmed; then
-    bash ./macos
+    bash ./install/macos.sh
     e_success "macOS settings updated! You may need to restart."
 else
     printf "Skipped macOS settings update.\n"
@@ -86,6 +85,8 @@ fi
 seek_confirmation "Warning: This step may modify your VSCode configs."
 
 if is_confirmed; then
+    ln -sf "$DOTFILES_DIRECTORY/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+    ln -sf "$DOTFILES_DIRECTORY/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
     bash ./install/vscode.sh
     e_success "VSCode settings updated!"
 else

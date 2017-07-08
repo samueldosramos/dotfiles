@@ -1,8 +1,5 @@
 #!/bin/bash
 
-ln -sf "$DOTFILES/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
-ln -sf "$DOTFILES/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
-
 # from `code --list-extensions`
 modules="
     dracula-theme.theme-dracula

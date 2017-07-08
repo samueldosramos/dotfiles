@@ -122,8 +122,8 @@ defaults write -g NSDocumentSaveNewDocumentsToCloud -bool false
 # Dock, Dashboard, and hot corners
 ###############################################################################
 
-# Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+# Set the icon size of Dock items to 50 pixels
+defaults write com.apple.dock tilesize -int 50
 
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
