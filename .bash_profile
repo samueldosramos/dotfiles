@@ -2,6 +2,13 @@
 export PATH="/usr/local/sbin:$PATH" #Homebrew path
 
 
+# Source dotfiles
+for file in ~/.{exports,aliases,functions}; do
+	[ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
+
+
 # Export terminal colors
 export TERM=xterm-color
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$(parse_git_branch) $ "
