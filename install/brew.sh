@@ -51,6 +51,15 @@ brew cask install the-unarchiver            # Archive extraction program (RAR)
 brew cask install visual-studio-code        # Code editor
 brew cask install vlc                       # Media player
 brew cask install winbox                    # Winbox client
+brew cask install transmission              # Torrent client
+brew cask install iina                      # Media player
+brew cask install boostnote                 # Note-taking for programmers
+brew cask install macdown                   # Markdown editor
+brew cask install dropbox                   # Dropbox
+brew cask install appcleaner                # App uninstall
+brew cask install logitech-options          # Logitech device customizer
+brew cask install font-fira-code            # Fira Code font
+
 
 
 # Wait a bit before moving on...
