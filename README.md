@@ -46,10 +46,16 @@ _Note: These files may be discarded later._
 ## Installation:
 
 ```
+$ bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/install/setup.sh)"
+```
+
+Alternative:
+```
 $ git clone https://github.com/samuelramox/dotfiles.git
 $ cd ~/dotfiles
 $ chmod +x install/setup.sh
 $ ./install/setup.sh
+$ rm -rf ~/dotfiles
 ```
 
 ## Resources:
