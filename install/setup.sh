@@ -28,7 +28,24 @@ if ! type_exists 'gcc'; then
     e_success "XCode Command Line Tools install complete!"
 fi
 
-#Install packages and Apps
+# Git configs
+echo "Configure your Git settings: "
+nano ${DOTFILES_DIRECTORY}/.gitconfig
+e_success "Git settings updated!"
+
+
+# Brew configs
+seek_confirmation "Please, configure you Brew and Cask packages."
+
+if is_confirmed; then
+    nano ${DOTFILES_DIRECTORY}/install/brew.sh
+    e_success "Brew settings updated!"
+else
+    printf "Skipped Brew settings update.\n"
+fi
+
+
+# Install packages and Apps
 ./install/brew.sh
 
 link() {

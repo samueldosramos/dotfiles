@@ -1,9 +1,9 @@
 [user]
-	name = Samuel Ramos
-	email = samramox@gmail.com
+	name = <Your name here>
+	email = <Your e-mail here>
 
 [github]
-	user = samuelramox
+	user = <Your username here>
 
 [core]
 	excludesfile = ~/.gitignore
