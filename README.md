@@ -57,7 +57,7 @@ $ bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/insta
 
 2. It will check if the _XCode Command Line Tools_ is installed and install the same if it does not exist.
 
-3. Then it will open [gitconfig] so that the user can put his data.
+3. Then it will open [gitconfig](.gitconfig) so that the user can put his data.
 
 4. It will then open [brew.sh] to select the applications that will be installed. I suggest you comment apps that should not be installed and include those that are not listed. After this [brew.sh] will install in the following order:
 
