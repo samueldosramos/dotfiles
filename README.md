@@ -59,7 +59,7 @@ $ bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/insta
 
 3. Then it will open [gitconfig](.gitconfig) so that the user can put his data.
 
-4. It will then open [brew.sh] to select the applications that will be installed. I suggest you comment apps that should not be installed and include those that are not listed. After this [brew.sh] will install in the following order:
+4. It will then open [brew.sh](install/brew.sh)  to select the applications that will be installed. I suggest you comment apps that should not be installed and include those that are not listed. After this [brew.sh](install/brew.sh)  will install in the following order:
 
 - Homebrew;
 - Homebrew apps;
@@ -69,13 +69,13 @@ $ bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/insta
 
 5. In the next step, the script will create symbolic links (hidden) between _.dotfiles_ and _home/_ folder.
 
-6. Then it will give a source in [bash_Profile] and ask if you want to install the following scripts, in this order:
+6. Then it will give a source in [bash_Profile](.bash_profile) and ask if you want to install the following scripts, in this order:
 
 **Note**: I suggest you read these files and turn your preferences on / off before installation.
 
-- [macos.sh] - will set up macOS. 
-- [dock.sh] - will configure the permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
-- [vscode.sh] - will create a symbolic link in the VSCode [setting.json] and then install some plugins.
+- [macos.sh](install/macos.sh) - will set up macOS. 
+- [dock.sh](install/dock.sh) - will configure the permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
+- [vscode.sh](install/vscode.sh) - will create a symbolic link in the VSCode [setting.json](vscode/setting.json) and then install some plugins.
 
 ---
 
