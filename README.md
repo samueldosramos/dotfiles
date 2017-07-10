@@ -60,7 +60,7 @@ The setup.sh process will:
 
 3. Open [gitconfig](.gitconfig) so that the user can put his data.
 
-4. Open [brew.sh](install/brew.sh) to select the applications that will be installed. I suggest you comment apps that should not be installed and include those that are not listed. After this [brew.sh](install/brew.sh) will install in the following order:
+4. Open [brew.sh](install/brew.sh) to select the applications that will be installed. I suggest you comment apps that should not be installed and include those that are not listed. After that, [brew.sh](install/brew.sh) will install in the following order:
 
 - Homebrew;
 - Homebrew apps;
@@ -68,7 +68,7 @@ The setup.sh process will:
 - Cask apps;
 - Homebrew Cask Upgrade;
 
-5. Create symbolic links (hidden) between _.dotfiles_ and _home/_.
+5. Create symbolic links between _.dotfiles_ and _home/_.
 
 6. Give a source in [bash_profile](.bash_profile).
 
@@ -78,7 +78,7 @@ The setup.sh process will:
 
 - [macos.sh](install/macos.sh) - set custom macOS preferences.
 - [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
-- [vscode.sh](install/vscode.sh) - create a symbolic link in the VSCode [setting.json](vscode/setting.json) and install some plugins.
+- [vscode.sh](install/vscode.sh) - create a symbolic link in the custom VSCode [setting.json](vscode/setting.json) and install some plugins.
 
 ---
 
