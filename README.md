@@ -53,13 +53,14 @@ $ bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/insta
 
 ### Explaining the process
 
-1. The above command will download the files and create a home folder named _.dotfiles_. The main installer is setup.sh, which will call all others.
+The setup.sh process will:
+1. Download the files on your computer and create directorie _.dotfiles_.
 
-2. It will check if the _XCode Command Line Tools_ is installed and install the same if it does not exist.
+2. Check if the _XCode Command Line Tools_ is installed and install the same if it does not exist.
 
-3. Then it will open [gitconfig](.gitconfig) so that the user can put his data.
+3. Open [gitconfig](.gitconfig) so that the user can put his data.
 
-4. It will then open [brew.sh](install/brew.sh)  to select the applications that will be installed. I suggest you comment apps that should not be installed and include those that are not listed. After this [brew.sh](install/brew.sh)  will install in the following order:
+4. Open [brew.sh](install/brew.sh) to select the applications that will be installed. I suggest you comment apps that should not be installed and include those that are not listed. After this [brew.sh](install/brew.sh) will install in the following order:
 
 - Homebrew;
 - Homebrew apps;
@@ -67,15 +68,17 @@ $ bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/insta
 - Cask apps;
 - Homebrew Cask Upgrade;
 
-5. In the next step, the script will create symbolic links (hidden) between _.dotfiles_ and _home/_ folder.
+5. Create symbolic links (hidden) between _.dotfiles_ and _home/_.
 
-6. Then it will give a source in [bash_profile](.bash_profile) and ask if you want to install the following scripts, in this order:
+6. Give a source in [bash_profile](.bash_profile).
+
+7. Ask if you want to install the following scripts, in this order:
 
 **Note**: I suggest you read these files and turn your preferences on/off before installation.
 
-- [macos.sh](install/macos.sh) - will set up macOS.
-- [dock.sh](install/dock.sh) - will configure the permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
-- [vscode.sh](install/vscode.sh) - will create a symbolic link in the VSCode [setting.json](vscode/setting.json) and then install some plugins.
+- [macos.sh](install/macos.sh) - set custom macOS preferences.
+- [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
+- [vscode.sh](install/vscode.sh) - create a symbolic link in the VSCode [setting.json](vscode/setting.json) and install some plugins.
 
 ---
 
