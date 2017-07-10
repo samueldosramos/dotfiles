@@ -21,7 +21,7 @@ _Check linked files to more details_
 ### Settings Files:
 
 * [aliases](.aliases) - all system aliases.
-* [bash_Profile](.bash_profile) - terminal configs.
+* [bash_profile](.bash_profile) - terminal configs.
 * [functions](.functions) - custom functions to perform certain tasks with more practicality. Eg: extract files.
 * [gitconfig](.gitconfig) - basic git settings.
 * [gitignore](.gitconfig) - global gitignore.
@@ -29,7 +29,7 @@ _Check linked files to more details_
 
 ### Installation files:
 
-* [brew.sh](install/brew.sh) - installs Homebrew, Cask, Homebrew Cask Upgrade and some basic app's.
+* [brew.sh](install/brew.sh) - installs Homebrew, Cask, Homebrew Cask Upgrade and some basic apps.
 * [dock.sh](install/dock.sh) - dock customization.
 * [macos.sh](install/macos.sh) - macOS defaults configs.
 * [setup.sh](install/setup.sh) - main installer.
@@ -69,24 +69,15 @@ $ bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/insta
 
 5. In the next step, the script will create symbolic links (hidden) between _.dotfiles_ and _home/_ folder.
 
-6. Then it will give a source in [bash_Profile](.bash_profile) and ask if you want to install the following scripts, in this order:
+6. Then it will give a source in [bash_profile](.bash_profile) and ask if you want to install the following scripts, in this order:
 
-**Note**: I suggest you read these files and turn your preferences on / off before installation.
+**Note**: I suggest you read these files and turn your preferences on/off before installation.
 
-- [macos.sh](install/macos.sh) - will set up macOS. 
+- [macos.sh](install/macos.sh) - will set up macOS.
 - [dock.sh](install/dock.sh) - will configure the permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
 - [vscode.sh](install/vscode.sh) - will create a symbolic link in the VSCode [setting.json](vscode/setting.json) and then install some plugins.
 
 ---
-
-Alternative:
-```
-$ git clone https://github.com/samuelramox/dotfiles.git
-$ cd ~/dotfiles
-$ chmod +x install/setup.sh
-$ ./install/setup.sh
-$ rm -rf ~/dotfiles
-```
 
 ## Resources:
 
