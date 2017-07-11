@@ -109,3 +109,6 @@ if is_confirmed; then
 else
     printf "Skipped VSCode settings update.\n"
 fi
+
+# Create a directory for projects and development
+mkdir ${HOME}/Projects
