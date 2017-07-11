@@ -94,6 +94,7 @@ The setup.sh process will:
 * [Homebrew Cask](https://caskroom.github.io/)
 * [Homebrew Cask Upgrade](https://github.com/buo/homebrew-cask-upgrade)
 * [Mac App Store command line interface](https://github.com/mas-cli/mas)
+* [Dockutil](https://github.com/kcrawford/dockutil)
 
 
 ## TODO:
