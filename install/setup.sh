@@ -1,8 +1,8 @@
 #!/bin/bash
+# Main install script
 
 DOTFILES_DIRECTORY="${HOME}/.dotfiles"
 DOTFILES_TARBALL_PATH="https://github.com/samuelramox/dotfiles/tarball/master"
-#DOTFILES_GIT_REMOTE="git@github.com:samuelramox/dotfiles.git"
 
 # If missing, download and extract the dotfiles repository
 if [[ ! -d ${DOTFILES_DIRECTORY} ]]; then
@@ -34,20 +34,6 @@ nano ${DOTFILES_DIRECTORY}/.gitconfig
 e_success "Git settings updated!"
 
 
-# Brew configs
-seek_confirmation "Please, configure you Brew and Cask packages."
-
-if is_confirmed; then
-    nano ${DOTFILES_DIRECTORY}/install/brew.sh
-    e_success "Brew settings updated!"
-else
-    printf "Skipped Brew settings update.\n"
-fi
-
-
-# Install packages and Apps
-./install/brew.sh
-
 link() {
     # Force create/replace the symlink.
     ln -fs "${DOTFILES_DIRECTORY}/${1}" "${HOME}/${2}"
@@ -78,10 +64,24 @@ else
     exit 1
 fi
 
+# Install Brew and Cask packages
+seek_confirmation "Warning: This step install Brew, Cask, Brew Cask Upgrade, MAS and applications."
+
+if is_confirmed; then
+    printf "Please, configure you Brew settings and packages before installation."
+    nano ${DOTFILES_DIRECTORY}/install/brew.sh
+    bash ./install/brew.sh
+    e_success "Brew and pplications are installed!"
+else
+    printf "Skipped Brew settings update.\n"
+fi
+
 # Ask before potentially overwriting macOS defaults
 seek_confirmation "Warning: This step may modify your macOS system defaults."
 
 if is_confirmed; then
+    printf "Please, configure you settings before installation."
+    nano ${DOTFILES_DIRECTORY}/install/macos.sh
     bash ./install/macos.sh
     e_success "macOS settings updated! You may need to restart."
 else
@@ -92,6 +92,8 @@ fi
 seek_confirmation "Warning: This step may modify your dock system defaults."
 
 if is_confirmed; then
+    printf "Please, configure you dock settings before installation."
+    nano ${DOTFILES_DIRECTORY}/install/dock.sh
     bash ./install/dock.sh
     e_success "Dock settings updated!"
 else
@@ -104,6 +106,8 @@ seek_confirmation "Warning: This step may modify your VSCode configs."
 if is_confirmed; then
     ln -sf "$DOTFILES_DIRECTORY/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
     ln -sf "$DOTFILES_DIRECTORY/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
+    printf "Please, configure you plugins before installation."
+    nano ${DOTFILES_DIRECTORY}/install/vscode.sh
     bash ./install/vscode.sh
     e_success "VSCode settings updated!"
 else

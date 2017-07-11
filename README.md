@@ -55,33 +55,37 @@ $ bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/insta
 ### Explaining the process
 
 The setup.sh process will:
-1. Download the files on your computer and create directorie _.dotfiles_.
+1. Download the files on your computer and create directory _.dotfiles_.
 
 2. Check if the _XCode Command Line Tools_ is installed and install the same if it does not exist.
 
 3. Open [gitconfig](.gitconfig) so that the user can put his data.
 
-4. Open [brew.sh](install/brew.sh) to select the applications that will be installed. I suggest you comment apps that should not be installed and include those that are not listed. After that, [brew.sh](install/brew.sh) will install in the following order:
+4. Create symbolic links between _.dotfiles_ and _home/_.
 
-- Homebrew;
-- Homebrew apps;
-- Homebrew Cask;
-- Cask apps;
-- Homebrew Cask Upgrade;
-- Mac App Store command line interface;
-- Mac App Store apps;
+5. Give a source in [bash_profile](.bash_profile).
 
-5. Create symbolic links between _.dotfiles_ and _home/_.
-
-6. Give a source in [bash_profile](.bash_profile).
-
-7. Ask if you want to install the following scripts, in this order:
+6. Ask if you want to install the following scripts, in this order:
 
 **Note**: I suggest you read these files and turn your preferences on/off before installation.
+Before each script, an editor opens to configure your preferences.
+
+- [brew.sh](install/brew.sh) - install Homebrew, Cask, Cask Upgrade and applications.
+I suggest you comment apps that should not be installed and include those that are not listed. This script will install in the following order:
+
+    - Homebrew;
+    - Homebrew apps;
+    - Homebrew Cask;
+    - Cask apps;
+    - Homebrew Cask Upgrade;
+    - Mac App Store command line interface;
+    - Mac App Store apps;
 
 - [macos.sh](install/macos.sh) - set custom macOS preferences.
 - [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
 - [vscode.sh](install/vscode.sh) - create a symbolic link in the custom VSCode [setting.json](vscode/setting.json) and install some plugins.
+
+7. Create a directory for projects and development.
 
 ---
 

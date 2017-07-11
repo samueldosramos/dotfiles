@@ -1,5 +1,8 @@
 # Install Homebrew
 # Check https://brew.sh for more details
+# Comment (with #) what should not be installed and add the applications you want to install.
+
+
 echo "Installing Homebrew for you."
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -ia

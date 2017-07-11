@@ -1,4 +1,6 @@
 #!/bin/bash
+# Some functions used in setup.sh
+
 
 # Header logging
 e_header() {

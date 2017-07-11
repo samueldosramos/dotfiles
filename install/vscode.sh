@@ -1,4 +1,6 @@
 #!/bin/bash
+# Add or exclude plugins before installation
+
 
 # from `code --list-extensions`
 modules="
