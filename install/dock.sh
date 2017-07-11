@@ -1,4 +1,6 @@
 #!/bin/sh
+# Command line tool for managing dock items
+# Check https://github.com/kcrawford/dockutil for more details
 
 dockutil --no-restart --remove all
 dockutil --no-restart --add "/Applications/Launchpad.app"
