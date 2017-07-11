@@ -1,4 +1,5 @@
 # Install Homebrew
+# Check https://brew.sh for more details
 echo "Installing Homebrew for you."
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -ia
@@ -12,6 +13,7 @@ brew tap homebrew/science
 
 
 # Install Homebrew packages
+echo "Installing Brew packages..."
 brew install dockutil                      # Command line tool for dock
 brew install git                           # Git client (more updated)
 brew install python                        # Python language support
@@ -26,16 +28,19 @@ brew install openssl                       # SSL protocol client
 sleep 1
 
 # ...and then.
-echo "Success! Brew packages are installed."
+echo "Success! Brew and packages are installed."
 
 
 # Install Cask
+# Check https://caskroom.github.io for more details
+echo "Installing Homebrew-Cask for you."
 brew tap caskroom/cask
 brew tap caskroom/fonts
 brew tap caskroom/drivers
 
 
-# Install Cask packages
+# Install Cask applications
+echo "Installing Cask applications..."
 ### Browser ###
 brew cask install firefox                   # Firefox browser
 brew cask install google-chrome             # Chrome browser
@@ -81,13 +86,45 @@ brew cask install font-fira-code            # Fira Code font
 sleep 1
 
 # ...and then.
-echo "Success! Brew Cask applications are installed."
+echo "Success! Cask and applications are installed."
+
 
 
 # Install Homebrew Cask Upgrade
+# Check https://github.com/buo/homebrew-cask-upgrade for more details
+echo "Installing Homebrew Cask Upgrade for you."
 brew tap buo/cask-upgrade
 brew update
 brew cu
+
+# Wait a bit before moving on...
+sleep 1
+
+# ...and then.
+echo "Success! Homebrew Cask Upgrade are installed."
+
+
+# Install MAS (Mac App Store command line interface)
+# Check https://github.com/mas-cli/mas for more details.
+echo "Installing  Mac App Store command line interface for you."
+brew install mas
+
+# Install Mac App Store application
+echo "Installing Mac App Store applications..."
+mas install 409201541   # Pages
+mas install 409183694   # Keynote
+mas install 409203825   # Numbers
+mas install 961632517   # Be Focused Pro
+mas install 937984704   # Amphetamine
+mas install 405772121   # LittleIpsum
+mas install 458887729   # Translate Tab
+
+
+# Wait a bit before moving on...
+sleep 1
+
+# ...and then.
+echo "Success!  Mac App Store command line interface and applications are installed."
 
 
 # Cleans up cached downloads

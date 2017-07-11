@@ -3,6 +3,7 @@
 
 This is a simple dotfiles and scripts I use for customizing macOS.
 
+
 ## What are dotfiles?
 
 Dotfiles are configuration files on Unix-based systems. At first they are just hidden configuration files of the system (that's why the reason for starting with "."). However, we can use them to make it easier to configure our computers, with many advantages:
@@ -67,6 +68,8 @@ The setup.sh process will:
 - Homebrew Cask;
 - Cask apps;
 - Homebrew Cask Upgrade;
+- Mac App Store command line interface;
+- Mac App Store apps;
 
 5. Create symbolic links between _.dotfiles_ and _home/_.
 
@@ -82,10 +85,16 @@ The setup.sh process will:
 
 ---
 
+
 ## Resources:
 
 * [Dotfiles Repositories](https://dotfiles.github.io/)
 * [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles)
+* [Homebrew](https://brew.sh/)
+* [Homebrew Cask](https://caskroom.github.io/)
+* [Homebrew Cask Upgrade](https://github.com/buo/homebrew-cask-upgrade)
+* [Mac App Store command line interface](https://github.com/mas-cli/mas)
+
 
 ## TODO:
 
