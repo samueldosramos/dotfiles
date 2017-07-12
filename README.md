@@ -85,7 +85,7 @@ I suggest you comment apps that should not be installed and include those that a
 - [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
 - [vscode.sh](install/vscode.sh) - create a symbolic link in the custom VSCode [setting.json](vscode/setting.json) and install some plugins.
 
-7. Create a directory for projects and development.
+7. Create a directory called Projects in Home directory for projects and development.
 
 ---
 
@@ -99,6 +99,7 @@ I suggest you comment apps that should not be installed and include those that a
 * [Homebrew Cask Upgrade](https://github.com/buo/homebrew-cask-upgrade)
 * [Mac App Store command line interface](https://github.com/mas-cli/mas)
 * [Dockutil](https://github.com/kcrawford/dockutil)
+* [Sensible macOS defaults](https://github.com/mathiasbynens/dotfiles/blob/master/.macos)
 
 
 ## TODO:
