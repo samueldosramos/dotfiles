@@ -98,6 +98,7 @@ I suggest you comment apps that should not be installed and include those that a
 * [Homebrew Cask](https://caskroom.github.io/)
 * [Homebrew Cask Upgrade](https://github.com/buo/homebrew-cask-upgrade)
 * [Mac App Store command line interface](https://github.com/mas-cli/mas)
+* [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
 * [Dockutil](https://github.com/kcrawford/dockutil)
 * [Sensible macOS defaults](https://github.com/mathiasbynens/dotfiles/blob/master/.macos)
 * [Awesome OSX Command Line](https://github.com/herrbischoff/awesome-osx-command-line)

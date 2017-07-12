@@ -99,8 +99,8 @@ brew cask webpquicklook
 brew cask suspicious-package
 brew cask quicklookase
 brew cask qlvideo
-#brew cask install provisionql
-#brew cask install quicklookapk
+brew cask install provisionql
+brew cask install quicklookapk
 brew cask install quicklook-pat
 
 
