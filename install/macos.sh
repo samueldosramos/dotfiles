@@ -370,8 +370,20 @@ defaults write com.apple.commerce AutoUpdateRestartRequired -bool true
 
 # Photos
 ###############################################################################
+
 # Prevent Photos from opening automatically when devices are plugged in
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+
+#-----------------------------------------------------------------------------
+
+
+# Fonts
+###############################################################################
+
+# Get SF Mono Fonts
+# From Sierra onward, they are included in Terminal.app.
+cp -v /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/SFMono-* ~/Library/Fonts
+
 #-----------------------------------------------------------------------------
 
 
