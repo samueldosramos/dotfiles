@@ -84,6 +84,25 @@ brew cask install winbox                    # Winbox client
 ### Fonts ###
 brew cask install font-fira-code            # Fira Code font
 
+### Quicklook ###
+# Check https://github.com/sindresorhus/quick-look-plugins for more details
+brew cask install
+brew cask qlcolorcode
+brew cask qlstephen
+brew cask qlmarkdown
+brew cask quicklook-json
+brew cask qlprettypatch
+brew cask quicklook-csv
+brew cask betterzipql
+brew cask qlimagesize
+brew cask webpquicklook
+brew cask suspicious-package
+brew cask quicklookase
+brew cask qlvideo
+#brew cask install provisionql
+#brew cask install quicklookapk
+brew cask install quicklook-pat
+
 
 # Wait a bit before moving on...
 sleep 1
@@ -99,6 +118,7 @@ echo "Installing Homebrew Cask Upgrade for you."
 brew tap buo/cask-upgrade
 brew update
 brew cu
+
 
 # Wait a bit before moving on...
 sleep 1
