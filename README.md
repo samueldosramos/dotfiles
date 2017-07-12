@@ -100,6 +100,7 @@ I suggest you comment apps that should not be installed and include those that a
 * [Mac App Store command line interface](https://github.com/mas-cli/mas)
 * [Dockutil](https://github.com/kcrawford/dockutil)
 * [Sensible macOS defaults](https://github.com/mathiasbynens/dotfiles/blob/master/.macos)
+* [Awesome OSX Command Line](https://github.com/herrbischoff/awesome-osx-command-line)
 
 
 ## TODO:
