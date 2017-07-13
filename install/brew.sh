@@ -1,5 +1,5 @@
 # Install Homebrew
-# Check https://brew.sh for more details
+# Check out https://brew.sh for more details
 # Comment (with #) what should not be installed and add the applications you want to install.
 
 
@@ -36,7 +36,7 @@ e_success "Success! Brew and packages are installed."
 
 
 # Install Homebrew-Cask
-# Check https://caskroom.github.io for more details
+# Check out https://caskroom.github.io for more details
 e_header "Installing Homebrew-Cask for you."
 brew tap caskroom/cask
 brew tap caskroom/fonts
@@ -90,7 +90,7 @@ brew cask install logitech-options          # Logitech device customizer
 brew cask install winbox                    # Winbox client
 
 ### Quicklook ###
-# Check https://github.com/sindresorhus/quick-look-plugins for more details
+# Check out https://github.com/sindresorhus/quick-look-plugins for more details
 brew cask install qlcolorcode
 brew cask install qlstephen
 brew cask install qlmarkdown
@@ -113,7 +113,7 @@ e_success "Success! Homebrew-Cask and applications are installed."
 
 
 # Install Homebrew Cask Upgrade
-# Check https://github.com/buo/homebrew-cask-upgrade for more details
+# Check out https://github.com/buo/homebrew-cask-upgrade for more details
 e_header "Installing Homebrew Cask Upgrade for you."
 brew tap buo/cask-upgrade
 brew update
@@ -125,7 +125,7 @@ e_success "Success! Homebrew Cask Upgrade are installed."
 
 
 # Install MAS (Mac App Store command line interface)
-# Check https://github.com/mas-cli/mas for more details.
+# Check out https://github.com/mas-cli/mas for more details.
 e_header "Installing  Mac App Store command line interface for you."
 brew install mas
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 # Command line tool for managing dock items
-# Check https://github.com/kcrawford/dockutil for more details
+# Check out https://github.com/kcrawford/dockutil for more details
 # Configure applications you want to set in dock
 
 
