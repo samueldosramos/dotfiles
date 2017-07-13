@@ -21,9 +21,12 @@ e_header "Installing Brew packages..."
 brew install dockutil                      # Command line tool for dock
 brew install git                           # Git client (more updated)
 brew install python                        # Python language support
+brew install ruby                          # Ruby language (more updated)
 brew install unrar                         # RAR and ZIP file support
 brew install node                          # Node.js client
 brew install openssl                       # SSL protocol client
+brew install nano                          # GNU Nano (more updated)
+brew install bash                          # Bash shell (more updated)
 #brew install zsh                          # Zsh shell
 #brew install zsh-completions              # Additional completion definitions for Zsh
 
@@ -48,38 +51,43 @@ brew cask install opera                     # Opera browser
 
 ### Torrent ###
 brew cask install qbittorrent               # Torrent client
-brew cask install transmission              # Torrent client
+#brew cask install transmission              # Torrent client
 
 ### Player ###
-brew cask install vlc                       # Media player
+#brew cask install vlc                       # Media player
 brew cask install iina                      # Media player
 brew cask install spotify                   # Spotify client
 
 ### Developer ###
 brew cask install iterm2                    # Better terminal for macOS
 brew cask install visual-studio-code        # Code editor
+#brew cask install atom                      # Code editor
+#brew cask install sublime-text              # Code editor
 brew cask install dash                      # Offline documentations
-brew cask install netbeans-php              # PHP IDE
 brew cask install imageoptim                # Images optimizer
 brew cask install boostnote                 # Note-taking for programmers
 brew cask install macdown                   # Markdown editor
 
 ### Cloud ###
 brew cask install google-backup-and-sync    # Google Drive client
-brew cask install dropbox                   # Dropbox client
+#brew cask install dropbox                   # Dropbox client
+#brew cask install onedrive                 #Microsoft OneDrive client
 
 ### System ###
-brew cask install android-file-transfer     # For Android smartphone user's
+#brew cask install android-file-transfer     # For Android smartphone user's
 brew cask install appcleaner                # App uninstall
 brew cask install coconutbattery            # Battery health monitor
 brew cask install smcfancontrol             # Fan controls and monitor temperature
 brew cask install spectacle                 # Window control
 brew cask install the-unarchiver            # Archive extraction program (RAR)
-brew cask install logitech-options          # Logitech device customizer
-brew cask install winbox                    # Winbox client
+brew cask install keepingyouawake           # A Caffeine clone for macOS
 
 ### Fonts ###
 brew cask install font-fira-code            # Fira Code font
+
+### Miscellaneous ###
+brew cask install logitech-options          # Logitech device customizer
+brew cask install winbox                    # Winbox client
 
 ### Quicklook ###
 # Check https://github.com/sindresorhus/quick-look-plugins for more details
