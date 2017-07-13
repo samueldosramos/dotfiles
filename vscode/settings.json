@@ -4,7 +4,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "file-icons",
     "workbench.colorTheme": "Dracula",
     "window.reopenFolders": "none",
     "files.trimTrailingWhitespace": true,

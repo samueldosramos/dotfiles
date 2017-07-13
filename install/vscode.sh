@@ -5,7 +5,7 @@
 # from `code --list-extensions`
 modules="
     dracula-theme.theme-dracula
-    PKief.material-icon-theme
+    file-icons.file-icons
     abusaidm.html-snippets
     dbaeumer.vscode-eslint
     steve8708.align
