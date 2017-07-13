@@ -13,4 +13,4 @@ dockutil --no-restart --add "/Applications/Visual Studio Code.app"
 
 killall Dock
 
-echo "Success! Dock is set."
+echo "\nSuccess! Dock is set.\n"

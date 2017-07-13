@@ -3,20 +3,21 @@
 # Comment (with #) what should not be installed and add the applications you want to install.
 
 
-echo "Installing Homebrew for you."
-echo "› sudo softwareupdate -i -a"
+source ./install/utils.sh
+
+# Install Homebrew
+e_header "Installing Homebrew for you."
+e_header "› sudo softwareupdate -i -a"
 sudo softwareupdate -ia
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 brew upgrade
 
-
 # Scientific formulae for the Homebrew package manager
 brew tap homebrew/science
 
-
 # Install Homebrew packages
-echo "Installing Brew packages..."
+e_header "Installing Brew packages..."
 brew install dockutil                      # Command line tool for dock
 brew install git                           # Git client (more updated)
 brew install python                        # Python language support
@@ -26,24 +27,20 @@ brew install openssl                       # SSL protocol client
 #brew install zsh                          # Zsh shell
 #brew install zsh-completions              # Additional completion definitions for Zsh
 
-
 # Wait a bit before moving on...
 sleep 1
-
-# ...and then.
-echo "Success! Brew and packages are installed."
+e_success "Success! Brew and packages are installed."
 
 
-# Install Cask
+# Install Homebrew-Cask
 # Check https://caskroom.github.io for more details
-echo "Installing Homebrew-Cask for you."
+e_header "Installing Homebrew-Cask for you."
 brew tap caskroom/cask
 brew tap caskroom/fonts
 brew tap caskroom/drivers
 
-
 # Install Cask applications
-echo "Installing Cask applications..."
+e_header "Installing Cask applications..."
 ### Browser ###
 brew cask install firefox                   # Firefox browser
 brew cask install google-chrome             # Chrome browser
@@ -86,54 +83,46 @@ brew cask install font-fira-code            # Fira Code font
 
 ### Quicklook ###
 # Check https://github.com/sindresorhus/quick-look-plugins for more details
-brew cask install
-brew cask qlcolorcode
-brew cask qlstephen
-brew cask qlmarkdown
-brew cask quicklook-json
-brew cask qlprettypatch
-brew cask quicklook-csv
-brew cask betterzipql
-brew cask qlimagesize
-brew cask webpquicklook
-brew cask suspicious-package
-brew cask quicklookase
-brew cask qlvideo
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlprettypatch
+brew cask install quicklook-csv
+brew cask install betterzipql
+brew cask install qlimagesize
+brew cask install webpquicklook
+#brew cask install suspicious-package
+brew cask install quicklookase
+brew cask install qlvideo
 brew cask install provisionql
 brew cask install quicklookapk
 brew cask install quicklook-pat
 
-
 # Wait a bit before moving on...
 sleep 1
-
-# ...and then.
-echo "Success! Cask and applications are installed."
-
+e_success "Success! Homebrew-Cask and applications are installed."
 
 
 # Install Homebrew Cask Upgrade
 # Check https://github.com/buo/homebrew-cask-upgrade for more details
-echo "Installing Homebrew Cask Upgrade for you."
+e_header "Installing Homebrew Cask Upgrade for you."
 brew tap buo/cask-upgrade
 brew update
 brew cu
 
-
 # Wait a bit before moving on...
 sleep 1
-
-# ...and then.
-echo "Success! Homebrew Cask Upgrade are installed."
+e_success "Success! Homebrew Cask Upgrade are installed."
 
 
 # Install MAS (Mac App Store command line interface)
 # Check https://github.com/mas-cli/mas for more details.
-echo "Installing  Mac App Store command line interface for you."
+e_header "Installing  Mac App Store command line interface for you."
 brew install mas
 
 # Install Mac App Store application
-echo "Installing Mac App Store applications..."
+e_header "Installing Mac App Store applications..."
 mas install 409201541   # Pages
 mas install 409183694   # Keynote
 mas install 409203825   # Numbers
@@ -142,13 +131,15 @@ mas install 937984704   # Amphetamine
 mas install 405772121   # LittleIpsum
 mas install 458887729   # Translate Tab
 
-
 # Wait a bit before moving on...
 sleep 1
-
-# ...and then.
-echo "Success!  Mac App Store command line interface and applications are installed."
+e_success "Success!  Mac App Store command line interface and applications are installed."
 
 
 # Cleans up cached downloads
+e_header "Clearing the cache..."
 brew cleanup && brew cask cleanup
+
+
+#Finish
+e_success "Finished the packages installation"
