@@ -65,7 +65,7 @@ brew cask install boostnote                 # Note-taking for programmers
 brew cask install macdown                   # Markdown editor
 
 ### Cloud ###
-brew cask install google-drive              # Google Drive client
+brew cask install google-backup-and-sync    # Google Drive client
 brew cask install dropbox                   # Dropbox client
 
 ### System ###
