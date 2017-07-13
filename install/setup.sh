@@ -72,7 +72,7 @@ if is_confirmed; then
     e_header "Please, configure you Brew settings and packages before installation."
     nano ${DOTFILES_DIRECTORY}/install/brew.sh
     bash ./install/brew.sh
-    e_success "Brew and pplications are installed!"
+    e_success "Brew and applications are installed!"
 else
     e_warning "Skipped Brew settings update.\n"
 fi
@@ -98,7 +98,7 @@ if is_confirmed; then
     bash ./install/dock.sh
     e_success "Dock settings updated!"
 else
-    e_warning "Skipped dock settings update.\n"
+    e_warning "Skipped Dock settings update.\n"
 fi
 
 # Ask before potentially overwriting VSCode
