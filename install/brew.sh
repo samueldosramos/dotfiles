@@ -30,7 +30,7 @@ brew install bash                          # Bash shell (more updated)
 #brew install zsh                          # Zsh shell
 #brew install zsh-completions              # Additional completion definitions for Zsh
 
-# Wait a bit before moving on...
+# Finished this step
 sleep 1
 e_success "Success! Brew and packages are installed."
 
@@ -107,7 +107,7 @@ brew cask install provisionql
 brew cask install quicklookapk
 brew cask install quicklook-pat
 
-# Wait a bit before moving on...
+# Finished this step
 sleep 1
 e_success "Success! Homebrew-Cask and applications are installed."
 
@@ -119,7 +119,7 @@ brew tap buo/cask-upgrade
 brew update
 brew cu
 
-# Wait a bit before moving on...
+# Finished this step
 sleep 1
 e_success "Success! Homebrew Cask Upgrade are installed."
 
@@ -138,7 +138,7 @@ mas install 961632517   # Be Focused Pro
 mas install 405772121   # LittleIpsum
 mas install 458887729   # Translate Tab
 
-# Wait a bit before moving on...
+# Finished this step
 sleep 1
 e_success "Success!  Mac App Store command line interface and applications are installed."
 
