@@ -3,7 +3,7 @@ export PATH="/usr/local/sbin:$PATH" #Homebrew path
 
 
 # Source dotfiles
-for file in ~/.{exports,aliases,functions}; do
+for file in ~/.{aliases,functions,git-completion}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;

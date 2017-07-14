@@ -45,11 +45,12 @@ mirrorfiles() {
     # directory. The `bash_profile` sources other files directly from the
     # `.dotfiles` repository.
     link ".aliases"         ".aliases"
-    link ".bash_profile"  ".bash_profile"
-    link ".functions"     ".functions"
-    link ".gitconfig"     ".gitconfig"
-    link ".gitignore"     ".gitignore"
-    link ".inputrc"       ".inputrc"
+    link ".bash_profile"   ".bash_profile"
+    link ".functions"      ".functions"
+    link ".git-completion" ".git-completion"
+    link ".gitconfig"      ".gitconfig"
+    link ".gitignore"      ".gitignore"
+    link ".inputrc"        ".inputrc"
 
     e_success "Dotfiles update complete!"
 }

@@ -24,6 +24,7 @@ _Check linked files to more details_
 * [aliases](.aliases) - all system aliases.
 * [bash_profile](.bash_profile) - terminal configs.
 * [functions](.functions) - custom functions to perform certain tasks with more practicality. Eg: extract files.
+* [git-completion](.git-completion) - auto complete Git commands.
 * [gitconfig](.gitconfig) - basic git settings.
 * [gitignore](.gitconfig) - global gitignore.
 * [inputrc](.inpurc) - terminal typing configs.
@@ -102,6 +103,7 @@ I suggest you comment apps that should not be installed and include those that a
 * [Dockutil](https://github.com/kcrawford/dockutil)
 * [Sensible macOS defaults](https://github.com/mathiasbynens/dotfiles/blob/master/.macos)
 * [Awesome OSX Command Line](https://github.com/herrbischoff/awesome-osx-command-line)
+* [Git Completion](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 
 
 ## TODO:
