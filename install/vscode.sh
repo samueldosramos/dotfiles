@@ -14,6 +14,11 @@ modules="
     Zignd.html-css-class-completion
     slevesque.vscode-multiclip
     formulahendry.auto-rename-tag
+    HookyQR.beautify
+    robinbentley.sass-indented
+    xabikos.javascriptsnippets
+    dzannotti.vscode-babel-coloring
+    shyykoserhiy.vscode-spotify
 "
 
 for module in $modules; do
