@@ -17,7 +17,7 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 
 
 ## What's in it? Features?
-_Check linked files to more details_
+_Check linked files to more details._
 
 ### Settings Files:
 
