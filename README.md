@@ -91,6 +91,30 @@ I suggest you comment apps that should not be installed and include those that a
 ---
 
 
+## Mackup
+After installing dotfiles and configuring macOS, it is interesting to use _Mackup_ for backup application settings in some cloud service. _Mackup_ supports
+Dropbox (default), Google Drive, iCloud, and other services that synchronize folders.
+Using _Mackup_, your settings will be synchronized in the cloud and you can restore and use them on other computers.
+It is simple to use:
+
+```
+# Install Mackup
+brew install mackup
+
+# Backup your application settings.
+mackup backup
+
+# Restore your application settings on a newly installed workstation.
+mackup restore
+```
+Checkout the [documentantion](https://github.com/lra/mackup) for more details.
+
+
+**Note**: Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.
+
+---
+
+
 ## Resources:
 
 * [Dotfiles Repositories](https://dotfiles.github.io/)
@@ -104,9 +128,8 @@ I suggest you comment apps that should not be installed and include those that a
 * [Sensible macOS defaults](https://github.com/mathiasbynens/dotfiles/blob/master/.macos)
 * [Awesome OSX Command Line](https://github.com/herrbischoff/awesome-osx-command-line)
 * [Git Completion](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
+* [Mackup](https://github.com/lra/mackup)
 
-
-## TODO:
 
 
 
