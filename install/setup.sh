@@ -62,8 +62,7 @@ if is_confirmed; then
     mirrorfiles
     source ${HOME}/.bash_profile
 else
-    e_warning "Aborting...\n"
-    exit 1
+    e_warning "Skipped dotfiles settings."
 fi
 
 # Install Brew and Cask packages
@@ -71,11 +70,12 @@ seek_confirmation "Warning: This step install Brew, Cask, Brew Cask Upgrade, MAS
 
 if is_confirmed; then
     e_header "Please, configure you Brew settings and packages before installation."
+    sleep 2
     nano ${DOTFILES_DIRECTORY}/install/brew.sh
     bash ./install/brew.sh
     e_success "Brew and applications are installed!"
 else
-    e_warning "Skipped Brew settings update.\n"
+    e_warning "Skipped Brew settings update."
 fi
 
 # Ask before potentially overwriting macOS defaults
@@ -83,11 +83,12 @@ seek_confirmation "Warning: This step may modify your macOS system defaults."
 
 if is_confirmed; then
     e_header "Please, configure you settings before installation."
+    sleep 2
     nano ${DOTFILES_DIRECTORY}/install/macos.sh
     bash ./install/macos.sh
     e_success "macOS settings updated! You may need to restart."
 else
-    e_warning "Skipped macOS settings update.\n"
+    e_warning "Skipped macOS settings update."
 fi
 
 # Ask before potentially overwriting dock defaults
@@ -95,11 +96,12 @@ seek_confirmation "Warning: This step may modify your dock system defaults."
 
 if is_confirmed; then
     e_header "Please, configure you dock settings before installation."
+    sleep 2
     nano ${DOTFILES_DIRECTORY}/install/dock.sh
     bash ./install/dock.sh
     e_success "Dock settings updated!"
 else
-    e_warning "Skipped Dock settings update.\n"
+    e_warning "Skipped Dock settings update."
 fi
 
 # Ask before potentially overwriting VSCode
@@ -109,15 +111,16 @@ if is_confirmed; then
     ln -sf "$DOTFILES_DIRECTORY/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
     ln -sf "$DOTFILES_DIRECTORY/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
     e_header "Please, configure you plugins before installation."
+    sleep 2
     nano ${DOTFILES_DIRECTORY}/install/vscode.sh
     bash ./install/vscode.sh
     e_success "VSCode settings updated!"
 else
-    e_warning "Skipped VSCode settings update.\n"
+    e_warning "Skipped VSCode settings update."
 fi
 
 # Create a directory for projects and development
-e_header "Creating Projects directory in Home/"
+e_header "Creating Projects directory in Home"
 mkdir ${HOME}/Projects
 
 e_success "Reboot and enjoy!"
