@@ -13,3 +13,6 @@ alias cleanup="brew cleanup && brew cask cleanup"
 alias ls="ls -GF"
 alias ll="ls -lG"
 alias la="ls -aGF"
+
+# Other aliases
+alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
