@@ -67,6 +67,7 @@ brew cask install dash                      # Offline documentations
 brew cask install imageoptim                # Images optimizer
 brew cask install boostnote                 # Note-taking for programmers
 brew cask install macdown                   # Markdown editor
+#brew cask install java                      # Java JDK
 
 ### Cloud ###
 brew cask install google-backup-and-sync    # Google Drive client
@@ -81,6 +82,7 @@ brew cask install smcfancontrol             # Fan controls and monitor temperatu
 brew cask install spectacle                 # Window control
 brew cask install the-unarchiver            # Archive extraction program (RAR)
 brew cask install keepingyouawake           # A Caffeine clone for macOS
+brew cask install veertu-desktop            # Native Virtualization For macOS
 
 ### Fonts ###
 brew cask install font-fira-code            # Fira Code font
