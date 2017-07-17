@@ -88,8 +88,9 @@ brew cask install veertu-desktop            # Native Virtualization For macOS
 brew cask install font-fira-code            # Fira Code font
 
 ### Miscellaneous ###
-brew cask install logitech-options          # Logitech device customizer
-brew cask install winbox                    # Winbox client
+#brew cask install logitech-options          # Logitech device customizer
+#brew cask install logitech-unifying         # Logitech device manager
+#brew cask install winbox                    # Winbox client
 
 ### Quicklook ###
 # Check out https://github.com/sindresorhus/quick-look-plugins for more details
