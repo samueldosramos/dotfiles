@@ -70,7 +70,7 @@ brew cask install macdown                   # Markdown editor
 #brew cask install java                      # Java JDK
 
 ### Cloud ###
-brew cask install google-backup-and-sync    # Google Drive client
+#brew cask install google-backup-and-sync    # Google Drive client
 #brew cask install dropbox                   # Dropbox client
 #brew cask install onedrive                 #Microsoft OneDrive client
 
@@ -88,9 +88,7 @@ brew cask install veertu-desktop            # Native Virtualization For macOS
 brew cask install font-fira-code            # Fira Code font
 
 ### Miscellaneous ###
-#brew cask install logitech-options          # Logitech device customizer
-#brew cask install logitech-unifying         # Logitech device manager
-#brew cask install winbox                    # Winbox client
+
 
 ### Quicklook ###
 # Check out https://github.com/sindresorhus/quick-look-plugins for more details
@@ -137,9 +135,9 @@ e_header "Installing Mac App Store applications..."
 mas install 409201541   # Pages
 mas install 409183694   # Keynote
 mas install 409203825   # Numbers
-mas install 961632517   # Be Focused Pro
-mas install 405772121   # LittleIpsum
-mas install 458887729   # Translate Tab
+#mas install 961632517   # Be Focused Pro
+#mas install 405772121   # LittleIpsum
+#mas install 458887729   # Translate Tab
 
 # Finished this step
 sleep 1
