@@ -22,12 +22,10 @@ cd ${DOTFILES_DIRECTORY}
 source ./install/utils.sh
 
 # Before relying on Homebrew, check that packages can be compiled
-if ! type_exists 'gcc'; then
-    e_error "The XCode Command Line Tools must be installed first."
-    e_header "Installing XCode Command Line Tools..."
-    xcode-select --install
-    e_success "XCode Command Line Tools install complete!"
-fi
+e_header "Installing XCode Command Line Tools..."
+xcode-select --install
+e_success "XCode Command Line Tools install complete!"
+
 
 # Git configs
 e_header "Configure your Git settings: "

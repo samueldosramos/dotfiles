@@ -38,13 +38,4 @@ is_confirmed() {
     return 1
 }
 
-# Test whether a command exists
-# $1 - cmd to test
-type_exists() {
-    if [ $(type -P $1) ]; then
-      return 0
-    fi
-    return 1
-}
-
 
