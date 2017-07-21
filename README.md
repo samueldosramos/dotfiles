@@ -26,7 +26,7 @@ _Check linked files to more details._
 * [functions](.functions) - custom functions to perform certain tasks with more practicality. Eg: extract files.
 * [git-completion](.git-completion) - auto complete Git commands.
 * [gitconfig](.gitconfig) - basic git settings.
-* [gitignore](.gitconfig) - global gitignore.
+* [gitignore_global](.gitignore_global) - global gitignore.
 * [inputrc](.inpurc) - terminal typing configs.
 
 ### Installation files:

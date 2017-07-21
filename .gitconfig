@@ -6,7 +6,7 @@
 	user = <Your username here>
 
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore_global
 
 [color]
 	ui = auto
