@@ -24,7 +24,6 @@ brew install python                        # Python language support
 brew install ruby                          # Ruby language (more updated)
 brew install unrar                         # RAR and ZIP file support
 brew install node                          # Node.js client
-brew install openssl                       # SSL protocol client
 brew install nano                          # GNU Nano (more updated)
 brew install bash                          # Bash shell (more updated)
 #brew install zsh                          # Zsh shell
