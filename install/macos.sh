@@ -405,4 +405,6 @@ sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 # FileVault Service
 sudo fdesetup enable
 
+# Enable Stealth Mode (Prevent others from discovering your Mac)
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on
 #-----------------------------------------------------------------------------
