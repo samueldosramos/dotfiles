@@ -6,7 +6,7 @@
     "editor.fontLigatures": true,
     "workbench.iconTheme": "file-icons",
     "workbench.colorTheme": "Dracula",
-    "window.reopenFolders": "none",
+    "window.restoreWindows": "none",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.autoSave": "onFocusChange",
