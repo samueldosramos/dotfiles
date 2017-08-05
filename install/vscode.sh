@@ -19,6 +19,7 @@ modules="
     xabikos.javascriptsnippets
     dzannotti.vscode-babel-coloring
     formulahendry.code-runner
+    ms-vscode.cpptools
     shyykoserhiy.vscode-spotify
 "
 
