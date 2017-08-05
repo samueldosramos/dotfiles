@@ -18,6 +18,7 @@ modules="
     robinbentley.sass-indented
     xabikos.javascriptsnippets
     dzannotti.vscode-babel-coloring
+    formulahendry.code-runner
     shyykoserhiy.vscode-spotify
 "
 
