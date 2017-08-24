@@ -56,6 +56,7 @@ brew cask install qbittorrent               # Torrent client
 #brew cask install vlc                       # Media player
 brew cask install iina                      # Media player
 brew cask install spotify                   # Spotify client
+#brew cask install deezer                    # Deezer client
 
 ### Developer ###
 brew cask install iterm2                    # Better terminal for macOS
