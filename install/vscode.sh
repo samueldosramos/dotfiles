@@ -22,6 +22,7 @@ modules="
     ms-vscode.cpptools
     rebornix.ruby
     codezombiech.gitignore
+    deerawan.vscode-dash
 "
 
 for module in $modules; do
