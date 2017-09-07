@@ -20,6 +20,7 @@ modules="
     dzannotti.vscode-babel-coloring
     formulahendry.code-runner
     ms-vscode.cpptools
+    rebornix.ruby
 "
 
 for module in $modules; do
