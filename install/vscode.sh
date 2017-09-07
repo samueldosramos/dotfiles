@@ -21,6 +21,7 @@ modules="
     formulahendry.code-runner
     ms-vscode.cpptools
     rebornix.ruby
+    codezombiech.gitignore
 "
 
 for module in $modules; do
