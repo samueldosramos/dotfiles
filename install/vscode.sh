@@ -20,7 +20,6 @@ modules="
     dzannotti.vscode-babel-coloring
     formulahendry.code-runner
     ms-vscode.cpptools
-    shyykoserhiy.vscode-spotify
 "
 
 for module in $modules; do
