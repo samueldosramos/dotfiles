@@ -141,6 +141,7 @@ mas install 409203825   # Numbers
 #mas install 961632517   # Be Focused Pro
 #mas install 1087284172  # Focus Matrix
 #mas install 405772121   # LittleIpsum
+#mas install 1005088137  # Instant Translate
 #mas install 458887729   # Translate Tab
 #mas install 492068728   # Yummy FTP Pro
 
