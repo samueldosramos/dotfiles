@@ -95,6 +95,7 @@ brew cask install font-interface            # Interface font
 #brew cask install telegram                  # Telegram
 #brew cask install whatsapp                  # Whatsapp
 #brew cask install rambox                    # Rambox
+#brew cask install franz                     # Franz
 
 ### Miscellaneous ###
 
