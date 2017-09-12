@@ -18,4 +18,3 @@ alias la="ls -aGF"
 alias focus="open /Applications/{Spectacle.app,KeepingYouAwake.app,Dash.app,LittleIpsum.app,Be\ Focused\ Pro.app,Focus\ Matrix.app}"
 
 # Other aliases
-alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
