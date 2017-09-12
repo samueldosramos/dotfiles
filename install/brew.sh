@@ -44,59 +44,59 @@ brew tap caskroom/drivers
 # Install Cask applications
 e_header "Installing Cask applications..."
 ### Browser ###
-brew cask install firefox                   # Firefox browser
-brew cask install google-chrome             # Chrome browser
-brew cask install opera                     # Opera browser
+brew cask install firefox                  # Firefox browser
+brew cask install google-chrome            # Chrome browser
+brew cask install opera                    # Opera browser
 
 ### Torrent ###
-brew cask install qbittorrent               # Torrent client
-#brew cask install transmission              # Torrent client
+brew cask install qbittorrent              # Torrent client
+#brew cask install transmission             # Torrent client
 
 ### Player ###
-#brew cask install vlc                       # Media player
-brew cask install iina                      # Media player
-brew cask install spotify                   # Spotify client
-#brew cask install deezer                    # Deezer client
+#brew cask install vlc                      # Media player
+brew cask install iina                     # Media player
+brew cask install spotify                  # Spotify client
+#brew cask install deezer                   # Deezer client
 
 ### Developer ###
-brew cask install iterm2                    # Better terminal for macOS
-brew cask install visual-studio-code        # Code editor
-#brew cask install atom                      # Code editor
-#brew cask install sublime-text              # Code editor
-brew cask install dash                      # Offline documentations
-brew cask install imageoptim                # Images optimizer
-brew cask install boostnote                 # Note-taking for programmers
-brew cask install macdown                   # Markdown editor
-#brew cask install java                      # Java JDK
+brew cask install iterm2                   # Better terminal for macOS
+brew cask install visual-studio-code       # Code editor
+#brew cask install atom                     # Code editor
+#brew cask install sublime-text             # Code editor
+brew cask install dash                     # Offline documentations
+brew cask install imageoptim               # Images optimizer
+brew cask install boostnote                # Note-taking for programmers
+brew cask install macdown                  # Markdown editor
+#brew cask install java                     # Java JDK
 
 ### Cloud ###
-#brew cask install google-backup-and-sync    # Google Drive client
-#brew cask install dropbox                   # Dropbox client
-#brew cask install onedrive                 #Microsoft OneDrive client
+#brew cask install google-backup-and-sync   # Google Drive client
+brew cask install dropbox                  # Dropbox client
+#brew cask install onedrive                 # Microsoft OneDrive client
 
 ### System ###
-#brew cask install android-file-transfer     # For Android smartphone user's
-brew cask install appcleaner                # App uninstall
-brew cask install coconutbattery            # Battery health monitor
-brew cask install smcfancontrol             # Fan controls and monitor temperature
-brew cask install spectacle                 # Window control
-brew cask install the-unarchiver            # Archive extraction program (RAR)
-brew cask install keepingyouawake           # A Caffeine clone for macOS
-brew cask install veertu-desktop            # Native Virtualization For macOS
+#brew cask install android-file-transfer    # For Android smartphone user's
+brew cask install appcleaner               # App uninstall
+brew cask install coconutbattery           # Battery health monitor
+brew cask install smcfancontrol            # Fan controls and monitor temperature
+brew cask install spectacle                # Window control
+brew cask install the-unarchiver           # Archive extraction program (RAR)
+brew cask install keepingyouawake          # A Caffeine clone for macOS
+brew cask install veertu-desktop           # Native virtualization for macOS
 
 ### Fonts ###
-brew cask install font-fira-code            # Fira Code font
-brew cask install font-open-sans            # Open Sans font
-brew cask install font-interface            # Interface font
+brew cask install font-fira-code           # Fira Code font
+brew cask install font-open-sans           # Open Sans font
+brew cask install font-interface           # Interface font
 
 ### Social ###
-#brew cask install slack                     # Slack
-#brew cask install skype                     # Skype
-#brew cask install telegram                  # Telegram
-#brew cask install whatsapp                  # Whatsapp
-#brew cask install discord                   # Discord
-#brew cask install rambox                    # Rambox
-#brew cask install franz                     # Franz
+#brew cask install slack                    # Slack
+#brew cask install skype                    # Skype
+#brew cask install telegram                 # Telegram
+#brew cask install whatsapp                 # Whatsapp
+#brew cask install discord                  # Discord
+#brew cask install rambox                   # Rambox
+#brew cask install franz                    # Franz
 
 ### Miscellaneous ###
 
