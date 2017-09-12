@@ -89,6 +89,9 @@ brew cask install font-fira-code            # Fira Code font
 brew cask install font-open-sans            # Open Sans font
 brew cask install font-interface            # Interface font
 
+### Social ###
+#brew cask install skype                     # Skype
+
 ### Miscellaneous ###
 
 
