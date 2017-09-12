@@ -91,6 +91,7 @@ brew cask install font-interface            # Interface font
 
 ### Social ###
 #brew cask install skype                     # Skype
+#brew cask install telegram                  # Telegram
 
 ### Miscellaneous ###
 
