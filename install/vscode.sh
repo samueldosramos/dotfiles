@@ -23,6 +23,7 @@ modules="
     rebornix.ruby
     codezombiech.gitignore
     deerawan.vscode-dash
+    zhuangtongfa.material-theme
 "
 
 for module in $modules; do
