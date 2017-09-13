@@ -4,7 +4,6 @@
 
 # from `code --list-extensions`
 modules="
-    dracula-theme.theme-dracula
     file-icons.file-icons
     abusaidm.html-snippets
     dbaeumer.vscode-eslint
