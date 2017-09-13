@@ -4,25 +4,25 @@
 
 # from `code --list-extensions`
 modules="
-    file-icons.file-icons
-    abusaidm.html-snippets
-    dbaeumer.vscode-eslint
     steve8708.align
-    christian-kohler.path-intellisense
-    coderfee.open-html-in-browser
-    Zignd.html-css-class-completion
-    slevesque.vscode-multiclip
     formulahendry.auto-rename-tag
-    HookyQR.beautify
-    robinbentley.sass-indented
-    xabikos.javascriptsnippets
     dzannotti.vscode-babel-coloring
-    formulahendry.code-runner
+    HookyQR.beautify
     ms-vscode.cpptools
-    rebornix.ruby
-    codezombiech.gitignore
+    formulahendry.code-runner
     deerawan.vscode-dash
+    dbaeumer.vscode-eslint
+    file-icons.file-icons
+    codezombiech.gitignore
+    abusaidm.html-snippets
+    Zignd.html-css-class-completion
+    xabikos.javascriptsnippets
+    slevesque.vscode-multiclip
     zhuangtongfa.material-theme
+    coderfee.open-html-in-browser
+    christian-kohler.path-intellisense
+    rebornix.ruby
+    robinbentley.sass-indented
 "
 
 for module in $modules; do
