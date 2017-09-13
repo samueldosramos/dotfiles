@@ -5,7 +5,7 @@
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "workbench.iconTheme": "file-icons",
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "One Dark Pro Vivid",
     "window.restoreWindows": "none",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
