@@ -153,6 +153,7 @@ mas install 409203825   # Numbers
 #mas install 1005088137  # Instant Translate
 #mas install 458887729   # Translate Tab
 #mas install 492068728   # Yummy FTP Pro
+#mas install 441258766   # Magnet
 
 # Finished this step
 sleep 1
