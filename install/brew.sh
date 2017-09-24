@@ -62,6 +62,7 @@ brew cask install spotify                  # Spotify client
 #brew cask install atom                     # Code editor
 brew cask install boostnote                # Note-taking for programmers
 brew cask install dash                     # Offline documentations
+#brew cask install devdocs                  # Offline documentations
 brew cask install imageoptim               # Images optimizer
 brew cask install iterm2                   # Better terminal for macOS
 #brew cask install java                     # Java JDK
