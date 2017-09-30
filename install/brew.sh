@@ -54,8 +54,8 @@ brew cask install qbittorrent              # Torrent client
 
 ### Player ###
 brew cask install iina                     # Media player
-#brew cask install deezer                   # Deezer client
-brew cask install spotify                  # Spotify client
+brew cask install deezer                   # Deezer client
+#brew cask install spotify                  # Spotify client
 #brew cask install vlc                      # Media player
 
 ### Developer ###
@@ -77,13 +77,13 @@ brew cask install dropbox                  # Dropbox client
 
 ### System ###
 #brew cask install android-file-transfer    # For Android smartphone user's
-brew cask install appcleaner               # App uninstall
+#brew cask install appcleaner               # App uninstall
 brew cask install cleanmymac	           # Mac cleaning software
 brew cask install coconutbattery           # Battery health monitor
 brew cask install istat-menus              # A advanced system monitor for menubar
-brew cask install keepingyouawake          # A Caffeine clone for macOS
-brew cask install smcfancontrol            # Fan controls and monitor temperature
-brew cask install spectacle                # Window control
+#brew cask install keepingyouawake          # A Caffeine clone for macOS
+#brew cask install smcfancontrol            # Fan controls and monitor temperature
+#brew cask install spectacle                # Window control
 brew cask install the-unarchiver           # Archive extraction program (RAR)
 brew cask install veertu-desktop           # Native virtualization for macOS
 
@@ -110,21 +110,21 @@ brew cask install logitech-unifying        # Manage devices that use a Unifying 
 
 ### Quicklook ###
 # Check out https://github.com/sindresorhus/quick-look-plugins for more details
-brew cask install qlcolorcode
-brew cask install qlstephen
-brew cask install qlmarkdown
-brew cask install quicklook-json
-brew cask install qlprettypatch
-brew cask install quicklook-csv
-brew cask install betterzipql
-brew cask install qlimagesize
-brew cask install webpquicklook
+#brew cask install qlcolorcode
+#brew cask install qlstephen
+#brew cask install qlmarkdown
+#brew cask install quicklook-json
+#brew cask install qlprettypatch
+#brew cask install quicklook-csv
+#brew cask install betterzipql
+#brew cask install qlimagesize
+#brew cask install webpquicklook
 #brew cask install suspicious-package
-brew cask install quicklookase
-brew cask install qlvideo
-brew cask install provisionql
-brew cask install quicklookapk
-brew cask install quicklook-pat
+#brew cask install quicklookase
+#brew cask install qlvideo
+#brew cask install provisionql
+#brew cask install quicklookapk
+#brew cask install quicklook-pat
 
 # Finished this step
 sleep 1
