@@ -15,6 +15,6 @@ alias ll="ls -lG"
 alias la="ls -aGF"
 
 # Open focus mode
-alias focus="open /Applications/{Spectacle.app,KeepingYouAwake.app,Dash.app,LittleIpsum.app,Be\ Focused\ Pro.app,Focus\ Matrix.app}"
+alias focus="open /Applications/{Magnet.app,Lungo.app,Dash.app,LittleIpsum.app,Be\ Focused\ Pro.app,Focus\ Matrix.app}"
 
 # Other aliases
