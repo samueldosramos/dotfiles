@@ -106,6 +106,7 @@ brew cask install pdfexpert                # Fast, robust and beautiful PDF edit
 
 ### Miscellaneous ###
 brew cask install logitech-options         # Customize controls for Logitech products
+brew cask install logitech-unifying        # Manage devices that use a Unifying receiver
 
 ### Quicklook ###
 # Check out https://github.com/sindresorhus/quick-look-plugins for more details
