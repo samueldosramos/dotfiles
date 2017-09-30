@@ -155,7 +155,6 @@ mas install 409203825   # Numbers
 #mas install 441258766   # Magnet
 #mas install 1176895641  # Spark
 #mas install 425424353   # The Unarchiver
-#mas install 458887729   # Translate Tab
 #mas install 1278508951  # Trello
 #mas install 492068728   # Yummy FTP Pro
 
