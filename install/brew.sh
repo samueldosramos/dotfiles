@@ -48,15 +48,10 @@ brew cask install google-chrome            # Chrome browser
 #brew cask install firefox                  # Firefox browser
 #brew cask install opera                    # Opera browser
 
-### Torrent ###
-brew cask install qbittorrent              # Torrent client
-#brew cask install transmission             # Torrent client
-
-### Player ###
-brew cask install iina                     # Media player
-brew cask install deezer                   # Deezer client
-#brew cask install spotify                  # Spotify client
-#brew cask install vlc                      # Media player
+### Cloud ###
+brew cask install dropbox                  # Dropbox client
+#brew cask install google-backup-and-sync   # Google Drive client
+#brew cask install onedrive                 # Microsoft OneDrive client
 
 ### Developer ###
 #brew cask install atom                     # Code editor
@@ -70,30 +65,21 @@ brew cask install macdown                  # Markdown editor
 #brew cask install sublime-text             # Code editor
 brew cask install visual-studio-code       # Code editor
 
-### Cloud ###
-brew cask install dropbox                  # Dropbox client
-#brew cask install google-backup-and-sync   # Google Drive client
-#brew cask install onedrive                 # Microsoft OneDrive client
-
-### System ###
-#brew cask install android-file-transfer    # For Android smartphone user's
-#brew cask install appcleaner               # App uninstall
-brew cask install cleanmymac	           # Mac cleaning software
-brew cask install coconutbattery           # Battery health monitor
-brew cask install istat-menus              # A advanced system monitor for menubar
-#brew cask install keepingyouawake          # A Caffeine clone for macOS
-#brew cask install smcfancontrol            # Fan controls and monitor temperature
-#brew cask install spectacle                # Window control
-brew cask install the-unarchiver           # Archive extraction program (RAR)
-brew cask install veertu-desktop           # Native virtualization for macOS
-
 ### Fonts ###
 brew cask install font-fira-code           # Fira Code font
 brew cask install font-inter-ui           # Interface font
 brew cask install font-open-sans           # Open Sans font
 
+### Player ###
+brew cask install iina                     # Media player
+brew cask install deezer                   # Deezer client
+#brew cask install spotify                  # Spotify client
+#brew cask install vlc                      # Media player
+
 ### Productivity ###
+#brew cask install keepingyouawake          # A Caffeine clone for macOS
 brew cask install pdfexpert                # Fast, robust and beautiful PDF editor
+#brew cask install spectacle                # Window control
 
 ### Social ###
 #brew cask install discord                  # Discord
@@ -104,9 +90,21 @@ brew cask install pdfexpert                # Fast, robust and beautiful PDF edit
 #brew cask install telegram                 # Telegram
 #brew cask install whatsapp                 # Whatsapp
 
-### Miscellaneous ###
+### Torrent ###
+brew cask install qbittorrent              # Torrent client
+#brew cask install transmission             # Torrent client
+
+### Utility ###
+#brew cask install android-file-transfer    # For Android smartphone user's
+#brew cask install appcleaner               # App uninstall
+brew cask install cleanmymac	           # Mac cleaning software
+brew cask install coconutbattery           # Battery health monitor
+brew cask install istat-menus              # A advanced system monitor for menubar
 brew cask install logitech-options         # Customize controls for Logitech products
 brew cask install logitech-unifying        # Manage devices that use a Unifying receiver
+#brew cask install smcfancontrol            # Fan controls and monitor temperature
+brew cask install the-unarchiver           # Archive extraction program (RAR)
+brew cask install veertu-desktop           # Native virtualization for macOS
 
 ### Quicklook ###
 # Check out https://github.com/sindresorhus/quick-look-plugins for more details
