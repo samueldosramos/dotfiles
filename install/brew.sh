@@ -79,6 +79,7 @@ brew cask install dropbox                  # Dropbox client
 #brew cask install android-file-transfer    # For Android smartphone user's
 brew cask install appcleaner               # App uninstall
 brew cask install coconutbattery           # Battery health monitor
+brew cask install istat-menus              # A advanced system monitor for menubar
 brew cask install keepingyouawake          # A Caffeine clone for macOS
 brew cask install smcfancontrol            # Fan controls and monitor temperature
 brew cask install spectacle                # Window control
