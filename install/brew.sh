@@ -87,7 +87,7 @@ brew cask install veertu-desktop           # Native virtualization for macOS
 
 ### Fonts ###
 brew cask install font-fira-code           # Fira Code font
-brew cask install font-interface           # Interface font
+brew cask install font-inter-ui           # Interface font
 brew cask install font-open-sans           # Open Sans font
 
 ### Social ###
