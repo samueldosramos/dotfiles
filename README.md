@@ -86,7 +86,13 @@ I suggest you comment apps that should not be installed and include those that a
 - [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
 - [vscode.sh](install/vscode.sh) - create a symbolic link in the custom VSCode [setting.json](vscode/setting.json) and install some plugins.
 
-7. Create a directory called Projects in Home directory for projects and development.
+7. Create a directory called Projects in Home directory for projects and development.   
+**Note**: After setting everything up and logging in to Dropbox, I usually delete the Mac Projects folder and create a symbolic link with the Projects folder I have in Dropbox:  
+
+```
+rm -rf ~/Projects/
+ln -s ~/Dropbox/Projects ~/Projects
+```
 
 ---
 
@@ -110,7 +116,8 @@ mackup restore
 Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 
 
-**Note**: Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.
+**Note**: Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.  
+**Note**: I do not use Mackup anymore. After testing, I came to the conclusion that it causes bug in some things.
 
 ---
 
