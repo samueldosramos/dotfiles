@@ -407,4 +407,8 @@ sudo fdesetup enable
 
 # Enable Stealth Mode (Prevent others from discovering your Mac)
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on
+
+# Enable trimforce for SSD
+sudo trimforce enable
+
 #-----------------------------------------------------------------------------
