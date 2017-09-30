@@ -105,7 +105,7 @@ brew cask install pdfexpert                # Fast, robust and beautiful PDF edit
 #brew cask install whatsapp                 # Whatsapp
 
 ### Miscellaneous ###
-#empty
+brew cask install logitech-options         # Customize controls for Logitech products
 
 ### Quicklook ###
 # Check out https://github.com/sindresorhus/quick-look-plugins for more details
