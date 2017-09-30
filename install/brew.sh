@@ -78,6 +78,7 @@ brew cask install dropbox                  # Dropbox client
 ### System ###
 #brew cask install android-file-transfer    # For Android smartphone user's
 brew cask install appcleaner               # App uninstall
+brew cask install cleanmymac	           # Mac cleaning software
 brew cask install coconutbattery           # Battery health monitor
 brew cask install istat-menus              # A advanced system monitor for menubar
 brew cask install keepingyouawake          # A Caffeine clone for macOS
