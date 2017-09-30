@@ -87,7 +87,7 @@ I suggest you comment apps that should not be installed and include those that a
 - [vscode.sh](install/vscode.sh) - create a symbolic link in the custom VSCode [setting.json](vscode/setting.json) and install some plugins.
 
 7. Create a directory called Projects in Home directory for projects and development.   
-**Note**: After setting everything up and logging in to Dropbox, I usually delete the Mac Projects folder and create a symbolic link with the Projects folder I have in Dropbox:  
+**Note**: After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:  
 
 ```
 rm -rf ~/Projects/
