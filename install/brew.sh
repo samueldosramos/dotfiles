@@ -92,6 +92,9 @@ brew cask install font-fira-code           # Fira Code font
 brew cask install font-inter-ui           # Interface font
 brew cask install font-open-sans           # Open Sans font
 
+### Productivity ###
+brew cask install pdfexpert                # Fast, robust and beautiful PDF editor
+
 ### Social ###
 #brew cask install discord                  # Discord
 #brew cask install franz                    # Franz
