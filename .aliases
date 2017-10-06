@@ -18,3 +18,4 @@ alias la="ls -aGF"
 alias focus="open /Applications/{Magnet.app,Lungo.app,Dash.app,LittleIpsum.app,Be\ Focused\ Pro.app,Focus\ Matrix.app}"
 
 # Other aliases
+alias list="npm list -g --depth=0"
