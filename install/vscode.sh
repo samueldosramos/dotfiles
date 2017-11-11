@@ -4,14 +4,13 @@
 
 # from `code --list-extensions`
 modules="
-    steve8708.align
     formulahendry.auto-rename-tag
     dzannotti.vscode-babel-coloring
     HookyQR.beautify
     ms-vscode.cpptools
     formulahendry.code-runner
     deerawan.vscode-dash
-    dbaeumer.vscode-eslint
+    dbaeumer.vscode-eslinct
     file-icons.file-icons
     codezombiech.gitignore
     abusaidm.html-snippets
