@@ -18,7 +18,6 @@ modules="
     xabikos.javascriptsnippets
     slevesque.vscode-multiclip
     zhuangtongfa.material-theme
-    coderfee.open-html-in-browser
     christian-kohler.path-intellisense
     rebornix.ruby
     robinbentley.sass-indented
