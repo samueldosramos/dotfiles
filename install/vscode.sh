@@ -13,7 +13,6 @@ modules="
     dbaeumer.vscode-eslinct
     file-icons.file-icons
     codezombiech.gitignore
-    abusaidm.html-snippets
     Zignd.html-css-class-completion
     xabikos.javascriptsnippets
     slevesque.vscode-multiclip
