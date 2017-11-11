@@ -10,6 +10,7 @@ modules="
     ms-vscode.cpptools
     formulahendry.code-runner
     deerawan.vscode-dash
+    EditorConfig.editorconfig
     dbaeumer.vscode-eslinct
     file-icons.file-icons
     codezombiech.gitignore
