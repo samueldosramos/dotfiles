@@ -64,6 +64,7 @@ brew cask install imageoptim               # Images optimizer
 brew cask install iterm2                   # Better terminal for macOS
 #brew cask install java                     # Java JDK
 brew cask install macdown                  # Markdown editor
+brew cask install sip                      # Collect, organize & share your colors
 #brew cask install sublime-text             # Code editor
 brew cask install visual-studio-code       # Code editor
 
