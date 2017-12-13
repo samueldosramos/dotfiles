@@ -20,6 +20,9 @@ modules="
     slevesque.vscode-multiclip
     zhuangtongfa.material-theme
     christian-kohler.path-intellisense
+    vsmobile.vscode-react-native
+    taichi.react-beautify
+    xabikos.reactsnippets
     rebornix.ruby
     robinbentley.sass-indented
 "
