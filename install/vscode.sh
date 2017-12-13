@@ -24,7 +24,6 @@ modules="
     taichi.react-beautify
     xabikos.reactsnippets
     rebornix.ruby
-    robinbentley.sass-indented
 "
 
 for module in $modules; do
