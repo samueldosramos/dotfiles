@@ -5,7 +5,7 @@
 # from `code --list-extensions`
 modules="
     formulahendry.auto-rename-tag
-    dzannotti.vscode-babel-coloring
+    mgmcdermott.vscode-language-babel
     HookyQR.beautify
     ms-vscode.cpptools
     formulahendry.code-runner
