@@ -24,6 +24,7 @@ modules="
     taichi.react-beautify
     xabikos.reactsnippets
     rebornix.ruby
+    mrmlnc.vscode-scss
 "
 
 for module in $modules; do
