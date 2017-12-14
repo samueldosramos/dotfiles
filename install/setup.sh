@@ -118,6 +118,19 @@ else
     e_warning "Skipped VSCode settings update."
 fi
 
+# Install npm packages
+seek_confirmation "Warning: This step install npm packages"
+
+if is_confirmed; then
+    e_header "Please, configure your npm packages before installation."
+    sleep 2
+    nano ${DOTFILES_DIRECTORY}/install/npm.sh
+    bash ./install/npm.sh
+    e_success "npm packages are installed!"
+else
+    e_warning "Skipped npm settings update."
+fi
+
 # Create a directory for projects and development
 e_header "Creating Projects directory in Home"
 mkdir ${HOME}/Projects

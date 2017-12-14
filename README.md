@@ -34,6 +34,7 @@ _Check linked files to more details._
 * [brew.sh](install/brew.sh) - installs Homebrew, Cask, Homebrew Cask Upgrade and some basic apps.
 * [dock.sh](install/dock.sh) - dock customization.
 * [macos.sh](install/macos.sh) - macOS defaults configs.
+* [npm.sh](install/npm.sh) - install npm packages.
 * [setup.sh](install/setup.sh) - main installer.
 * [util.sh](install/util.sh) - support functions for other installers.
 * [vscode.sh](install/vscode.sh) - VSCode plugins installer.
@@ -85,9 +86,10 @@ I suggest you comment apps that should not be installed and include those that a
 - [macos.sh](install/macos.sh) - set custom macOS preferences.
 - [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
 - [vscode.sh](install/vscode.sh) - create a symbolic link in the custom VSCode [setting.json](vscode/setting.json) and install some plugins.
+- [npm.sh](install/npm.sh) - install npm packages.
 
-7. Create a directory called Projects in Home directory for projects and development.   
-**Note**: After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:  
+7. Create a directory called Projects in Home directory for projects and development.
+**Note**: After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:
 
 ```
 rm -rf ~/Projects/
@@ -116,7 +118,7 @@ mackup restore
 Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 
 
-**Note**: Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.  
+**Note**: Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.
 **Note**: I do not use Mackup anymore. After testing, I came to the conclusion that it causes bug in some things.
 
 ---
