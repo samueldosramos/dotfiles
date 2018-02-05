@@ -27,7 +27,7 @@ _Check linked files to more details._
 * [git-completion](.git-completion) - auto complete Git commands.
 * [gitconfig](.gitconfig) - basic git settings.
 * [gitignore_global](.gitignore_global) - global gitignore.
-* [inputrc](.inpurc) - terminal typing configs.
+* [inputrc](.inputrc) - terminal typing configs.
 
 ### Installation files:
 
