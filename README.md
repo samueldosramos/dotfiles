@@ -49,7 +49,7 @@ _Note: These files may be discarded later._
 ## Installation:
 
 ```
-$ bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/install/setup.sh)"
+bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/install/setup.sh)"
 ```
 
 ---
