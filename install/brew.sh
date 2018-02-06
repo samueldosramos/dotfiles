@@ -51,21 +51,21 @@ brew cask install google-chrome            # Chrome browser
 #brew cask install opera                    # Opera browser
 
 ### Cloud ###
-brew cask install dropbox                  # Dropbox client
+#brew cask install dropbox                  # Dropbox client
 #brew cask install google-backup-and-sync   # Google Drive client
 #brew cask install onedrive                 # Microsoft OneDrive client
 
 ### Developer ###
 #brew cask install atom                     # Code editor
-brew cask install boostnote                # Note-taking for programmers
-brew cask install dash                     # Offline documentations
+#brew cask install boostnote                # Note-taking for programmers
+#brew cask install dash                     # Offline documentations
 #brew cask install devdocs                  # Offline documentations
-brew cask install imageoptim               # Images optimizer
-brew cask install iterm2                   # Better terminal for macOS
+#brew cask install imageoptim               # Images optimizer
+#brew cask install iterm2                   # Better terminal for macOS
 #brew cask install java                     # Java JDK
-brew cask install macdown                  # Markdown editor
-brew cask install sequel-pro               # MySQL/MariaDB database management
-brew cask install sip                      # Collect, organize & share your colors
+#brew cask install macdown                  # Markdown editor
+#brew cask install sequel-pro               # MySQL/MariaDB database management
+#brew cask install sip                      # Collect, organize & share your colors
 #brew cask install sublime-text             # Code editor
 brew cask install visual-studio-code       # Code editor
 
@@ -76,13 +76,13 @@ brew cask install font-open-sans           # Open Sans font
 
 ### Player ###
 brew cask install iina                     # Media player
-brew cask install deezer                   # Deezer client
+#brew cask install deezer                   # Deezer client
 #brew cask install spotify                  # Spotify client
 #brew cask install vlc                      # Media player
 
 ### Productivity ###
 #brew cask install keepingyouawake          # A Caffeine clone for macOS
-brew cask install pdfexpert                # Fast, robust and beautiful PDF editor
+#brew cask install pdfexpert                # Fast, robust and beautiful PDF editor
 #brew cask install spectacle                # Window control
 
 ### Social ###
@@ -95,19 +95,19 @@ brew cask install pdfexpert                # Fast, robust and beautiful PDF edit
 #brew cask install whatsapp                 # Whatsapp
 
 ### Torrent ###
-brew cask install qbittorrent              # Torrent client
+#brew cask install qbittorrent              # Torrent client
 #brew cask install transmission             # Torrent client
 
 ### Utility ###
 #brew cask install android-file-transfer    # For Android smartphone user's
 #brew cask install appcleaner               # App uninstall
-brew cask install cleanmymac	             # Mac cleaning software
-brew cask install coconutbattery           # Battery health monitor
-brew cask install istat-menus              # A advanced system monitor for menubar
-brew cask install logitech-options         # Customize controls for Logitech products
-brew cask install logitech-unifying        # Manage devices that use a Unifying receiver
+#brew cask install cleanmymac	             # Mac cleaning software
+#brew cask install coconutbattery           # Battery health monitor
+#brew cask install istat-menus              # A advanced system monitor for menubar
+#brew cask install logitech-options         # Customize controls for Logitech products
+#brew cask install logitech-unifying        # Manage devices that use a Unifying receiver
 #brew cask install smcfancontrol            # Fan controls and monitor temperature
-brew cask install the-unarchiver           # Archive extraction program (RAR)
+#brew cask install the-unarchiver           # Archive extraction program (RAR)
 
 ### Quicklook ###
 # Check out https://github.com/sindresorhus/quick-look-plugins for more details
@@ -150,9 +150,9 @@ brew install mas
 
 # Install Mac App Store application
 e_header "Installing Mac App Store applications..."
-mas install 409201541   # Pages
-mas install 409183694   # Keynote
-mas install 409203825   # Numbers
+#mas install 409201541   # Pages
+#mas install 409183694   # Keynote
+#mas install 409203825   # Numbers
 #mas install 961632517   # Be Focused Pro
 #mas install 1087284172  # Focus Matrix
 #mas install 1005088137  # Instant Translate
