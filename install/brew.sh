@@ -108,7 +108,6 @@ brew cask install logitech-options         # Customize controls for Logitech pro
 brew cask install logitech-unifying        # Manage devices that use a Unifying receiver
 #brew cask install smcfancontrol            # Fan controls and monitor temperature
 brew cask install the-unarchiver           # Archive extraction program (RAR)
-brew cask install veertu-desktop           # Native virtualization for macOS
 
 ### Quicklook ###
 # Check out https://github.com/sindresorhus/quick-look-plugins for more details
