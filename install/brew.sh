@@ -101,7 +101,7 @@ brew cask install qbittorrent              # Torrent client
 ### Utility ###
 #brew cask install android-file-transfer    # For Android smartphone user's
 #brew cask install appcleaner               # App uninstall
-brew cask install cleanmymac	           # Mac cleaning software
+brew cask install cleanmymac	             # Mac cleaning software
 brew cask install coconutbattery           # Battery health monitor
 brew cask install istat-menus              # A advanced system monitor for menubar
 brew cask install logitech-options         # Customize controls for Logitech products
@@ -116,7 +116,6 @@ brew cask install veertu-desktop           # Native virtualization for macOS
 #brew cask install qlstephen
 #brew cask install qlmarkdown
 #brew cask install quicklook-json
-#brew cask install qlprettypatch
 #brew cask install quicklook-csv
 #brew cask install betterzipql
 #brew cask install qlimagesize
