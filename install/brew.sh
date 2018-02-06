@@ -28,8 +28,6 @@ brew install python                        # Python language support
 brew install ruby                          # Ruby language (more updated)
 brew install unrar                         # RAR and ZIP file support
 brew install yarn                          # Dependency management
-#brew install zsh                           # Zsh shell
-#brew install zsh-completions               # Additional completion definitions for Zsh
 
 # Finished this step
 sleep 1
