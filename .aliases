@@ -13,6 +13,7 @@ alias cleanup="brew cleanup && brew cask cleanup"
 alias ls="ls -GF"
 alias ll="ls -lG"
 alias la="ls -aGF"
+alias masupdate="sudo softwareupdate -ia"
 
 # Open focus mode
 alias focus="open /Applications/{Magnet.app,Lungo.app,Be\ Focused\ Pro.app,Focus\ Matrix.app}"
