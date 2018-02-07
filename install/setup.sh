@@ -107,6 +107,7 @@ seek_confirmation "Warning: This step may modify your VSCode configs."
 
 if is_confirmed; then
     open -a Visual\ Studio\ Code.app
+    sleep 2
     kill -9 $(pgrep Electron)
     ln -sf "$DOTFILES_DIRECTORY/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
     ln -sf "$DOTFILES_DIRECTORY/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
