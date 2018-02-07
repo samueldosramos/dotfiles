@@ -67,11 +67,11 @@ brew cask install visual-studio-code       # Code editor
 
 ### Fonts ###
 brew cask install font-fira-code           # Fira Code font
-brew cask install font-inter-ui           # Interface font
-brew cask install font-open-sans           # Open Sans font
+#brew cask install font-inter-ui            # Interface font
+#brew cask install font-open-sans           # Open Sans font
 
 ### Player ###
-brew cask install iina                     # Media player
+#brew cask install iina                     # Media player
 #brew cask install deezer                   # Deezer client
 #brew cask install spotify                  # Spotify client
 #brew cask install vlc                      # Media player
