@@ -7,8 +7,6 @@ source ./install/utils.sh
 
 # Install Homebrew
 e_header "Installing Homebrew for you."
-e_header "› sudo softwareupdate -i -a"
-sudo softwareupdate -ia
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 brew upgrade
