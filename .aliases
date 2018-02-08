@@ -22,3 +22,7 @@ alias focus="open /Applications/{Magnet.app,Lungo.app,Be\ Focused\ Pro.app,Focus
 
 # Other aliases
 alias npmlist="npm list -g --depth=0"
+
+# Open the current terminal directory in a Finder window
+alias ofd="open -a Finder ."
+
