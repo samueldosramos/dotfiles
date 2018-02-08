@@ -18,7 +18,7 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 
 ## What's in it? Features?
 _Check linked files to more details._  
-**Note:** _In version **2.0** onwards, **Bash** will be switched to **Zsh**.This was necessary to make the files simpler and Zsh is an excellent shell._
+**Note:** _In version **2.0** onwards, **Bash** will be switched to **Zsh**. This was necessary to make the files simpler and Zsh is an excellent shell._
 
 ### Settings Files:
 
