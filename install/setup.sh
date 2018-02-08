@@ -75,14 +75,16 @@ else
 fi
 
 # Install Zsh and ask before potentially overwriting overwriting files
-seek_confirmation "Warning: This step install Zsh and some plugins."
+seek_confirmation "Warning: This step install Zsh, Hack Nerd Font and some plugins."
 
 if is_confirmed; then
-    e_header "Please, configure before installation."
+    e_header "Please, if necessary, configure before installation."
     sleep 2
     nano ${DOTFILES_DIRECTORY}/install/zsh.sh
-    bash ./install/brew.sh
+    bash ./install/zsh.sh
     e_success "Zsh and plugins are installed!"
+    e_warning "Please, after finishing the installation, remember to change the font of your terminal app to your favorite Nerd Font."
+    sleep 2
 else
     e_warning "Skipped Zsh settings update."
 fi
