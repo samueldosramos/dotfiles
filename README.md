@@ -18,7 +18,7 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 
 ## What's in it? Features?
 _Check linked files to more details._  
-**Note:** _In version **2.0** onwards, **Bash** will be switched to **Zsh**. This was necessary to make the files simpler and Zsh is an excellent shell._
+**Note:** _In version **2.0** onwards, **Bash** will be switched to **Zsh**. This was necessary to make the files simpler, in addition, Zsh is a customizable and excellent shell._
 
 ### Settings Files:
 
@@ -82,7 +82,7 @@ I suggest you comment apps that should not be installed and include those that a
     - Mac App Store command line interface;
     - Mac App Store apps;
 
-- [zsh.sh](install/zsh.sh) - install Zsh, oh-my-zsh, some zsh plugins, font Hack Nerd Font, z and set Zsh as a default shell.
+- [zsh.sh](install/zsh.sh) - install Zsh, Oh-My-Zsh, some Zsh plugins, font Hack Nerd Font, z and set Zsh as a default shell.
 - [macos.sh](install/macos.sh) - set custom macOS preferences.
 - [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
 - [vscode.sh](install/vscode.sh) - create a symbolic link in the custom VSCode [setting.json](vscode/setting.json) and install some plugins.
@@ -148,7 +148,7 @@ Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 * [Awesome OSX Command Line](https://github.com/herrbischoff/awesome-osx-command-line)
 * [Git Completion](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 * [Mackup](https://github.com/lra/mackup)
-
+* [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 
 
