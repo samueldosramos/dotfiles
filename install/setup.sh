@@ -42,7 +42,6 @@ mirrorfiles() {
     # Create the necessary symbolic links between the `.dotfiles` and `HOME`
     # directory. The `bash_profile` sources other files directly from the
     # `.dotfiles` repository.
-    link ".aliases"          ".aliases"
     link ".bash_profile"     ".bash_profile"
     link ".gitconfig"        ".gitconfig"
     link ".gitignore_global" ".gitignore_global"
