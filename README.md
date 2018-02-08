@@ -1,4 +1,3 @@
-
 # Simple Dotfiles
 
 This is a simple dotfiles and scripts I use for customizing macOS.
@@ -13,21 +12,20 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 * Easy maintenance;
 * Storage in remote locations (GitHub, Dropbox, etc);
 * Versioning;
-* Import to multiple computers.
+* Import to multiple computers;
+* Customize the terminal.
 
 
 ## What's in it? Features?
 _Check linked files to more details._
+**Note:** _In version **2.0** onwards, **Bash** will be switched to **Zsh**.This was necessary to make the files simpler and Zsh is an excellent shell._
 
 ### Settings Files:
 
-* [aliases](.aliases) - all system aliases.
-* [bash_profile](.bash_profile) - terminal configs.
-* [functions](.functions) - custom functions to perform certain tasks with more practicality. Eg: extract files.
-* [git-completion](.git-completion) - auto complete Git commands.
+* [bashrc](.bashrc) - some fallback configs to Terminal.app.
 * [gitconfig](.gitconfig) - basic git settings.
 * [gitignore_global](.gitignore_global) - global gitignore.
-* [inputrc](.inputrc) - terminal typing configs.
+* [zshrc](.zshrc) - terminal configs with aliases, paths, plugins and theme.
 
 ### Installation files:
 
@@ -38,8 +36,9 @@ _Check linked files to more details._
 * [setup.sh](install/setup.sh) - main installer.
 * [util.sh](install/util.sh) - support functions for other installers.
 * [vscode.sh](install/vscode.sh) - VSCode plugins installer.
+* [zsh.sh](install/zsh.sh) - Zsh installer.
 
-_Note: These files may be discarded later._
+**Note:** _These files will be discarded later._
 
 ### Others files:
 
@@ -49,27 +48,27 @@ _Note: These files may be discarded later._
 ## Installation:
 
 ```
-bash -c "$(curl -fsSL https://raw.github.com/samuelramox/dotfiles/master/install/setup.sh)"
+git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
+
+./install/setup.sh
+
 ```
+You can also download a specific [release](https://github.com/samuelramox/dotfiles/releases)
 
 ---
 
 ### Explaining the process
 
 The setup.sh process will:
-1. Download the files on your computer and create directory _.dotfiles_.
+1. Check if the _XCode Command Line Tools_ is installed and install the same if it does not exist.
 
-2. Check if the _XCode Command Line Tools_ is installed and install the same if it does not exist.
+2. Move/replace setting files to _home/_.
 
 3. Open [gitconfig](.gitconfig) so that the user can put his data.
 
-4. Create symbolic links between _.dotfiles_ and _home/_.
+4. Ask if you want to install the following scripts, in this order:
 
-5. Give a source in [bash_profile](.bash_profile).
-
-6. Ask if you want to install the following scripts, in this order:
-
-**Note**: I suggest you read these files and turn your preferences on/off before installation.
+**Note:** I suggest you read these files and turn your preferences on/off before installation.
 Before each script, an editor opens to configure your preferences.
 
 - [brew.sh](install/brew.sh) - install Homebrew, Cask, Cask Upgrade and applications.
@@ -83,23 +82,26 @@ I suggest you comment apps that should not be installed and include those that a
     - Mac App Store command line interface;
     - Mac App Store apps;
 
+- [zsh.sh](install/zsh.sh) - install Zsh, oh-my-zsh, some zsh plugins, font Hack Nerd Font, z and set Zsh as a default shell.
 - [macos.sh](install/macos.sh) - set custom macOS preferences.
 - [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
 - [vscode.sh](install/vscode.sh) - create a symbolic link in the custom VSCode [setting.json](vscode/setting.json) and install some plugins.
 - [npm.sh](install/npm.sh) - install npm packages.
 
-7. Create a directory called Projects in Home directory for projects and development.
-**Note**: After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:
+5. Create a directory called Projects in Home directory for projects and development.
+**Note:** After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:
 
 ```
 rm -rf ~/Projects/
 ln -s ~/Dropbox/Projects ~/Projects
 ```
+6.  Remove the installation zip and folder
 
 ---
 
 
 ## Mackup
+
 After installing dotfiles and configuring macOS, it is interesting to use _Mackup_ for backup application settings in some cloud service. _Mackup_ supports
 Dropbox (default), Google Drive, iCloud, and other services that synchronize folders.
 Using _Mackup_, your settings will be synchronized in the cloud and you can restore and use them on other computers.
@@ -118,8 +120,8 @@ mackup restore
 Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 
 
-**Note**: Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.
-**Note**: I do not use Mackup anymore. After testing, I came to the conclusion that it causes bug in some things.
+**Note:** Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.
+**Note:** I do not use Mackup anymore. After testing, I came to the conclusion that it causes bug in some things.
 
 ---
 

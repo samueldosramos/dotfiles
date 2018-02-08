@@ -3,22 +3,8 @@
 # Main install script
 
 
-DOTFILES_DIRECTORY="${HOME}/.dotfiles"
-DOTFILES_TARBALL_PATH="https://github.com/samuelramox/dotfiles/tarball/master"
-
-# If missing, download and extract the dotfiles repository
-if [[ ! -d ${DOTFILES_DIRECTORY} ]]; then
-    printf "$(tput setaf 6)Downloading dotfiles...\033[m\n"
-    mkdir ${DOTFILES_DIRECTORY}
-    # Get the tarball
-    curl -fsSLo ${HOME}/dotfiles.tar.gz ${DOTFILES_TARBALL_PATH}
-    # Extract to the dotfiles directory
-    tar -zxf ${HOME}/dotfiles.tar.gz --strip-components 1 -C ${DOTFILES_DIRECTORY}
-    # Remove the tarball
-    rm -rf ${HOME}/dotfiles.tar.gz
-fi
-
-cd ${DOTFILES_DIRECTORY}
+DOTFILES_DIRECTORY="$PWD"
+DOTFILES_PATH="${HOME}"
 
 source ./install/utils.sh
 
@@ -27,26 +13,17 @@ e_header "Installing XCode Command Line Tools..."
 xcode-select --install
 e_success "XCode Command Line Tools install complete!"
 
-
-# Git configs
-e_header "Configure your Git settings: "
-nano ${DOTFILES_DIRECTORY}/.gitconfig
-e_success "Git settings updated!"
-
-
-link() {
-    # Force create/replace the symlink.
-    ln -fs "${DOTFILES_DIRECTORY}/${1}" "${HOME}/${2}"
+replace() {
+    # Force move/replace files.
+    mv -f "${DOTFILES_DIRECTORY}/${1}" "${HOME}/${2}"
 }
 
-mirrorfiles() {
-    # Create the necessary symbolic links between the `.dotfiles` and `HOME`
-    # directory. The `bash_profile` sources other files directly from the
-    # `.dotfiles` repository.
-    link ".bashrc"           ".bashrc"
-    link ".gitconfig"        ".gitconfig"
-    link ".gitignore_global" ".gitignore_global"
-    link ".zshrc"             ".zshrc"
+replacefiles() {
+    # Move/replace setting files to /Home
+    replace ".bashrc"           ".bashrc"
+    replace ".gitconfig"        ".gitconfig"
+    replace ".gitignore_global" ".gitignore_global"
+    replace ".zshrc"             ".zshrc"
 
     e_success "Dotfiles update complete!"
 }
@@ -55,11 +32,16 @@ mirrorfiles() {
 seek_confirmation "Warning: This step may overwrite your existing dotfiles."
 
 if is_confirmed; then
-    mirrorfiles
+    replacefiles
     source ${HOME}/.bashrc
 else
     e_warning "Skipped dotfiles settings."
 fi
+
+# Git configs
+e_header "Configure your Git settings: "
+nano ${HOME}/.gitconfig
+e_success "Git settings updated!"
 
 # Install Brew and Cask packages
 seek_confirmation "Warning: This step install Brew, Cask, Brew Cask Upgrade, MAS and applications."
@@ -149,5 +131,11 @@ fi
 # Create a directory for projects and development
 e_header "Creating Projects directory in Home"
 mkdir ${HOME}/Projects
+
+# Remove the installation zip and folder
+e_header "Removing unnecessary files"
+rm -rf ${HOME}/dotfiles.tar.gz
+rm -rf ${HOME}/dotfiles.zip
+rm -rf ${DOTFILES_DIRECTORY}
 
 e_success "Reboot and enjoy!"
