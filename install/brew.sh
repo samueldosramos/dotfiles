@@ -1,3 +1,5 @@
+#!/bin/bash
+#
 # Install Homebrew
 # Check out https://brew.sh for more details
 # Comment (with #) what should not be installed and add the applications you want to install.

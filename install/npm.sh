@@ -1,6 +1,8 @@
 #!/bin/bash
+#
 # npm packages
 # Add or exclude packages before installation
+
 
 if which node &> /dev/null; then
   brew install node

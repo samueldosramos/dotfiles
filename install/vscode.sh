@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+# VScode extensions install
 # Add or exclude plugins before installation
 
 
