@@ -17,7 +17,7 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 
 
 ## What's in it? Features?
-_Check linked files to more details._
+_Check linked files to more details._  
 **Note:** _In version **2.0** onwards, **Bash** will be switched to **Zsh**.This was necessary to make the files simpler and Zsh is an excellent shell._
 
 ### Settings Files:
@@ -38,7 +38,7 @@ _Check linked files to more details._
 * [vscode.sh](install/vscode.sh) - VSCode plugins installer.
 * [zsh.sh](install/zsh.sh) - Zsh installer.
 
-**Note:** _These files will be discarded later._
+**Note:** _These files will be discarded later._  
 
 ### Others files:
 
@@ -69,7 +69,7 @@ The setup.sh process will:
 4. Ask if you want to install the following scripts, in this order:
 
 **Note:** I suggest you read these files and turn your preferences on/off before installation.
-Before each script, an editor opens to configure your preferences.
+Before each script, an editor opens to configure your preferences.  
 
 - [brew.sh](install/brew.sh) - install Homebrew, Cask, Cask Upgrade and applications.
 I suggest you comment apps that should not be installed and include those that are not listed. This script will install in the following order:
@@ -89,7 +89,7 @@ I suggest you comment apps that should not be installed and include those that a
 - [npm.sh](install/npm.sh) - install npm packages.
 
 5. Create a directory called Projects in Home directory for projects and development.
-**Note:** After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:
+**Note:** After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:  
 
 ```
 rm -rf ~/Projects/
@@ -97,7 +97,7 @@ ln -s ~/Dropbox/Projects ~/Projects
 ```
 6.  Remove the installation zip and folder
 
-**Note:** If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name.
+**Note:** If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name.  
 
 ```
 sudo scutil --set ComputerName "newname"
@@ -128,7 +128,7 @@ mackup restore
 Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 
 
-**Note:** Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.
+**Note:** Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.  
 **Note:** I do not use Mackup anymore. After testing, I came to the conclusion that it causes bug in some things.
 
 ---
