@@ -1,6 +1,3 @@
-# Show/hide hidden files in Finder
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
 # Update Brew and Cask formulaes
 # Include -f to update apps that are marked as latest
@@ -12,17 +9,8 @@ alias cleanup="brew cleanup && brew cask cleanup"
 # Update macOS using Command Line Software Update Tool
 alias macupdate="sudo softwareupdate -ia"
 
-# LS aliases
-alias ls="ls -GF"
-alias ll="ls -lG"
-alias la="ls -aGF"
-
 # Open focus mode
 alias focus="open /Applications/{Magnet.app,Lungo.app,Be\ Focused\ Pro.app,Focus\ Matrix.app}"
 
 # List npm packages installed globally
 alias npmlist="npm list -g --depth=0"
-
-# Open the current terminal directory in a Finder window
-alias ofd="open -a Finder ."
-
