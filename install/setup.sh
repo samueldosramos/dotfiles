@@ -44,11 +44,8 @@ mirrorfiles() {
     # `.dotfiles` repository.
     link ".aliases"          ".aliases"
     link ".bash_profile"     ".bash_profile"
-    link ".functions"        ".functions"
-    link ".git-completion"   ".git-completion"
     link ".gitconfig"        ".gitconfig"
     link ".gitignore_global" ".gitignore_global"
-    link ".inputrc"          ".inputrc"
 
     e_success "Dotfiles update complete!"
 }
