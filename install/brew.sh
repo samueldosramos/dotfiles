@@ -59,7 +59,7 @@ brew cask install google-chrome            # Chrome browser
 #brew cask install dash                     # Offline documentations
 #brew cask install devdocs                  # Offline documentations
 #brew cask install imageoptim               # Images optimizer
-#brew cask install iterm2                   # Better terminal for macOS
+brew cask install iterm2                   # Better terminal for macOS
 #brew cask install java                     # Java JDK
 #brew cask install macdown                  # Markdown editor
 #brew cask install sequel-pro               # MySQL/MariaDB database management
