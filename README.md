@@ -97,6 +97,14 @@ ln -s ~/Dropbox/Projects ~/Projects
 ```
 6.  Remove the installation zip and folder
 
+**Note:** If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name.
+
+```
+sudo scutil --set ComputerName "newname"
+sudo scutil --set LocalHostName "newname"
+sudo scutil --set HostName "newname"
+```
+
 ---
 
 
