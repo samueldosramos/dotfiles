@@ -1,7 +1,10 @@
-# Export paths
+#!/bin/bash
+#
+# Bash profile with paths and aliases
+
+##################### Paths ####################
 export PATH="/usr/local/sbin:$PATH" #Homebrew path
-
-
+export TERM="xterm-256color"
 
 
 ##################### Aliases ####################
