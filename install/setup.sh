@@ -43,9 +43,10 @@ mirrorfiles() {
     # Create the necessary symbolic links between the `.dotfiles` and `HOME`
     # directory. The `bash_profile` sources other files directly from the
     # `.dotfiles` repository.
-    link ".bash_profile"     ".bash_profile"
+    link ".bashrc"           ".bashrc"
     link ".gitconfig"        ".gitconfig"
     link ".gitignore_global" ".gitignore_global"
+    link ".zshrc"             ".zshrc"
 
     e_success "Dotfiles update complete!"
 }
@@ -55,7 +56,7 @@ seek_confirmation "Warning: This step may overwrite your existing dotfiles."
 
 if is_confirmed; then
     mirrorfiles
-    source ${HOME}/.bash_profile
+    source ${HOME}/.bashrc
 else
     e_warning "Skipped dotfiles settings."
 fi
@@ -71,6 +72,19 @@ if is_confirmed; then
     e_success "Brew and applications are installed!"
 else
     e_warning "Skipped Brew settings update."
+fi
+
+# Install Zsh and ask before potentially overwriting overwriting files
+seek_confirmation "Warning: This step install Zsh and some plugins."
+
+if is_confirmed; then
+    e_header "Please, configure before installation."
+    sleep 2
+    nano ${DOTFILES_DIRECTORY}/install/zsh.sh
+    bash ./install/brew.sh
+    e_success "Zsh and plugins are installed!"
+else
+    e_warning "Skipped Zsh settings update."
 fi
 
 # Ask before potentially overwriting macOS defaults
