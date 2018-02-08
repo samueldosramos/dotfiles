@@ -23,7 +23,6 @@ replacefiles() {
     replace ".bashrc"           ".bashrc"
     replace ".gitconfig"        ".gitconfig"
     replace ".gitignore_global" ".gitignore_global"
-    replace ".zshrc"             ".zshrc"
 
     e_success "Dotfiles update complete!"
 }
@@ -64,6 +63,7 @@ if is_confirmed; then
     sleep 2
     nano ${DOTFILES_DIRECTORY}/install/zsh.sh
     bash ./install/zsh.sh
+    replace ".zshrc"    ".zshrc"
     e_success "Zsh and plugins are installed!"
     e_warning "Please, after finishing the installation, remember to change the font of your terminal app to your favorite Nerd Font."
     sleep 2
