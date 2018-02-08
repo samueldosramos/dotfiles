@@ -9,11 +9,13 @@ alias update="brew update && brew upgrade && brew cu --all"
 # Cleanup Brew and Cask cache
 alias cleanup="brew cleanup && brew cask cleanup"
 
+# Update macOS using Command Line Software Update Tool
+alias masupdate="sudo softwareupdate -ia"
+
 # LS aliases
 alias ls="ls -GF"
 alias ll="ls -lG"
 alias la="ls -aGF"
-alias masupdate="sudo softwareupdate -ia"
 
 # Open focus mode
 alias focus="open /Applications/{Magnet.app,Lungo.app,Be\ Focused\ Pro.app,Focus\ Matrix.app}"
