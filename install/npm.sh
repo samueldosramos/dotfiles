@@ -11,7 +11,6 @@ npm install -g http-server
 npm install -g gulp-cli
 npm install -g @pingy/cli
 npm install -g postcss-cli
-npm install -g autoprefixer
 
 #Finish
 e_success "Finished the npm packages installation"
