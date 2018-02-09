@@ -15,7 +15,7 @@ brew install zsh-completions               # Additional completions for Zsh
 brew install zsh-syntax-highlighting       # Additional syntax-highlighting for Zsh
 
 # Install iconic font for Zsh
-brew install font-hack-nerd-font
+brew cask install font-hack-nerd-font
 
 # Install Z
 brew install z
