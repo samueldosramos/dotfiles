@@ -3,6 +3,7 @@
 # VScode extensions install
 # Add or exclude plugins before installation
 
+source ./install/utils.sh
 
 # from `code --list-extensions`
 modules="
@@ -33,4 +34,4 @@ for module in $modules; do
   code --install-extension "$module" || true
 done
 
-echo -e "\nSuccess! VSCode is set.\n"
+e_success "Success! VSCode is set."

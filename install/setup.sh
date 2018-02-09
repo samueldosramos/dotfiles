@@ -24,7 +24,6 @@ replacefiles() {
 
 # Ask before potentially overwriting files
 seek_confirmation "Warning: This step may overwrite your existing dotfiles."
-
 if is_confirmed; then
     replacefiles
     source ${HOME}/.bashrc
@@ -44,7 +43,6 @@ e_success "XCode Command Line Tools install complete!"
 
 # Install Brew and Cask packages
 seek_confirmation "Warning: This step install Brew, Cask, Brew Cask Upgrade, MAS and applications."
-
 if is_confirmed; then
     e_header "Please, configure you Brew settings and packages before installation."
     nano ${DOTFILES_DIRECTORY}/install/brew.sh
@@ -56,7 +54,6 @@ fi
 
 # Install Zsh and ask before potentially overwriting overwriting files
 seek_confirmation "Warning: This step install Zsh, Hack Nerd Font and some plugins."
-
 if is_confirmed; then
     e_header "Please, if necessary, configure before installation."
     nano ${DOTFILES_DIRECTORY}/install/zsh.sh
@@ -70,9 +67,8 @@ fi
 
 # Ask before potentially overwriting macOS defaults
 seek_confirmation "Warning: This step may modify your macOS system defaults."
-
 if is_confirmed; then
-    e_header "Please, configure you settings before installation."
+    e_header "Please, configure you settings before installation.\n Dont restart the Mac in this step"
     nano ${DOTFILES_DIRECTORY}/install/macos.sh
     bash ./install/macos.sh
     e_success "macOS settings updated! You may need to restart."
@@ -82,7 +78,6 @@ fi
 
 # Ask before potentially overwriting dock defaults
 seek_confirmation "Warning: This step may modify your dock system defaults."
-
 if is_confirmed; then
     e_header "Please, configure you dock settings before installation."
     nano ${DOTFILES_DIRECTORY}/install/dock.sh
@@ -94,7 +89,6 @@ fi
 
 # Ask before potentially overwriting VSCode
 seek_confirmation "Warning: This step may modify your VSCode configs."
-
 if is_confirmed; then
     open -a Visual\ Studio\ Code.app
     sleep 2
@@ -111,7 +105,6 @@ fi
 
 # Install npm packages
 seek_confirmation "Warning: This step install npm packages"
-
 if is_confirmed; then
     e_header "Please, configure your npm packages before installation."
     nano ${DOTFILES_DIRECTORY}/install/npm.sh
