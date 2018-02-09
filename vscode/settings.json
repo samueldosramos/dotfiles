@@ -24,4 +24,11 @@
     ],
     "react.beautify.onSave": true,
     "react.beautify.formatter": "esformatter",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.fontFamily": "Knack Nerd Font",
+    "terminal.integrated.fontSize": 13,
 }
