@@ -7,7 +7,7 @@
 brew install zsh
 
 # Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 # Install some external plugins:
 brew install zsh-autosuggestions           # Additional suggestions for Zsh
