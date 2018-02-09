@@ -15,7 +15,7 @@ replace() {
 
 replacefiles() {
     # Move/replace setting files to /Home
-    replace ".bashrc"           ".bashrc"
+    replace ".bash_profile"     ".bash_profile"
     replace ".gitconfig"        ".gitconfig"
     replace ".gitignore_global" ".gitignore_global"
 
