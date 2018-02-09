@@ -108,13 +108,13 @@ sudo scutil --set LocalHostName "newname"
 sudo scutil --set HostName "newname"
 ```
 
-#### iTerm - Change the color theme:
+#### iTerm2 - Change the color theme:
 iTerm → Preferences → Profiles → Colors → Color presets. I use Solarized Dark theme.
 
-#### iTerm - Change font:
+#### iTerm2 - Change font:
 iTerm → Preferences → Profiles → Text → Change Font. I use Hack Nerd Font with 13px.
 
-#### iTerm - Enable word jumps and word deletion, aka natural text selection:
+#### iTerm2 - Enable word jumps and word deletion, aka natural text selection:
 By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to:   iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing
 
 #### Terminal.app - Set Bash as default shell:
