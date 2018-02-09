@@ -59,6 +59,7 @@ brew cask install google-chrome            # Chrome browser
 brew cask install iterm2                   # Better terminal for macOS
 #brew cask install java                     # Java JDK
 #brew cask install macdown                  # Markdown editor
+#brew cask install postman                  # API development environment
 #brew cask install sequel-pro               # MySQL/MariaDB database management
 #brew cask install sip                      # Collect, organize & share your colors
 #brew cask install sublime-text             # Code editor
