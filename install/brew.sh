@@ -14,7 +14,6 @@ brew update
 brew upgrade
 
 # Scientific formulae for the Homebrew package manager
-brew tap homebrew/science
 brew tap caskroom/versions
 
 # Install Homebrew packages
