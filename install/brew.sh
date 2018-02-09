@@ -13,9 +13,6 @@ e_header "Installing Homebrew for you."
 brew update
 brew upgrade
 
-# Scientific formulae for the Homebrew package manager
-brew tap caskroom/versions
-
 # Install Homebrew packages
 e_header "Installing Brew packages..."
 brew install bash                          # Bash shell (more updated)
@@ -39,6 +36,7 @@ e_header "Installing Homebrew-Cask for you."
 brew tap caskroom/cask
 brew tap caskroom/fonts
 brew tap caskroom/drivers
+brew tap caskroom/versions
 
 # Install Cask applications
 e_header "Installing Cask applications..."
