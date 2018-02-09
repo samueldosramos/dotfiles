@@ -4,6 +4,13 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# ========== Custom paths ==========
+# Homebrew path
+export PATH="/usr/local/sbin:$PATH"
+
+# Support 256 colors path
+export TERM="xterm-256color"
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -12,6 +19,8 @@ POWERLEVEL9K_MODE="nerdfont-complete"
 POWERLEVEL9K_MODE='awesome-fontconfig'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status)
+POWERLEVEL9K_ROOT_ICON="#"
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -72,7 +81,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# External plugins (via Brew)
+# ========== External plugins (via Brew) ==========
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fpath=(/usr/local/share/zsh-completions $fpath)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -106,8 +115,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-# ========== Aliases ==========
+# ========== Custom aliases ==========
 # Update Brew and Cask formulaes
 # Include -f to update apps that are marked as latest
 alias update="brew update && brew upgrade && brew cu --all"
@@ -124,13 +132,7 @@ alias focus="open /Applications/{Magnet.app,Lungo.app,Be\ Focused\ Pro.app,Focus
 # List npm packages installed globally
 alias npmlist="npm list -g --depth=0"
 
-
-# ========== Paths ==========
-export PATH="/usr/local/sbin:$PATH" #Homebrew path
-export TERM="xterm-256color"
-
-
-# ========== Others resources ==========
+# ========== Others custom resources ==========
 # Tracks most-used directories to make cd smarter
 #For more details: https://github.com/rupa/z
 source /usr/local/etc/profile.d/z.sh
