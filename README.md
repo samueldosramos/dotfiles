@@ -22,7 +22,7 @@ _Check linked files to more details._
 
 ### Settings Files:
 
-* [bashrc](.bashrc) - some fallback configs to Terminal.app.
+* [bash_profile](.bash_profile) - some fallback configs to Terminal.app.
 * [gitconfig](.gitconfig) - basic git settings.
 * [gitignore_global](.gitignore_global) - global gitignore.
 * [zshrc](.zshrc) - terminal configs with aliases, paths, plugins and theme.
@@ -59,11 +59,11 @@ You can also download a specific [release](https://github.com/samuelramox/dotfil
 ### Explaining the process
 
 The setup.sh process will:
-1. Check if the _XCode Command Line Tools_ is installed and install the same if it does not exist.
+1. Move/replace dotfiles to _home/_.
 
-2. Move/replace setting files to _home/_.
+2. Open [gitconfig](.gitconfig) so that the user can put his data.
 
-3. Open [gitconfig](.gitconfig) so that the user can put his data.
+3. Check if the _XCode Command Line Tools_ is installed and install the same if it does not exist.
 
 4. Ask if you want to install the following scripts, in this order:
 
