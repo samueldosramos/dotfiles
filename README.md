@@ -169,7 +169,8 @@ Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 * [Git Completion](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 * [Mackup](https://github.com/lra/mackup)
 * [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
-
+* [Powerlevel9k theme for Zsh](https://github.com/bhilburn/powerlevel9k)
+* [Nerd Fonts](https://nerdfonts.com/)
 
 
 
