@@ -20,6 +20,9 @@ brew install font-hack-nerd-font
 # Install Z
 brew install z
 
+# Install Powerlevel9k theme
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
 # Set Zsh as your default shell:
 chsh -s /bin/zsh
 
