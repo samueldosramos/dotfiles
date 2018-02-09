@@ -44,6 +44,7 @@ _Check linked files to more details._
 
 * [setting.json](vscode/setting.json) - VSCode customization.
 
+---
 
 ## Installation:
 
@@ -54,8 +55,6 @@ git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 
 ```
 You can also download a specific [release](https://github.com/samuelramox/dotfiles/releases)
-
----
 
 ### Explaining the process
 
@@ -97,7 +96,11 @@ ln -s ~/Dropbox/Projects ~/Projects
 ```
 6.  Remove the installation zip and folder
 
-**Note:** If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name.  
+
+### Setup after installation
+
+#### Hostname
+If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name.  
 
 ```
 sudo scutil --set ComputerName "newname"
@@ -105,8 +108,26 @@ sudo scutil --set LocalHostName "newname"
 sudo scutil --set HostName "newname"
 ```
 
----
+#### iTerm - Change the color theme
+iTerm → Preferences → Profiles → Colors → Color presets. I use Solarized Dark theme.
 
+#### iTerm - Change font
+iTerm → Preferences → Profiles → Text → Change Font. I use Hack Nerd Font with 13px.
+
+#### iTerm - Enable word jumps and word deletion, aka natural text selection
+By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to:   iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing
+
+#### Terminal.app - Set Bash as default shell
+**Note:** _Terminal.app has problems with Oh My Zsh configs_  
+Terminal → Preferences → Geral → Shells open with → Command (full path) → /bin/bash
+
+#### Visual Studio Code config
+**Note:** _Step needed only if you have skipped the VSCode configuration script_  
+Code → Preference → Settings (or CMD + ,)  and add or edit the following values:  
+`"terminal.integrated.fontFamily": "Knack Nerd Font"`  
+`"terminal.integrated.fontSize": 14`
+
+---
 
 ## Mackup
 
@@ -132,7 +153,6 @@ Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 **Note:** I do not use Mackup anymore. After testing, I came to the conclusion that it causes bug in some things.
 
 ---
-
 
 ## Resources:
 
