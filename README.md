@@ -99,7 +99,7 @@ ln -s ~/Dropbox/Projects ~/Projects
 
 ### Setup after installation
 
-#### Hostname
+#### Hostname:
 If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name.  
 
 ```
@@ -108,20 +108,20 @@ sudo scutil --set LocalHostName "newname"
 sudo scutil --set HostName "newname"
 ```
 
-#### iTerm - Change the color theme
+#### iTerm - Change the color theme:
 iTerm → Preferences → Profiles → Colors → Color presets. I use Solarized Dark theme.
 
-#### iTerm - Change font
+#### iTerm - Change font:
 iTerm → Preferences → Profiles → Text → Change Font. I use Hack Nerd Font with 13px.
 
-#### iTerm - Enable word jumps and word deletion, aka natural text selection
+#### iTerm - Enable word jumps and word deletion, aka natural text selection:
 By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to:   iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing
 
-#### Terminal.app - Set Bash as default shell
+#### Terminal.app - Set Bash as default shell:
 **Note:** _Terminal.app has problems with Oh My Zsh configs_  
 Terminal → Preferences → Geral → Shells open with → Command (full path) → /bin/bash
 
-#### Visual Studio Code config
+#### Visual Studio Code config:
 **Note:** _Step needed only if you have skipped the VSCode configuration script_  
 Code → Preference → Settings (or CMD + ,)  and add or edit the following values:  
 `"terminal.integrated.fontFamily": "Knack Nerd Font"`  
