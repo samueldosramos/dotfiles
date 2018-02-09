@@ -6,21 +6,25 @@
 # Header logging
 e_header() {
     printf "\n$(tput setaf 3)%s$(tput sgr0)\n" "$@"
+    sleep 4
 }
 
 # Success logging
 e_success() {
     printf "\n$(tput setaf 2)✓ %s$(tput sgr0)\n" "$@"
+    sleep 4
 }
 
 # Error logging
 e_error() {
     printf "\n$(tput setaf 1)x %s$(tput sgr0)\n" "$@"
+    sleep 4
 }
 
 # Warning logging
 e_warning() {
     printf "\n$(tput setaf 136)! %s$(tput sgr0)\n" "$@"
+    sleep 4
 }
 
 # Ask for confirmation before proceeding

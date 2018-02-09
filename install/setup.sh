@@ -8,11 +8,6 @@ DOTFILES_PATH="${HOME}"
 
 source ./install/utils.sh
 
-# Before relying on Homebrew, check that packages can be compiled
-e_header "Installing XCode Command Line Tools..."
-xcode-select --install
-e_success "XCode Command Line Tools install complete!"
-
 replace() {
     # Force move/replace files.
     mv -f "${DOTFILES_DIRECTORY}/${1}" "${HOME}/${2}"
@@ -42,12 +37,16 @@ e_header "Configure your Git settings: "
 nano ${HOME}/.gitconfig
 e_success "Git settings updated!"
 
+# Before relying on Homebrew, check that packages can be compiled
+e_header "Installing XCode Command Line Tools..."
+xcode-select --install
+e_success "XCode Command Line Tools install complete!"
+
 # Install Brew and Cask packages
 seek_confirmation "Warning: This step install Brew, Cask, Brew Cask Upgrade, MAS and applications."
 
 if is_confirmed; then
     e_header "Please, configure you Brew settings and packages before installation."
-    sleep 2
     nano ${DOTFILES_DIRECTORY}/install/brew.sh
     bash ./install/brew.sh
     e_success "Brew and applications are installed!"
@@ -60,13 +59,11 @@ seek_confirmation "Warning: This step install Zsh, Hack Nerd Font and some plugi
 
 if is_confirmed; then
     e_header "Please, if necessary, configure before installation."
-    sleep 2
     nano ${DOTFILES_DIRECTORY}/install/zsh.sh
     bash ./install/zsh.sh
     replace ".zshrc"    ".zshrc"
     e_success "Zsh and plugins are installed!"
     e_warning "Please, after finishing the installation, remember to change the font of your terminal app to your favorite Nerd Font."
-    sleep 2
 else
     e_warning "Skipped Zsh settings update."
 fi
@@ -76,7 +73,6 @@ seek_confirmation "Warning: This step may modify your macOS system defaults."
 
 if is_confirmed; then
     e_header "Please, configure you settings before installation."
-    sleep 2
     nano ${DOTFILES_DIRECTORY}/install/macos.sh
     bash ./install/macos.sh
     e_success "macOS settings updated! You may need to restart."
@@ -89,7 +85,6 @@ seek_confirmation "Warning: This step may modify your dock system defaults."
 
 if is_confirmed; then
     e_header "Please, configure you dock settings before installation."
-    sleep 2
     nano ${DOTFILES_DIRECTORY}/install/dock.sh
     bash ./install/dock.sh
     e_success "Dock settings updated!"
@@ -107,7 +102,6 @@ if is_confirmed; then
     replace "/vscode/settings.json"     "/Library/Application Support/Code/User/settings.json"
     replace "/vscode/keybindings.json"  "/Library/Application Support/Code/User/keybindings.json"
     e_header "Please, configure you plugins before installation."
-    sleep 2
     nano ${DOTFILES_DIRECTORY}/install/vscode.sh
     bash ./install/vscode.sh
     e_success "VSCode settings updated!"
@@ -120,7 +114,6 @@ seek_confirmation "Warning: This step install npm packages"
 
 if is_confirmed; then
     e_header "Please, configure your npm packages before installation."
-    sleep 2
     nano ${DOTFILES_DIRECTORY}/install/npm.sh
     bash ./install/npm.sh
     e_success "npm packages are installed!"
