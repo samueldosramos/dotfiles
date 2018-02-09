@@ -104,8 +104,8 @@ if is_confirmed; then
     open -a Visual\ Studio\ Code.app
     sleep 2
     kill -9 $(pgrep Electron)
-    replace "$DOTFILES_DIRECTORY/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
-    replace "$DOTFILES_DIRECTORY/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
+    replace "/vscode/settings.json"     "/Library/Application Support/Code/User/settings.json"
+    replace "/vscode/keybindings.json"  "/Library/Application Support/Code/User/keybindings.json"
     e_header "Please, configure you plugins before installation."
     sleep 2
     nano ${DOTFILES_DIRECTORY}/install/vscode.sh
