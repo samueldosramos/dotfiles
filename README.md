@@ -15,7 +15,7 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 * Customize the terminal.
 
 ## What's in it? Features?
-_Check linked files to more details._  
+_Check linked files to more details._
 **Note:** _In version **2.0** onwards, **Bash** will be switched to **Zsh**. This was necessary to make the files simpler, in addition, Zsh is a customizable and excellent shell._
 
 ### Settings Files:
@@ -36,7 +36,7 @@ _Check linked files to more details._
 * [vscode.sh](install/vscode.sh) - VSCode plugins installer.
 * [zsh.sh](install/zsh.sh) - Zsh installer.
 
-**Note:** _These files will be discarded later._  
+**Note:** _These files will be discarded later._
 
 ### Others files:
 
@@ -66,14 +66,14 @@ The setup.sh process will:
 4. Ask if you want to install the following scripts, in this order:
 
 **Note:** I suggest you read these files and turn your preferences on/off before installation.
-Before each script, an editor opens to configure your preferences.  
+Before each script, an editor opens to configure your preferences.
 
 - [brew.sh](install/brew.sh) - install Homebrew, Cask, Cask Upgrade and applications.
 I suggest you comment apps that should not be installed and include those that are not listed. This script will install in the following order:
 
     - Homebrew;
     - Homebrew apps;
-      * Bash, Dockutil, Git, Nano, Node, Python, Ruby, Unrar, Yarn;    
+      * Bash, Dockutil, Git, Nano, Node, Python, Ruby, Unrar, Yarn;
     - Homebrew Cask;
     - Cask apps;
       * Google Chrome, iTerm2, VSCode, Fira Code Font (you can uncomment or add other apps for installation);
@@ -88,7 +88,7 @@ I suggest you comment apps that should not be installed and include those that a
 - [npm.sh](install/npm.sh) - install npm packages.
 
 5. Create a directory called Projects in Home directory for projects and development.
-**Note:** After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:  
+**Note:** After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:
 
 ```
 rm -rf ~/Projects/
@@ -99,7 +99,7 @@ ln -s ~/Dropbox/Projects ~/Projects
 ### Setup after installation
 
 #### Hostname:
-If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name.  
+If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name.
 
 ```
 sudo scutil --set ComputerName "newname"
@@ -117,13 +117,13 @@ iTerm → Preferences → Profiles → Text → Change Font. I use Hack Nerd Fon
 By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to:   iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing
 
 #### Terminal.app - Set Bash as default shell:
-**Note:** _Terminal.app has problems with Oh My Zsh configs_  
+**Note:** _Terminal.app has problems with Oh My Zsh configs_
 Terminal → Preferences → Geral → Shells open with → Command (full path) → /bin/bash
 
 #### Visual Studio Code config:
-**Note:** _Step needed only if you have skipped the VSCode configuration script_  
-Code → Preference → Settings (or CMD + ,)  and add or edit the following values:  
-`"terminal.integrated.fontFamily": "Knack Nerd Font"`  
+**Note:** _Step needed only if you have skipped the VSCode configuration script_
+Code → Preference → Settings (or CMD + ,)  and add or edit the following values:
+`"terminal.integrated.fontFamily": "Knack Nerd Font"`
 `"terminal.integrated.fontSize": 14`
 
 ---
@@ -148,8 +148,24 @@ mackup restore
 Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 
 
-**Note:** Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.  
+**Note:** Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.
 **Note:** I do not use Mackup anymore. After testing, I came to the conclusion that it causes bug in some things.
+
+---
+
+## Some images:
+
+Standard installation (can be configured):
+![macOS print](./images/macOS_01.png)
+![macOS print](./images/macOS_01.png)
+
+iTerm2 with Zsh, Oh My Zsh and Solarized Dark theme:
+![iTerm2 print](./images/iTerm_01.png)
+
+![iTerm2 print](./images/iTerm_02.png)
+
+Terminal.app with Bash:
+![Terminal.app print](./images/Terminal_01.png)
 
 ---
 
