@@ -73,10 +73,10 @@ I suggest you comment apps that should not be installed and include those that a
 
     - Homebrew;
     - Homebrew apps;
-      * Bash, Dockutil, Git, Nano, Node, Python, Ruby, Unrar, Yarn;
+      * By default: Bash, Dockutil, Git, Nano, Node, Python, Ruby, Unrar, Yarn;
     - Homebrew Cask;
     - Cask apps;
-      * Google Chrome, iTerm2, VSCode, Fira Code Font (you can uncomment or add other apps for installation);
+      * By default: Google Chrome, iTerm2, VSCode, Fira Code Font (you can uncomment or add other apps for installation);
     - Homebrew Cask Upgrade;
     - Mac App Store command line interface;
     - Mac App Store apps;
