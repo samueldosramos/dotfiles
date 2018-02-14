@@ -2,7 +2,6 @@
 
 This is a simple dotfiles and scripts I use for customizing macOS.
 
-
 ## What are dotfiles?
 
 Dotfiles are configuration files on Unix-based systems. At first they are just hidden configuration files of the system (that's why the reason for starting with "."). However, we can use them to make it easier to configure our computers, with many advantages:
@@ -14,7 +13,6 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 * Versioning;
 * Import to multiple computers;
 * Customize the terminal.
-
 
 ## What's in it? Features?
 _Check linked files to more details._  
@@ -75,8 +73,10 @@ I suggest you comment apps that should not be installed and include those that a
 
     - Homebrew;
     - Homebrew apps;
+      * Bash, Dockutil, Git, Nano, Node, Python, Ruby, Unrar, Yarn;    
     - Homebrew Cask;
     - Cask apps;
+      * Google Chrome, iTerm2, VSCode, Fira Code Font (you can uncomment or add other apps for installation);
     - Homebrew Cask Upgrade;
     - Mac App Store command line interface;
     - Mac App Store apps;
@@ -95,7 +95,6 @@ rm -rf ~/Projects/
 ln -s ~/Dropbox/Projects ~/Projects
 ```
 6.  Remove the installation zip and folder
-
 
 ### Setup after installation
 
