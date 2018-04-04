@@ -16,6 +16,7 @@ modules="
     file-icons.file-icons
     codezombiech.gitignore
     Zignd.html-css-class-completion
+    xabikos.javascriptsnippets
     ritwickdey.liveserver
     slevesque.vscode-multiclip
     zhuangtongfa.material-theme
