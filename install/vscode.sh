@@ -20,7 +20,6 @@ modules="
     slevesque.vscode-multiclip
     zhuangtongfa.material-theme
     vsmobile.vscode-react-native
-    mrmlnc.vscode-scss
 "
 
 for module in $modules; do
