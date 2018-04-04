@@ -20,7 +20,6 @@ modules="
     slevesque.vscode-multiclip
     zhuangtongfa.material-theme
     vsmobile.vscode-react-native
-    taichi.react-beautify
     xabikos.reactsnippets
     rebornix.ruby
     mrmlnc.vscode-scss
