@@ -19,6 +19,7 @@ modules="
     ritwickdey.liveserver
     slevesque.vscode-multiclip
     zhuangtongfa.material-theme
+    esbenp.prettier-vscode
     vsmobile.vscode-react-native
 "
 
