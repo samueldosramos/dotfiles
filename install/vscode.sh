@@ -8,7 +8,6 @@ source ./install/utils.sh
 # from `code --list-extensions`
 modules="
     formulahendry.auto-rename-tag
-    mgmcdermott.vscode-language-babel
     HookyQR.beautify
     ms-vscode.cpptools
     formulahendry.code-runner
