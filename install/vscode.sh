@@ -8,7 +8,6 @@ source ./install/utils.sh
 # from `code --list-extensions`
 modules="
     formulahendry.auto-rename-tag
-    formulahendry.code-runner
     deerawan.vscode-dash
     EditorConfig.editorconfig
     dbaeumer.vscode-eslinct
