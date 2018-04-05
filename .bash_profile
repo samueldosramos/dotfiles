@@ -35,6 +35,18 @@ alias la="ls -aGF"
 export PATH="/usr/local/sbin:$PATH"
 
 
+# ========== Input ==========
+
+# Make Tab autocomplete regardless of filename case
+set completion-ignore-case on
+
+# List all matches in case multiple possible completions are possible
+set show-all-if-ambiguous on
+
+# Tab autocomplete inline
+TAB: menu-complete
+
+
 # ========== Others resources ==========
 # Export terminal colors
 export TERM="xterm-256color"
@@ -47,3 +59,5 @@ export CLICOLOR="auto"
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
+
+
