@@ -14,6 +14,7 @@ dockutil --no-restart --add "/Applications/Google Chrome.app"
 dockutil --no-restart --add "/Applications/iTerm.app"
 dockutil --no-restart --add "/Applications/Visual Studio Code.app"
 dockutil --no-restart --add "/Applications/Notes.app"
+dockutil --no-restart --add "/Applications/Franz.app"
 
 killall Dock
 
