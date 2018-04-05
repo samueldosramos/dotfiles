@@ -16,7 +16,7 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 
 ## What's in it? Features?
 
-_Check linked files to more details._
+_Check linked files to more details._  
 **Note:** _In version **2.0** onwards, **Bash** will be switched to **Zsh**. This was necessary to make the files simpler, in addition, Zsh is a customizable and excellent shell._
 
 ### Settings Files:
@@ -129,12 +129,12 @@ By default, word jumps (option + → or ←) and word deletions (option + backsp
 
 #### Terminal.app - Set Bash as default shell:
 
-**Note:** _Terminal.app has problems with Oh My Zsh configs_
+**Note:** _Terminal.app has problems with Oh My Zsh configs_  
 Terminal → Preferences → Geral → Shells open with → Command (full path) → /bin/bash
 
 #### Visual Studio Code config:
 
-**Note:** _Step needed only if you have skipped the VSCode configuration script_
+**Note:** _Step needed only if you have skipped the VSCode configuration script_  
 Code → Preference → Settings (or CMD + ,) and add or edit the following values:
 `"terminal.integrated.fontFamily": "Hack Nerd Font"`
 `"terminal.integrated.fontSize": 14`
@@ -161,7 +161,7 @@ mackup restore
 
 Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 
-**Note:** Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.
+**Note:** Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.  
 **Note:** I do not use Mackup anymore. After testing, I came to the conclusion that it causes bug in some things.
 
 ---
@@ -177,7 +177,7 @@ iTerm2 with Zsh, Oh My Zsh and Solarized Dark theme:
 
 ![iTerm2 print](./images/iTerm2_02.png)
 
-Terminal.app with Bash:
+Terminal.app with Bash:  
 ![Terminal.app print](./images/Terminal_01.png)
 
 ---
