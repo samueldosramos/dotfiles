@@ -17,7 +17,7 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.enableBell": true,
-    "terminal.integrated.fontFamily": "Knack Nerd Font",
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
     "terminal.integrated.fontSize": 12,
     "update.channel": "none",
     "window.nativeTabs": true,
