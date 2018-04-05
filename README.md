@@ -15,6 +15,7 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 * Customize the terminal.
 
 ## What's in it? Features?
+
 _Check linked files to more details._
 **Note:** _In version **2.0** onwards, **Bash** will be switched to **Zsh**. This was necessary to make the files simpler, in addition, Zsh is a customizable and excellent shell._
 
@@ -24,6 +25,8 @@ _Check linked files to more details._
 * [gitconfig](.gitconfig) - basic git settings.
 * [gitignore_global](.gitignore_global) - global gitignore.
 * [zshrc](.zshrc) - terminal configs with aliases, paths, plugins and theme.
+
+**Note:** _These files are permanent._
 
 ### Installation files:
 
@@ -50,55 +53,60 @@ _Check linked files to more details._
 git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 
 ./install/setup.sh
-
 ```
+
 You can also download a specific [release](https://github.com/samuelramox/dotfiles/releases)
 
 ### Explaining the process
 
 The setup.sh process will:
-1. Move/replace dotfiles to _home/_.
 
-2. Open [gitconfig](.gitconfig) so that the user can put his data.
+1.  Move/replace dotfiles to _home/_.
 
-3. Check if the _XCode Command Line Tools_ is installed and install the same if it does not exist.
+2.  Open [gitconfig](.gitconfig) so that the user can put his data.
 
-4. Ask if you want to install the following scripts, in this order:
+3.  Check if the _XCode Command Line Tools_ is installed and install the same if it does not exist.
+
+4.  Ask if you want to install the following scripts, in this order:
 
 **Note:** I suggest you read these files and turn your preferences on/off before installation.
 Before each script, an editor opens to configure your preferences.
 
-- [brew.sh](install/brew.sh) - install Homebrew, Cask, Cask Upgrade and applications.
-I suggest you comment apps that should not be installed and include those that are not listed. This script will install in the following order:
+* [brew.sh](install/brew.sh) - install Homebrew, Cask, Cask Upgrade and applications.
+  I suggest you comment apps that should not be installed and include those that are not listed. This script will install in the following order:
 
-    - Homebrew;
-    - Homebrew apps;
-      * By default: Bash, Dockutil, Git, Nano, Node, Python, Ruby, Unrar, Yarn;
-    - Homebrew Cask;
-    - Cask apps;
-      * By default: Google Chrome, iTerm2, VSCode, Fira Code Font (you can uncomment or add other apps for installation);
-    - Homebrew Cask Upgrade;
-    - Mac App Store command line interface;
-    - Mac App Store apps;
+      - Homebrew;
+      - Homebrew apps;
+        * By default: Bash, Dockutil, Git, Nano, Node, Python, Ruby, Unrar, Yarn;
+      - Homebrew Cask;
+      - Cask apps;
+        * By default: Google Chrome, iTerm2, VSCode, Fira Code Font (you can uncomment or add other apps for installation);
+      - Homebrew Cask Upgrade;
+      - Mac App Store command line interface;
+      - Mac App Store apps;
 
-- [zsh.sh](install/zsh.sh) - install Zsh, Oh My Zsh, some Zsh plugins, font Hack Nerd Font, z and set Zsh as a default shell.
-- [macos.sh](install/macos.sh) - set custom macOS preferences.
-- [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
-- [vscode.sh](install/vscode.sh) - create a symbolic link in the custom VSCode [setting.json](vscode/setting.json) and install some plugins.
-- [npm.sh](install/npm.sh) - install npm packages.
+* [zsh.sh](install/zsh.sh) - install Zsh, Oh My Zsh, some Zsh plugins, font Hack Nerd Font, z and set Zsh as a default shell.
+* [macos.sh](install/macos.sh) - set custom macOS preferences.
+* [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
+* [vscode.sh](install/vscode.sh) - move/replace VSCode [setting.json](vscode/setting.json) and install some plugins.
+* [npm.sh](install/npm.sh) - install npm packages.
 
-5. Create a directory called Projects in Home directory for projects and development.
-**Note:** After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:
+5.  Create a directory called Projects in Home directory for projects and development.
+    **Note:** After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:
 
 ```
 rm -rf ~/Projects/
 ln -s ~/Dropbox/Projects ~/Projects
 ```
+
 6.  Remove the installation zip and folder
+
+7.  Enable trimforce and reboot
 
 ### Setup after installation
 
 #### Hostname:
+
 If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name.
 
 ```
@@ -108,22 +116,27 @@ sudo scutil --set HostName "newname"
 ```
 
 #### iTerm2 - Change the color theme:
+
 iTerm → Preferences → Profiles → Colors → Color presets. I use Solarized Dark theme.
 
 #### iTerm2 - Change font:
+
 iTerm → Preferences → Profiles → Text → Change Font. I use Hack Nerd Font with 13px.
 
 #### iTerm2 - Enable word jumps and word deletion, aka natural text selection:
-By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to:   iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing
+
+By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to: iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing
 
 #### Terminal.app - Set Bash as default shell:
+
 **Note:** _Terminal.app has problems with Oh My Zsh configs_
 Terminal → Preferences → Geral → Shells open with → Command (full path) → /bin/bash
 
 #### Visual Studio Code config:
+
 **Note:** _Step needed only if you have skipped the VSCode configuration script_
-Code → Preference → Settings (or CMD + ,)  and add or edit the following values:
-`"terminal.integrated.fontFamily": "Knack Nerd Font"`
+Code → Preference → Settings (or CMD + ,) and add or edit the following values:
+`"terminal.integrated.fontFamily": "Hack Nerd Font"`
 `"terminal.integrated.fontSize": 14`
 
 ---
@@ -145,8 +158,8 @@ mackup backup
 # Restore your application settings on a newly installed workstation.
 mackup restore
 ```
-Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 
+Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 
 **Note:** Mackup also syncs some dotfiles, but I'd rather leave them in the repository, in favor of practicality and interoperability.
 **Note:** I do not use Mackup anymore. After testing, I came to the conclusion that it causes bug in some things.
@@ -155,16 +168,16 @@ Checkout the [documentantion](https://github.com/lra/mackup) for more details.
 
 ## Some images:
 
-Standard installation (can be configured):  
+Standard installation (can be configured):
 ![macOS print](./images/macOS_01.png)
 ![macOS print](./images/macOS_02.png)
 
-iTerm2 with Zsh, Oh My Zsh and Solarized Dark theme:  
+iTerm2 with Zsh, Oh My Zsh and Solarized Dark theme:
 ![iTerm2 print](./images/iTerm2_01.png)
 
 ![iTerm2 print](./images/iTerm2_02.png)
 
-Terminal.app with Bash:  
+Terminal.app with Bash:
 ![Terminal.app print](./images/Terminal_01.png)
 
 ---
@@ -186,6 +199,3 @@ Terminal.app with Bash:
 * [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [Powerlevel9k theme for Zsh](https://github.com/bhilburn/powerlevel9k)
 * [Nerd Fonts](https://nerdfonts.com/)
-
-
-
