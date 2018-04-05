@@ -10,7 +10,7 @@ modules="
     formulahendry.auto-rename-tag
     deerawan.vscode-dash
     EditorConfig.editorconfig
-    dbaeumer.vscode-eslinct
+    dbaeumer.vscode-eslint
     file-icons.file-icons
     codezombiech.gitignore
     Zignd.html-css-class-completion
