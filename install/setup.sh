@@ -26,7 +26,7 @@ replacefiles() {
 seek_confirmation "Warning: This step may overwrite your existing dotfiles."
 if is_confirmed; then
     replacefiles
-    source ${HOME}/.bashrc
+    source ${HOME}/.bash_profile
 else
     e_warning "Skipped dotfiles settings."
 fi
