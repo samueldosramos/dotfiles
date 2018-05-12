@@ -13,8 +13,6 @@ fi
 npm install -g create-react-app
 npm install -g http-server
 npm install -g gulp-cli
-npm install -g @pingy/cli
-npm install -g postcss-cli
 npm install -g eslint
 
 #Finish
