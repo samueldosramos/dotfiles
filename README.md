@@ -91,7 +91,9 @@ Before each script, an editor opens to configure your preferences.
 * [vscode.sh](install/vscode.sh) - move/replace VSCode [setting.json](vscode/setting.json) and install some plugins.
 * [npm.sh](install/npm.sh) - install npm packages.
 
-5.  Create a directory called Projects in Home directory for projects and development.
+5.  Install Ruby gem Sass
+
+6.  Create a directory called Projects in Home directory for projects and development.
     **Note:** After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:
 
 ```
@@ -99,9 +101,9 @@ rm -rf ~/Projects/
 ln -s ~/Dropbox/Projects ~/Projects
 ```
 
-6.  Remove the installation zip and folder
+7.  Remove the installation zip and folder
 
-7.  Enable trimforce and reboot
+8.  Enable trimforce and reboot
 
 ### Setup after installation
 
