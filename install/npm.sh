@@ -11,9 +11,10 @@ fi
 
 # Packages
 npm install -g create-react-app
-npm install -g http-server
-npm install -g gulp-cli
 npm install -g eslint
+npm install -g gulp-cli
+npm install -g http-server
+npm install -g json-server
 
 #Finish
 e_success "Finished the npm packages installation"
