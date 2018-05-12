@@ -114,6 +114,9 @@ else
     e_warning "Skipped npm settings update."
 fi
 
+# Install ruby gems
+gem install sass
+
 # Create a directory for projects and development
 e_header "Creating Projects directory in Home"
 mkdir ${HOME}/Projects
