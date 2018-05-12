@@ -6,7 +6,7 @@
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "liveServer.settings.donotShowInfoMsg": true,
