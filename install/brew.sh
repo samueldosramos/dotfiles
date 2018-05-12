@@ -102,7 +102,9 @@ brew cask install font-fira-code           # Fira Code font
 #brew cask install istat-menus              # A advanced system monitor for menubar
 #brew cask install logitech-options         # Customize controls for Logitech products
 #brew cask install logitech-unifying        # Manage devices that use a Unifying receiver
+#brew cask install mounty                   # Read/write files on NTFS volumes
 #brew cask install onyx                     # Multifunction utility software
+#brew cask install paragon-ntfs             # Read/write files on NTFS volumes
 #brew cask install smcfancontrol            # Fan controls and monitor temperature
 #brew cask install the-unarchiver           # Archive extraction program (RAR)
 
