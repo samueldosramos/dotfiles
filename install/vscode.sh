@@ -15,7 +15,6 @@ modules="
     codezombiech.gitignore
     Zignd.html-css-class-completion
     ritwickdey.liveserver
-    slevesque.vscode-multiclip
     zhuangtongfa.material-theme
     esbenp.prettier-vscode
 "
