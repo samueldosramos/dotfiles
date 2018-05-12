@@ -8,6 +8,7 @@ source ./install/utils.sh
 # from `code --list-extensions`
 modules="
     formulahendry.auto-rename-tag
+    CoenraadS.bracket-pair-colorizer
     deerawan.vscode-dash
     EditorConfig.editorconfig
     dbaeumer.vscode-eslint
