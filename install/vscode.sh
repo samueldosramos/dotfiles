@@ -14,6 +14,7 @@ modules="
     dbaeumer.vscode-eslint
     file-icons.file-icons
     codezombiech.gitignore
+    bradgashler.htmltagwrap
     Zignd.html-css-class-completion
     ritwickdey.liveserver
     zhuangtongfa.material-theme
