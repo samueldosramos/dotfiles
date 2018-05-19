@@ -132,6 +132,9 @@ alias focus="open /Applications/{Magnet.app,Lungo.app,Be\ Focused\ Pro.app,Focus
 # List npm packages installed globally
 alias npmlist="npm list -g --depth=0"
 
+# Update npm packages globally
+alias npmupdate="npm update -g"
+
 # ========== Others custom resources ==========
 # Tracks most-used directories to make cd smarter
 #For more details: https://github.com/rupa/z
