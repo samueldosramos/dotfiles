@@ -15,6 +15,7 @@ modules="
     file-icons.file-icons
     codezombiech.gitignore
     bradgashler.htmltagwrap
+    kisstkondoros.vscode-gutter-preview
     Zignd.html-css-class-completion
     ritwickdey.liveserver
     zhuangtongfa.material-theme
