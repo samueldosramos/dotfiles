@@ -348,13 +348,6 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 cp -v /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/SFMono-* ~/Library/Fonts &> /dev/null
 
 ###############################################################################
-# Sketch                                                                      #
-###############################################################################
-
-# Export Compact SVGs
-defaults write com.bohemiancoding.sketch3 exportCompactSVG -bool yes
-
-###############################################################################
 # Security                                                                    #
 ###############################################################################
 
