@@ -165,7 +165,7 @@ e_header "Installing Mac App Store applications..."
 
 # Finished this step
 sleep 1
-e_success "Success!  Mac App Store command line interface and applications are installed."
+e_success "Success! Mac App Store command line interface and applications are installed."
 
 
 # Cleans up cached downloads
