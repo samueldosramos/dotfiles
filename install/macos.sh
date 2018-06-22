@@ -362,7 +362,7 @@ defaults write com.bohemiancoding.sketch3 exportCompactSVG -bool yes
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 
 # FileVault Service
-sudo fdesetup enable
+#sudo fdesetup enable
 
 # Enable Stealth Mode (Prevent others from discovering your Mac)
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on
