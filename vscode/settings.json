@@ -10,6 +10,7 @@
   "files.defaultLanguage": "markdown",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
   "prettier.eslintIntegration": true,
   "prettier.singleQuote": true,
