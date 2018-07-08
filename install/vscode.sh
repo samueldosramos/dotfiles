@@ -9,6 +9,7 @@ source ./install/utils.sh
 modules="
     formulahendry.auto-rename-tag
     CoenraadS.bracket-pair-colorizer
+    dsznajder.es7-react-js-snippets
     deerawan.vscode-dash
     EditorConfig.editorconfig
     dbaeumer.vscode-eslint
