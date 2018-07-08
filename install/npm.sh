@@ -11,6 +11,7 @@ fi
 
 # Packages
 npm install -g create-react-app
+npm install -g create-react-native-app
 npm install -g eslint
 npm install -g gulp-cli
 npm install -g http-server
