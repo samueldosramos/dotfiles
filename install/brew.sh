@@ -162,6 +162,8 @@ e_header "Installing Mac App Store applications..."
 #mas install 425424353   # The Unarchiver
 #mas install 1278508951  # Trello
 #mas install 492068728   # Yummy FTP Pro
+#mas install 824171161   # Affinity Designer
+
 
 # Finished this step
 sleep 1
