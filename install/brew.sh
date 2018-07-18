@@ -164,6 +164,7 @@ e_header "Installing Mac App Store applications..."
 #mas install 492068728   # Yummy FTP Pro
 #mas install 824171161   # Affinity Designer
 #mas install 824183456   # Affinity Photo
+#mas install 928871589   # Noizio
 
 
 # Finished this step
