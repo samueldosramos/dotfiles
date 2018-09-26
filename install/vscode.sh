@@ -21,6 +21,7 @@ modules="
     ritwickdey.liveserver
     zhuangtongfa.material-theme
     esbenp.prettier-vscode
+    eg2.tslint
 "
 
 for module in $modules; do
