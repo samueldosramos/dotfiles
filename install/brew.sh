@@ -152,6 +152,7 @@ e_header "Installing Mac App Store applications..."
 #mas install 409201541   # Pages
 #mas install 409183694   # Keynote
 #mas install 409203825   # Numbers
+#mas install 823766827   # Microsoft OneDrive
 #mas install 784801555   # Microsoft OneNote
 #mas install 961632517   # Be Focused Pro
 #mas install 1087284172  # Focus Matrix
