@@ -335,14 +335,8 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 # Disable the automatic update check
 defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool false
 
-# Install System data files & security updates
-defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1
-
 # Turn off app auto-update
 defaults write com.apple.commerce AutoUpdate -bool false
-
-# Allow the App Store to reboot machine on macOS updates
-defaults write com.apple.commerce AutoUpdateRestartRequired -bool true
 
 ###############################################################################
 # Photos                                                                      #
