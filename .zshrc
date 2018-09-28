@@ -129,6 +129,9 @@ alias macupdate="sudo softwareupdate -ia"
 # Open focus mode
 alias focus="open /Applications/{Magnet.app,Lungo.app,Be\ Focused\ Pro.app,Focus\ Matrix.app}"
 
+# Open work mode
+alias work="open /Applications/{Magnet.app,Be\ Focused\ Pro.app,Chrome.app,Visual\ Studio\ Code.app}"
+
 # List npm packages installed globally
 alias npmlist="npm list -g --depth=0"
 
