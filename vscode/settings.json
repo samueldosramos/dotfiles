@@ -1,4 +1,3 @@
-// Place your settings in this file to overwrite the default settings
 {
   "editor.formatOnSave": true,
   "editor.fontFamily": "Fira Code",
@@ -6,11 +5,9 @@
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "files.autoSave": "onFocusChange",
   "files.defaultLanguage": "markdown",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
   "prettier.eslintIntegration": true,
   "prettier.singleQuote": true,
