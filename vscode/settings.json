@@ -8,6 +8,7 @@
   "files.defaultLanguage": "markdown",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "liveServer.settings.CustomBrowser": "chrome",
   "liveServer.settings.donotShowInfoMsg": true,
   "prettier.eslintIntegration": true,
   "prettier.singleQuote": true,
