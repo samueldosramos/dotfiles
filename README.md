@@ -94,11 +94,9 @@ Before each script, an editor opens to configure your preferences.
 5.  Install Ruby gem Sass
 
 6.  Create a directory called Projects in Home directory for projects and development.
-    **Note:** After setting everything up and logging in to Dropbox, I usually delete the Projects folder in Mac and I create a symbolic link with the Projects folder I have in Dropbox:
 
 ```
 rm -rf ~/Projects/
-ln -s ~/Dropbox/Projects ~/Projects
 ```
 
 7.  Remove the installation zip and folder
@@ -109,12 +107,13 @@ ln -s ~/Dropbox/Projects ~/Projects
 
 #### Hostname:
 
-If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name.
+If you wish, you can use the following commands to rename your Mac, replacing _newname_ by the desired name (as done via System Preferences → Sharing).
 
 ```
 sudo scutil --set ComputerName "newname"
 sudo scutil --set LocalHostName "newname"
 sudo scutil --set HostName "newname"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "newname"
 ```
 
 #### iTerm2 - Change the color theme:
