@@ -33,7 +33,6 @@ e_success "Success! Brew and packages are installed."
 # Install Homebrew-Cask
 # Check out https://caskroom.github.io for more details
 e_header "Installing Homebrew-Cask for you."
-brew tap caskroom/cask
 brew tap caskroom/fonts
 brew tap caskroom/drivers
 brew tap caskroom/versions
