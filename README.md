@@ -43,7 +43,7 @@ _Check linked files to more details._
 
 ### Others files:
 
-* [setting.json](vscode/settings.json) - VSCode customization.
+* [settings.json](vscode/settings.json) - VSCode customization.
 
 ---
 
@@ -88,7 +88,7 @@ Before each script, an editor opens to configure your preferences.
 * [zsh.sh](install/zsh.sh) - install Zsh, Oh My Zsh, some Zsh plugins, font Hack Nerd Font, z and set Zsh as a default shell.
 * [macos.sh](install/macos.sh) - set custom macOS preferences.
 * [dock.sh](install/dock.sh) - set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
-* [vscode.sh](install/vscode.sh) - move/replace VSCode [settings.json](vscode/setting.json) and install some plugins.
+* [vscode.sh](install/vscode.sh) - move/replace VSCode [settings.json](vscode/settings.json) and install some plugins.
 * [npm.sh](install/npm.sh) - install npm packages.
 
 5.  Install Ruby gem Sass
