@@ -20,6 +20,7 @@ brew install dockutil                      # Command line tool for dock
 brew install git                           # Git client (more updated)
 brew install nano                          # GNU Nano (more updated)
 brew install node                          # Node.js client
+brew install nvm                           # Node version manager
 brew install python                        # Python language support
 brew install ruby                          # Ruby language (more updated)
 brew install unrar                         # RAR and ZIP file support
