@@ -138,6 +138,9 @@ alias npmlist="npm list -g --depth=0"
 # Update npm packages globally
 alias npmupdate="npm update -g"
 
+# Undo the last commit
+alias uncommit="git reset HEAD~1"
+
 # ========== Others custom resources ==========
 # Tracks most-used directories to make cd smarter
 #For more details: https://github.com/rupa/z
