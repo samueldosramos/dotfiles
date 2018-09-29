@@ -9,7 +9,7 @@
 alias update="brew update && brew upgrade && brew cu --all"
 
 # Cleanup Brew and Cask cache
-alias cleanup="brew cleanup && brew cask cleanup"
+alias cleanup="brew cleanup && brew cleanup"
 
 # Update macOS using Command Line Software Update Tool
 alias macupdate="sudo softwareupdate -ia"
@@ -47,5 +47,3 @@ export CLICOLOR="auto"
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
-
-

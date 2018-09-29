@@ -176,7 +176,7 @@ e_success "Success! Mac App Store command line interface and applications are in
 
 # Cleans up cached downloads
 e_header "Clearing the cache..."
-brew cleanup && brew cask cleanup
+brew cleanup && brew cleanup
 
 
 #Finish
