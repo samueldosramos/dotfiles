@@ -17,8 +17,17 @@ alias macupdate="sudo softwareupdate -ia"
 # Open focus mode
 alias focus="open /Applications/{Magnet.app,Lungo.app,Be\ Focused\ Pro.app,Focus\ Matrix.app}"
 
+# Open work mode
+alias work="open /Applications/{Magnet.app,Be\ Focused\ Pro.app,Chrome.app,Visual\ Studio\ Code.app,Slack.app}"
+
 # List npm packages installed globally
 alias npmlist="npm list -g --depth=0"
+
+# Update npm packages globally
+alias npmupdate="npm update -g"
+
+# Undo the last commit
+alias uncommit="git reset HEAD~1"
 
 # Show/hide hidden files in Finder
 alias showfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
