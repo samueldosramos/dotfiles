@@ -77,7 +77,7 @@ Before each script, an editor opens to configure your preferences.
 
       - Homebrew;
       - Homebrew apps;
-        * By default: Bash, Dockutil, Git, Nano, Node, Python, Ruby, Unrar, Yarn;
+        * By default: Bash, Dockutil, Git, Nano, Node, nvm, Python, Ruby, Unrar, Yarn;
       - Homebrew Cask;
       - Cask apps;
         * By default: Google Chrome, iTerm2, VSCode, Fira Code Font (you can uncomment or add other apps for installation);
