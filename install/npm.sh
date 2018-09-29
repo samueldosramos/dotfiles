@@ -16,6 +16,7 @@ npm install -g eslint
 npm install -g gulp-cli
 npm install -g http-server
 npm install -g json-server
+npm install -g sass
 
 #Finish
 e_success "Finished the npm packages installation"
