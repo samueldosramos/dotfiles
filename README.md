@@ -91,17 +91,11 @@ Before each script, an editor opens to configure your preferences.
 * [vscode.sh](install/vscode.sh) - move/replace VSCode [settings.json](vscode/settings.json) and install some plugins.
 * [npm.sh](install/npm.sh) - install npm packages.
 
-5.  Install Ruby gem Sass
+5.  Create a directory called Projects in Home directory for projects and development.
 
-6.  Create a directory called Projects in Home directory for projects and development.
+6.  Remove the installation zip and folder
 
-```
-rm -rf ~/Projects/
-```
-
-7.  Remove the installation zip and folder
-
-8.  Enable trimforce and reboot
+7.  Enable trimforce and reboot
 
 ### Setup after installation
 
