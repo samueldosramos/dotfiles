@@ -97,7 +97,7 @@ brew cask install font-fira-code           # Fira Code font
 ### Utility ###
 #brew cask install android-file-transfer    # For Android smartphone user's
 #brew cask install appcleaner               # App uninstall
-#brew cask install cleanmymac	               # Mac cleaning software
+#brew cask install cleanmymac	              # Mac cleaning software
 #brew cask install coconutbattery           # Battery health monitor
 #brew cask install istat-menus              # A advanced system monitor for menubar
 #brew cask install logitech-options         # Customize controls for Logitech products
