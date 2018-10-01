@@ -8,6 +8,10 @@ export ZSH=$HOME/.oh-my-zsh
 # Homebrew path
 export PATH="/usr/local/sbin:$PATH"
 
+# nvm path
+export NVM_DIR="$HOME/.nvm"
+source $(brew --prefix nvm)/nvm.sh
+
 # Support 256 colors path
 export TERM="xterm-256color"
 
