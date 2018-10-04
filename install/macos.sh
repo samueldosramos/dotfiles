@@ -193,6 +193,9 @@ defaults write com.apple.dock autohide -bool true
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
+
 # Speed up Mission Control animations
 defaults write com.apple.dock expose-animation-duration -float 0.1
 
