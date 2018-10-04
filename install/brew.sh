@@ -169,6 +169,7 @@ e_header "Installing Mac App Store applications..."
 #mas install 824183456   # Affinity Photo
 #mas install 928871589   # Noizio
 #mas install 747648890   # Telegram
+#mas install 1147396723  # WhatsApp Desktop
 
 
 # Finished this step
