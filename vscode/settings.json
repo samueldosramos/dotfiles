@@ -1,4 +1,5 @@
 {
+  "breadcrumbs.enabled": true,
   "editor.formatOnSave": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 14,
@@ -23,5 +24,6 @@
   "window.nativeTabs": true,
   "window.restoreWindows": "none",
   "workbench.iconTheme": "file-icons",
-  "workbench.colorTheme": "One Dark Pro Vivid"
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "workbench.editor.highlightModifiedTabs": true
 }
