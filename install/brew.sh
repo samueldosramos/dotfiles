@@ -74,6 +74,7 @@ brew cask install font-fira-code           # Fira Code font
 ### Player ###
 #brew cask install iina                     # Media player
 #brew cask install deezer                   # Deezer client
+#brew cask install marshallofsound-google-play-music-player  # Google Play Music Desktop Player
 #brew cask install spotify                  # Spotify client
 #brew cask install vlc                      # Media player
 
