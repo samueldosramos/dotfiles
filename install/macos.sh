@@ -114,11 +114,11 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Finder: don't show status bar
 defaults write com.apple.finder ShowStatusBar -bool false
 
-# Finder: don't show path bar
-defaults write com.apple.finder ShowPathbar -bool false
+# Finder: show path bar
+defaults write com.apple.finder ShowPathbar -bool true
 
-# Display full POSIX path as Finder window title
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+# Don't display full POSIX path as Finder window title
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool false
 
 # Keep folders on top when sorting by name
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
