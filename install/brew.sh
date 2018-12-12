@@ -99,6 +99,7 @@ brew cask install font-fira-code           # Fira Code font
 
 ### Utility ###
 #brew cask install android-file-transfer    # For Android smartphone user's
+#brew cask install adguard                  # Ad blocker
 #brew cask install appcleaner               # App uninstall
 #brew cask install cleanmymac	              # Mac cleaning software
 #brew cask install coconutbattery           # Battery health monitor
