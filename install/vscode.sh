@@ -8,17 +8,15 @@ source ./install/utils.sh
 # from `code --list-extensions`
 modules="
     formulahendry.auto-rename-tag
-    CoenraadS.bracket-pair-colorizer
-    dsznajder.es7-react-js-snippets
+    coenraads.bracket-pair-colorizer-2
     deerawan.vscode-dash
-    EditorConfig.editorconfig
+    editorConfig.editorconfig
+    dsznajder.es7-react-js-snippets
     dbaeumer.vscode-eslint
     file-icons.file-icons
-    codezombiech.gitignore
+    ecmel.vscode-html-css
     bradgashler.htmltagwrap
     kisstkondoros.vscode-gutter-preview
-    Zignd.html-css-class-completion
-    ritwickdey.liveserver
     zhuangtongfa.material-theme
     esbenp.prettier-vscode
     eg2.tslint
