@@ -116,7 +116,7 @@ fi
 
 # Create a directory for projects and development
 e_header "Creating Projects directory in Home"
-mkdir ${HOME}/Projects
+mkdir ${HOME}/Developer
 
 # Remove the installation zip and folder
 e_header "Removing unnecessary files"
