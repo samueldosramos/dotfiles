@@ -54,6 +54,7 @@ brew cask install google-chrome            # Chrome browser
 #brew cask install atom                     # Code editor
 #brew cask install boostnote                # Note-taking for programmers
 #brew cask install adobe-creative-cloud     # Adobe creative cloud
+#brew cask install coderunner               # Code editor
 #brew cask install dash                     # Offline documentations
 #brew cask install devdocs                  # Offline documentations
 #brew cask install imageoptim               # Images optimizer
