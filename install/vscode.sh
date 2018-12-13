@@ -19,7 +19,7 @@ modules="
     kisstkondoros.vscode-gutter-preview
     zhuangtongfa.material-theme
     esbenp.prettier-vscode
-    eg2.tslint
+    ms-vscode.vscode-typescript-tslint-plugin
 "
 
 for module in $modules; do
