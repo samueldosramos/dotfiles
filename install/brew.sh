@@ -175,6 +175,7 @@ e_header "Installing Mac App Store applications..."
 #mas install 747648890   # Telegram
 #mas install 1147396723  # WhatsApp Desktop
 #mas install 955297617   # CodeRunner
+#mas install 732710998   # Enpass
 
 
 # Finished this step
