@@ -68,7 +68,7 @@ fi
 # Ask before potentially overwriting macOS defaults
 seek_confirmation "Warning: This step may modify your macOS system defaults."
 if is_confirmed; then
-    e_header "Please, configure you settings before installation.\n Dont restart the Mac in this step"
+    e_header "Please, configure you settings before installation. Dont restart the Mac in this step"
     nano ${DOTFILES_DIRECTORY}/install/macos.sh
     bash ./install/macos.sh
     e_success "macOS settings updated! You may need to restart."
