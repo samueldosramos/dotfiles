@@ -160,7 +160,7 @@ e_header "Installing Mac App Store applications..."
 #mas install 784801555   # Microsoft OneNote
 #mas install 961632517   # Be Focused Pro
 #mas install 1087284172  # Focus Matrix
-#mas install 1005088137  # Instant Translate
+#mas install 1005088137  # Mate Translate
 #mas install 405772121   # LittleIpsum
 #mas install 1263070803  # Lungo
 #mas install 441258766   # Magnet
