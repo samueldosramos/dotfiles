@@ -17,6 +17,7 @@ modules="
     ecmel.vscode-html-css
     bradgashler.htmltagwrap
     kisstkondoros.vscode-gutter-preview
+    orta.vscode-jest
     zhuangtongfa.material-theme
     esbenp.prettier-vscode
     ms-vscode.vscode-typescript-tslint-plugin
