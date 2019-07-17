@@ -2,7 +2,6 @@
 #
 # Bash profile with paths and aliases
 
-
 # ========== Aliases ==========
 # Update Brew and Cask formulaes
 # Include -f to update apps that are marked as latest

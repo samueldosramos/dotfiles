@@ -3,6 +3,8 @@
 # ~/.macos — https://mths.be/macos
 # Turn your preferences on/off before installation
 
+source ./install/utils.sh
+keep_sudo_alive
 
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
@@ -365,3 +367,6 @@ sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 
 # Enable Stealth Mode (Prevent others from discovering your Mac)
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on
+
+# Finish
+e_success "macOS settings updated."

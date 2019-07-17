@@ -18,7 +18,7 @@ export TERM="xterm-256color"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL9K_MODE="nerdfont-complete"
 POWERLEVEL9K_MODE='awesome-fontconfig'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir vcs)
@@ -89,6 +89,7 @@ source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fpath=(/usr/local/share/zsh-completions $fpath)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+autoload -Uz compinit
 
 # User configuration
 
@@ -144,6 +145,9 @@ alias npmupdate="npm update -g"
 
 # Undo the last commit
 alias uncommit="git reset HEAD~1"
+
+# Source .zshrc
+alias zshup="source ~/.zshrc"
 
 # ========== Others custom resources ==========
 # Tracks most-used directories to make cd smarter
