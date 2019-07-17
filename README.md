@@ -23,8 +23,6 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 - Import to multiple computers;
 - Customize the terminal.
 
----
-
 ## Features
 
 _Check linked files to more details._
@@ -50,8 +48,6 @@ _Check linked files to more details._
 
 **Note:** _These files are permanent._
 
----
-
 ## Installation:
 
 ```
@@ -60,7 +56,7 @@ git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 ./install/setup.sh
 ```
 
-You can also download a specific [release](https://github.com/samuelramox/dotfiles/releases).
+**Note:** You can also download a specific [release](https://github.com/samuelramox/dotfiles/releases).
 
 ### Explaining the process
 
@@ -84,8 +80,6 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
 - Create a directory called _Developer_ in _Home_ directory for projects and development.
 - Cleanup cached downloads and remove the installation zip and folder.
 - Enable _trimforce_ and reboot.
-
----
 
 ## Manual setup after installation
 
@@ -123,8 +117,6 @@ Code → Preference → Settings (or CMD + ,) and add or edit the following valu
 `"terminal.integrated.fontFamily": "Hack Nerd Font"`
 `"terminal.integrated.fontSize": 14`
 
----
-
 ## Some images:
 
 Standard installation (can be configured):
@@ -138,8 +130,6 @@ iTerm2 with Zsh, Oh My Zsh and Solarized Dark theme:
 
 Terminal.app with Bash:
 ![Terminal.app print](./images/Terminal_01.png)
-
----
 
 ## Resources:
 
