@@ -60,7 +60,7 @@ git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 ./install/setup.sh
 ```
 
-You can also download a specific [release](https://github.com/samuelramox/dotfiles/releases)
+You can also download a specific [release](https://github.com/samuelramox/dotfiles/releases).
 
 ### Explaining the process
 
