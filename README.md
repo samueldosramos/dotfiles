@@ -113,22 +113,22 @@ Terminal → Preferences → Geral → Shells open with → Command (full path) 
 
 ### Visual Studio Code config:
 
-Code → Preference → Settings (or CMD + ,) and add or edit the following values:
-`"terminal.integrated.fontFamily": "Hack Nerd Font"`
-`"terminal.integrated.fontSize": 14`
+Code → Preference → Settings (or CMD + ,) and add or edit the following values:  
+`"terminal.integrated.fontFamily": "Hack Nerd Font"`  
+`"terminal.integrated.fontSize": 14`  
 
 ## Some images:
 
-Standard installation (can be configured):
+Standard installation (can be configured):  
 ![macOS print](./images/macOS_01.png)
 ![macOS print](./images/macOS_02.png)
 
-iTerm2 with Zsh, Oh My Zsh and Solarized Dark theme:
+iTerm2 with Zsh, Oh My Zsh and Solarized Dark theme:  
 ![iTerm2 print](./images/iTerm2_01.png)
 
 ![iTerm2 print](./images/iTerm2_02.png)
 
-Terminal.app with Bash:
+Terminal.app with Bash:  
 ![Terminal.app print](./images/Terminal_01.png)
 
 ## Resources:
