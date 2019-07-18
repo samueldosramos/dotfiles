@@ -146,6 +146,12 @@ alias npmupdate="npm update -g"
 # Undo the last commit
 alias uncommit="git reset HEAD~1"
 
+# Copy ssh
+alias copyssh="clip < ~/.ssh/id_rsa.pub | echo '=> Public key copied to pasteboard.'"
+
+# Open .zshrc in VSCode
+alias zshconfig="code ~/.zshrc"
+
 # Source .zshrc
 alias zshup="source ~/.zshrc"
 
