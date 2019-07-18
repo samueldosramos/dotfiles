@@ -48,12 +48,12 @@ else
 fi
 
 # Generate ssh
-seek_confirmation "Warning: This step generate ssh"
+seek_confirmation "Warning: This step generate SSH"
 if is_confirmed; then
     generate_ssh
-    e_warning "After finishing the installation, use copyssh command to copy the ssh key to the clipboard."
+    e_warning "After finishing the installation, use copyssh command to copy the SSH key to the clipboard."
 else
-    e_warning "Skipped ssh settings."
+    e_warning "Skipped SSH settings."
 fi
 
 # Hostname
