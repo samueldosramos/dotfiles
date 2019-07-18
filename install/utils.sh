@@ -59,10 +59,3 @@ DOTFILES_DIRECTORY="$PWD"
 replace() {
   mv -f "${DOTFILES_DIRECTORY}/${1}" "${HOME}/${2}"
 }
-
-# Generate ssh key
-generate_ssh() {
-    ask "Please provide an email address: " && printf "\n"
-    ssh-keygen -t rsa -b 4096 -C "$REPLY"
-    e_success "Generate SSH keys"
-}
