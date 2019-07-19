@@ -1,5 +1,7 @@
 #!/bin/bash
 #
+# mascOS setup script
+# Font: https://github.com/samuelramox/dotfiles
 # Main install script
 
 source ./install/utils.sh
