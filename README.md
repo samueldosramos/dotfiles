@@ -98,7 +98,7 @@ By default, word jumps (option + → or ←) and word deletions (option + backsp
 ### Visual Studio Code config:
 
 Code → Preference → Settings (or CMD + ,) and add or edit the following values:  
-`"terminal.integrated.fontFamily": "Hack Nerd Font"`
+`"terminal.integrated.fontFamily": "Hack Nerd Font"`  
 `"terminal.integrated.fontSize": 14`
 
 ## Screenshot:
