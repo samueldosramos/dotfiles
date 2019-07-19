@@ -27,7 +27,7 @@ brew cask install font-hack-nerd-font
 # Install Powerlevel10k theme
 # See more: https://github.com/romkatv/powerlevel10k
 # See more: https://github.com/romkatv/gitstatus
-git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 
 # Install Z - jump around
 brew install z

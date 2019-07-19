@@ -147,7 +147,7 @@ alias npmupdate="npm update -g"
 alias uncommit="git reset HEAD~1"
 
 # Copy ssh
-alias copyssh="clip < ~/.ssh/id_rsa.pub | echo '=> Public key copied to pasteboard.'"
+alias copyssh="pbcopy < ~/.ssh/id_rsa.pub | echo '=> Public key copied to pasteboard.'"
 
 # Open .zshrc in VSCode
 alias zshconfig="code ~/.zshrc"
