@@ -63,14 +63,14 @@ fi
 # Hostname
 seek_confirmation "Warning: This step update hostname (MacBook name)"
 if is_confirmed; then
-  ask "Please provide an host name: " && printf "\n"
+  ask "Please provide an hostname (MacBook name): " && printf "\n"
   sudo scutil --set ComputerName "$REPLY"
   sudo scutil --set LocalHostName "$REPLY"
   sudo scutil --set HostName "$REPLY"
   sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$REPLY"
   e_success "Hostname is updated."
 else
-  e_warning "Skipped ssh settings."
+  e_warning "Skipped hostname settings."
 fi
 
 # Create a directory for projects and development
