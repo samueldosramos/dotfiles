@@ -33,7 +33,6 @@ git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/theme
 brew install z
 
 # Move/replace setting files to /Home
-replace ".bash_profile"     ".bash_profile"
 replace ".gitconfig"        ".gitconfig"
 replace ".gitignore_global" ".gitignore_global"
 replace ".zshrc"            ".zshrc"
