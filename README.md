@@ -8,7 +8,7 @@ This is a simple dotfiles and scripts to setup _macOS_.
 1. [Features](#features)
 1. [Installation](#installation)
 1. [Manual setup after installation](#manual-setup-after-installation)
-1. [Some images](#some-images)
+1. [Screenshot](#screenshot)
 1. [Resources](#resources)
 
 ## What are dotfiles
@@ -113,23 +113,14 @@ Terminal → Preferences → Geral → Shells open with → Command (full path) 
 
 ### Visual Studio Code config:
 
-Code → Preference → Settings (or CMD + ,) and add or edit the following values:  
-`"terminal.integrated.fontFamily": "Hack Nerd Font"`  
-`"terminal.integrated.fontSize": 14`  
+Code → Preference → Settings (or CMD + ,) and add or edit the following values:
+`"terminal.integrated.fontFamily": "Hack Nerd Font"`
+`"terminal.integrated.fontSize": 14`
 
-## Some images:
+## Screenshot:
 
-Standard installation (can be configured):  
-![macOS print](./images/macOS_01.png)
-![macOS print](./images/macOS_02.png)
-
-iTerm2 with Zsh, Oh My Zsh and Solarized Dark theme:  
-![iTerm2 print](./images/iTerm2_01.png)
-
-![iTerm2 print](./images/iTerm2_02.png)
-
-Terminal.app with Bash:  
-![Terminal.app print](./images/Terminal_01.png)
+Standard installation (can be configured):
+![macOS print](./images/macOS.png)
 
 ## Resources:
 
