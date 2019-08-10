@@ -1,10 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# --------------------------- Custom paths ------------------------------------
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-# ========== Custom paths ==========
 # Homebrew path
 export PATH="/usr/local/sbin:$PATH"
 
@@ -15,6 +15,7 @@ source $(brew --prefix nvm)/nvm.sh
 # Support 256 colors path
 export TERM="xterm-256color"
 
+# ------------------------------ Theme ----------------------------------------
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -33,6 +34,7 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
 # An empty array have no effect
 ZSH_THEME_RANDOM_CANDIDATES=( "agnoster" "robbyrussell" )
 
+# ----------------------------- Options ---------------------------------------
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -71,6 +73,7 @@ DISABLE_AUTO_UPDATE="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# ----------------------------- Plugins ---------------------------------------
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -85,14 +88,17 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# ========== External plugins (via Brew) ==========
+# --------------------- External plugins (via Brew) ---------------------------
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fpath=(/usr/local/share/zsh-completions $fpath)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -Uz compinit
 
-# User configuration
+# Tracks most-used directories to make cd smarter
+#For more details: https://github.com/rupa/z
+source /usr/local/etc/profile.d/z.sh
 
+# ------------------------- User configuration --------------------------------
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -120,7 +126,7 @@ autoload -Uz compinit
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# ========== Custom aliases ==========
+# --------------------------- Custom aliases ----------------------------------
 # Update Brew and Cask formulaes
 # Include -f to update apps that are marked as latest
 alias update="brew update && brew upgrade && brew cu --all"
@@ -154,8 +160,3 @@ alias zshconfig="code ~/.zshrc"
 
 # Source .zshrc
 alias zshup="source ~/.zshrc"
-
-# ========== Others custom resources ==========
-# Tracks most-used directories to make cd smarter
-#For more details: https://github.com/rupa/z
-source /usr/local/etc/profile.d/z.sh
