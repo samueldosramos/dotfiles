@@ -68,7 +68,7 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
   - Install Homebrew;
   - Homebrew apps: Bash, Git, Nano, Node, nvm, Python, Ruby, Unrar, Yarn;
   - Homebrew cask fonts: caskroom/fonts, caskroom/drivers, caskroom/versions;
-  - Homebrew casks: Adguard, Adobe Creative Cloud, Clean My Mac 3, Dash, Font Fira Code, Franz, Google Chrome, Iina, Istat Menus, iTerm2, Paragon NTFS, PDF Expert, Qbittorrent, Spotify and VSCode;
+  - Homebrew casks: Adguard, Adobe Creative Cloud, Clean My Mac 3, Dash, Font Fira Code, Google Chrome, Iina, Istat Menus, iTerm2, Paragon NTFS, PDF Expert, Qbittorrent, Spotify and VSCode;
   - Homebrew Cask Upgrade;
 
 - [dotfiles.sh](install/dotfiles.sh) - install Zsh, Oh My Zsh, some Zsh plugins, Powerlevel10k theme, font Hack Nerd Font and z. Open [gitconfig](.gitconfig) so that the user can put his data.
