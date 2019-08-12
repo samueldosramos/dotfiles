@@ -34,7 +34,6 @@ brew cask install adobe-creative-cloud
 brew cask install cleanmymac3
 brew cask install dash
 brew cask install font-fira-code
-brew cask install franz
 brew cask install google-chrome
 brew cask install iina
 brew cask install istat-menus
