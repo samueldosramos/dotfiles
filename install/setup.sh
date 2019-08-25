@@ -87,14 +87,5 @@ rm -rf ${HOME}/dotfiles.tar.gz
 rm -rf ${HOME}/dotfiles.zip
 rm -rf ${DOTFILES_DIRECTORY}
 
-seek_confirmation "Warning: This step enable trimforce for SSD. Only required if you use third-party SSDs."
-if is_confirmed; then
-  e_header "Enabling trimforce..."
-  sudo trimforce enable
-  e_success "Trimforce is enabled! Rebooting..."
-else
-  e_warning "Skipped trimforce update."
-fi
-
 # Finish
 e_success "Reboot and enjoy!"
