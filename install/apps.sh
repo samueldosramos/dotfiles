@@ -50,6 +50,9 @@ brew update
 brew cu
 
 # VScode extension Settings Sync install
+open -a Visual\ Studio\ Code.app
+sleep 2
+kill -9 $(pgrep Electron)
 code --install-extension "shan.code-settings-sync"
 
 # Finish
