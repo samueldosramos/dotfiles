@@ -31,7 +31,6 @@ brew tap caskroom/versions
 # Install Homebrew casks
 brew cask install adguard
 brew cask install adobe-creative-cloud
-brew cask install cleanmymac3
 brew cask install dash
 brew cask install font-fira-code
 brew cask install google-chrome
