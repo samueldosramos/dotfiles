@@ -23,10 +23,10 @@ brew install ruby
 brew install unrar
 brew install yarn
 
-# Install Homebrew cask fonts
-brew tap caskroom/fonts
-brew tap caskroom/drivers
-brew tap caskroom/versions
+# Install Homebrew taps
+brew tap homebrew/cask-fonts
+brew tap homebrew/cask-versions
+brew tap homebrew/cask-drivers
 
 # Install Homebrew casks
 brew cask install adguard
