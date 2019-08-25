@@ -13,9 +13,9 @@ brew install zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 # Install some external plugins:
-brew install zsh-autosuggestions           # Additional suggestions for Zsh
-brew install zsh-completions               # Additional completions for Zsh
-brew install zsh-syntax-highlighting       # Additional syntax-highlighting for Zsh
+brew install zsh-autosuggestions
+brew install zsh-completions
+brew install zsh-syntax-highlighting
 
 # Set Zsh as your default shell:
 chsh -s /bin/zsh
