@@ -68,7 +68,7 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
   - Install Homebrew;
   - Homebrew apps: Bash, Git, Nano, Node, nvm, Python, Ruby, Unrar, Yarn;
   - Homebrew cask fonts: caskroom/fonts, caskroom/drivers, caskroom/versions;
-  - Homebrew casks: Adguard, Adobe Creative Cloud, CleanMyMac 3, Dash, Font Fira Code, Google Chrome, IINA, iStat Menus, iTerm2, Paragon NTFS, PDF Expert, qBittorrent, Spotify and VSCode;
+  - Homebrew casks: Adguard, Adobe Creative Cloud, Dash, Font Fira Code, Google Chrome, IINA, iStat Menus, iTerm2, Paragon NTFS, PDF Expert, qBittorrent, Spotify and VSCode;
   - Homebrew Cask Upgrade;
 
 - [dotfiles.sh](install/dotfiles.sh) - install Zsh, Oh My Zsh, some Zsh plugins, Powerlevel10k theme, font Hack Nerd Font and z. Open [gitconfig](.gitconfig) so that the user can put his data.
@@ -79,7 +79,6 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
 - Update _hostname_ (MacBook name).
 - Create a directory called _Developer_ in _Home_ directory for projects and development.
 - Cleanup cached downloads and remove the installation zip and folder.
-- Enable _trimforce_ and reboot.
 
 ## Manual setup after installation
 
