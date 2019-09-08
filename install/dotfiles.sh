@@ -1,13 +1,10 @@
 #!/bin/bash
 #
-# Install Zsh and set as default shell
+# Install oh-my-zsh and set dotfiles
 # Install dotfiles and configure git
 
 source ./install/utils.sh
 keep_sudo_alive
-
-# Install Zsh:
-brew install zsh
 
 # Install oh-my-zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
@@ -17,17 +14,15 @@ brew install zsh-autosuggestions
 brew install zsh-completions
 brew install zsh-syntax-highlighting
 
-# Set Zsh as your default shell:
-chsh -s /bin/zsh
+# Install Spaceship ZSH theme
+# See more: https://denysdovhan.com/spaceship-prompt/
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
-# Install iconic font for Zsh
-# See more: https://nerdfonts.com/
-brew cask install font-hack-nerd-font
-
-# Install Powerlevel10k theme
-# See more: https://github.com/romkatv/powerlevel10k
-# See more: https://github.com/romkatv/gitstatus
-git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+# Install Dracula theme for iTerm2 and Terminal.app
+# See more: https://draculatheme.com
+git clone https://github.com/dracula/iterm.git ~/.iterm2-theme
+git clone https://github.com/dracula/terminal-app.git ~/.terminal-theme
 
 # Install Z - jump around
 brew install z

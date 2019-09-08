@@ -13,7 +13,6 @@ brew update
 brew upgrade
 
 # Install Homebrew formulaes
-brew install bash
 brew install git
 brew install nano
 brew install node
@@ -22,11 +21,12 @@ brew install python
 brew install ruby
 brew install unrar
 brew install yarn
+brew install zsh
 
 # Install Homebrew taps
 brew tap homebrew/cask-fonts
-brew tap homebrew/cask-versions
 brew tap homebrew/cask-drivers
+brew tap homebrew/cask-versions
 
 # Install Homebrew casks
 brew cask install adguard
@@ -35,7 +35,6 @@ brew cask install dash
 brew cask install font-fira-code
 brew cask install google-chrome
 brew cask install iina
-brew cask install istat-menus
 brew cask install iterm2
 brew cask install paragon-ntfs
 brew cask install pdf-expert

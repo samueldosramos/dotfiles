@@ -342,14 +342,6 @@ defaults write com.apple.commerce AutoUpdate -bool false
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 ###############################################################################
-# Fonts                                                                       #
-###############################################################################
-
-# Get SF Mono Fonts
-# From Sierra onward, they are included in Terminal.app.
-cp -v /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/SFMono-* ~/Library/Fonts &> /dev/null
-
-###############################################################################
 # Security                                                                    #
 ###############################################################################
 
