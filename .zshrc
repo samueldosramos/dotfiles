@@ -19,20 +19,24 @@ export TERM="xterm-256color"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL9K_MODE="nerdfont-complete"
-POWERLEVEL9K_MODE='awesome-fontconfig'
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status)
-POWERLEVEL9K_ROOT_ICON="#"
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
+ZSH_THEME="spaceship"
+SPACESHIP_PROMPT_ORDER=(
+  jobs          # Background jobs indicator
+  exit_code     # Exit code section
+  char          # Prompt character
+)
+SPACESHIP_USER_SHOW=always
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_CHAR_SYMBOL="❯"
+SPACESHIP_CHAR_SYMBOL_ROOT="#"
+SPACESHIP_CHAR_SUFFIX=" "
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
 # looking in ~/.oh-my-zsh/themes/
 # An empty array have no effect
-ZSH_THEME_RANDOM_CANDIDATES=( "agnoster" "robbyrussell" )
+# ZSH_THEME_RANDOM_CANDIDATES=( "agnoster" "robbyrussell" )
 
 # ----------------------------- Options ---------------------------------------
 # Uncomment the following line to use case-sensitive completion.
@@ -82,8 +86,10 @@ plugins=(
   colored-man-pages
   extract
   git
-  github
+  npm
   osx
+  sudo
+  zsh_reload
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -154,6 +160,3 @@ alias copyssh="pbcopy < ~/.ssh/id_rsa.pub | echo '=> Public key copied to pasteb
 
 # Open .zshrc in VSCode
 alias zshconfig="code ~/.zshrc"
-
-# Source .zshrc
-alias zshup="source ~/.zshrc"
