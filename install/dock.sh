@@ -18,8 +18,8 @@ dockutil --no-restart --add "/Applications/Safari.app"
 dockutil --no-restart --add "/Applications/Google Chrome.app"
 dockutil --no-restart --add "/Applications/iTerm.app"
 dockutil --no-restart --add "/Applications/Visual Studio Code.app"
-dockutil --no-restart --add "/Applications/Microsoft To-Do.app"
-dockutil --no-restart --add "/Applications/Podcasts"
+dockutil --no-restart --add "/Applications/Reminders.app"
+dockutil --no-restart --add "/Applications/Notes.app"
 killall Dock
 
 # Finish
