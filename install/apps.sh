@@ -39,7 +39,6 @@ brew cask install iterm2
 brew cask install paragon-ntfs
 brew cask install pdf-expert
 brew cask install qbittorrent
-brew cask install spotify
 brew cask install visual-studio-code
 
 # Install Homebrew Cask Upgrade
