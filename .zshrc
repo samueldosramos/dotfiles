@@ -90,6 +90,7 @@ plugins=(
   osx
   sudo
   zsh_reload
+  z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -102,10 +103,6 @@ autoload -Uz compinit
 
 # zsh-autosuggestions color
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=12"
-
-# Tracks most-used directories to make cd smarter
-#For more details: https://github.com/rupa/z
-source /usr/local/etc/profile.d/z.sh
 
 # ------------------------- User configuration --------------------------------
 # export MANPATH="/usr/local/man:$MANPATH"

@@ -24,9 +24,6 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 git clone https://github.com/dracula/iterm.git ~/.iterm2-theme
 git clone https://github.com/dracula/terminal-app.git ~/.terminal-theme
 
-# Install Z - jump around
-brew install z
-
 # Move/replace setting files to /Home
 replace ".gitconfig"        ".gitconfig"
 replace ".gitignore_global" ".gitignore_global"
