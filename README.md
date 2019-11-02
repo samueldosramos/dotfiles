@@ -37,7 +37,7 @@ _Check linked files to more details._
 - [setup.sh](install/setup.sh) - main installer.
 - [util.sh](install/util.sh) - support functions for other installers.
 
-**Note:** _These files will be discarded later._
+**Note:** _These files will be discarded later._  
 
 ### Settings Files:
 
@@ -45,7 +45,7 @@ _Check linked files to more details._
 - [gitignore_global](.gitignore_global) - global gitignore.
 - [zshrc](.zshrc) - terminal configs with aliases, paths, plugins and theme.
 
-**Note:** _These files are permanent._
+**Note:** _These files are permanent._. 
 
 ## Installation:
 
@@ -59,7 +59,7 @@ git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 
 ### Explaining the process
 
-The [setup.sh](install/setup.sh) process will ask if you want to install the following scripts, in this order:
+The [setup.sh](install/setup.sh) process will ask if you want to install the following scripts, in this order:   
 **Note:** I suggest you read these files and turn your preferences on/off before installation.
 
 - [apps.sh](install/apps.sh) - install _Homebrew_, _Cask Upgrade_ and applications.
@@ -96,9 +96,9 @@ By default, word jumps (option + → or ←) and word deletions (option + backsp
 
 ### Visual Studio Code config:
 
-Code → Preference → Settings (or CMD + ,) and add or edit the following values:  
-`"terminal.integrated.fontFamily": "Fira Code"`  
-`"terminal.integrated.fontSize": 14`
+Code → Preference → Settings (or CMD + ,) and add or edit the following values:    
+`"terminal.integrated.fontFamily": "Fira Code"`    
+`"terminal.integrated.fontSize": 14`  
 
 ## Screenshot:
 
