@@ -84,7 +84,7 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
 
 ### iTerm2 - Change the color theme:  
 
-iTerm → Preferences → Profiles → Colors → Color presets. I use Solarized Dark theme.
+iTerm → Preferences → Profiles → Colors → Color presets. I use [Dracula](https://draculatheme.com) theme.
 
 ### iTerm2 - Change font:  
 
