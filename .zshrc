@@ -104,6 +104,9 @@ autoload -Uz compinit
 # zsh-autosuggestions color
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=12"
 
+# Homebrew Command Not Found
+if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)"; fi
+
 # ------------------------- User configuration --------------------------------
 # export MANPATH="/usr/local/man:$MANPATH"
 

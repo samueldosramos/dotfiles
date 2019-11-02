@@ -27,6 +27,7 @@ brew install zsh
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-drivers
 brew tap homebrew/cask-versions
+brew tap homebrew/command-not-found
 
 # Install Homebrew casks
 brew cask install adguard
