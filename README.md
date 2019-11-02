@@ -116,3 +116,4 @@ Standard installation (can be configured):
 - [Awesome OSX Command Line](https://github.com/herrbischoff/awesome-osx-command-line)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Spaceship ZSH](https://denysdovhan.com/spaceship-prompt/)
+- [Dracula Theme](https://draculatheme.com)
