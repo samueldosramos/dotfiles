@@ -24,6 +24,18 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 defaults write -g NSDocumentSaveNewDocumentsToCloud -bool false
 
 ###############################################################################
+# General UI/UX
+###############################################################################
+
+# Set dark interface style
+# Note: To use this command, change AppleInterfaceStyleSwitchesAutomatically (next command) to "false"
+# Options: "Dark" or "Light"
+#defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
+
+# Set automatic interface style
+defaults write -globalDomain AppleInterfaceStyleSwitchesAutomatically -bool true
+
+###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input
 ###############################################################################
 
