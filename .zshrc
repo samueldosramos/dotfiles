@@ -104,6 +104,11 @@ autoload -Uz compinit
 # zsh-autosuggestions color
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=12"
 
+# Homebrew Shell Completion
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
 # Homebrew Command Not Found
 if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)"; fi
 
