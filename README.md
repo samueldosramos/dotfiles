@@ -1,6 +1,6 @@
-# Simple Dotfiles
+# macOS Dotfiles
 
-This is a simple dotfiles and scripts to setup _macOS_.
+This is a simple and flexible dotfiles and scripts to setup _macOS_.
 
 ## Table of Contents
 
