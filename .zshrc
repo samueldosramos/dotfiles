@@ -93,24 +93,28 @@ plugins=(
   z
 )
 
-source $ZSH/oh-my-zsh.sh
-
-# --------------------- External plugins (via Brew) ---------------------------
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-fpath=(/usr/local/share/zsh-completions $fpath)
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-autoload -Uz compinit
-
-# zsh-autosuggestions color
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=12"
+# External plugins (installed by Homebrew)
+# Homebrew Command Not Found
+if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)"; fi
 
 # Homebrew Shell Completion
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
 
-# Homebrew Command Not Found
-if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)"; fi
+# zsh-autosuggestions
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# zsh-autosuggestions color
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=12"
+
+# zsh-completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+# zsh-syntax-highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+source $ZSH/oh-my-zsh.sh
 
 # ------------------------- User configuration --------------------------------
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -141,11 +145,11 @@ if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew comma
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # --------------------------- Custom aliases ----------------------------------
-# Update Brew and Cask formulaes
+# Update Homebrew and Cask formulaes
 # Include -f to update apps that are marked as latest
 alias update="brew update && brew upgrade && brew cu --all"
 
-# Cleanup Brew and Cask cache
+# Cleanup Homebrew and Cask cache
 alias cleanup="brew cleanup"
 
 # Update macOS using Command Line Software Update Tool
