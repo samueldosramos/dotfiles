@@ -30,7 +30,7 @@ _Check linked files to more details._
 ### Installation files:
 
 - [apps.sh](install/apps.sh) - installs Homebrew, Homebrew Cask Upgrade and some apps.
-- [dock.sh](install/dock.sh) - dock customization.
+- [dock.sh](install/dock.sh) - macOS Dock items customization.
 - [dotfiles.sh](install/dotfiles.sh) - Oh My Zsh installer and git configs.
 - [macos.sh](install/macos.sh) - macOS defaults configs.
 - [npm.sh](install/npm.sh) - install npm packages.
@@ -84,7 +84,7 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
 
 ## Manual setup
 
-[iTerm2](https://iterm2.com) settings are changed by [dotfiles.sh](install/dotfiles.sh), but you can change them manually if you prefer. My VSCode settings are loaded by the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension, so you will have to change manually or load your settings.
+[iTerm2](https://iterm2.com) settings are changed by [dotfiles.sh](install/dotfiles.sh), but you can change them manually if you prefer. My [Visual Studio Code](https://code.visualstudio.com) settings are loaded by the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension, so you will have to change manually or load your settings.
 
 ### iTerm2 - Change the color theme:
 
@@ -100,9 +100,9 @@ By default, word jumps (option + → or ←) and word deletions (option + backsp
 
 ### Visual Studio Code config:
 
-Code → Preference → Settings (or CMD + ,) and add or edit the following values:
-`"terminal.integrated.fontFamily": "Fira Code"`
-`"terminal.integrated.fontSize": 14`
+Code → Preference → Settings (or CMD + ,) and add or edit the following values:   
+`"terminal.integrated.fontFamily": "Fira Code"`    
+`"terminal.integrated.fontSize": 14`     
 
 ## Screenshot:
 
