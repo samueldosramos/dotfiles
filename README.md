@@ -60,10 +60,10 @@ git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 
 ### Explaining the process
 
-The [setup.sh](install/setup.sh) process will ask if you want to install the following scripts, in this order:
+The [setup.sh](install/setup.sh) process will ask if you want to install the following scripts, in this order:  
 **Note:** I suggest you read these files and turn your preferences on/off before installation.
 
-- [apps.sh](install/apps.sh) - install _Homebrew_, _Cask Upgrade_ and applications.
+- [apps.sh](install/apps.sh) - install _Homebrew_, _Homebrew Cask Upgrade_ and applications.
   I suggest you comment apps that should not be installed and include those that are not listed. This script will install in the following order:
 
   - Install [Homebrew](https://brew.sh/);
