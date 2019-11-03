@@ -27,13 +27,11 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 
 _Check linked files to more details._
 
-### Installation files:
-
-- [apps.sh](install/apps.sh) - installs Homebrew, Homebrew Cask Upgrade and some apps.
+- [apps.sh](install/apps.sh) - installs _Homebrew_, _Homebrew Cask Upgrade_ and some _apps_.
 - [dock.sh](install/dock.sh) - macOS Dock items customization.
-- [dotfiles.sh](install/dotfiles.sh) - Oh My Zsh installer and git configs.
+- [dotfiles.sh](install/dotfiles.sh) - _Oh My Zsh_ installer, _.zshrc_ and _git_ configs.
 - [macos.sh](install/macos.sh) - macOS defaults configs.
-- [npm.sh](install/npm.sh) - install npm packages.
+- [npm.sh](install/npm.sh) - install _npm_ packages.
 - [setup.sh](install/setup.sh) - main installer.
 - [util.sh](install/util.sh) - support functions for other installers.
 
@@ -41,11 +39,10 @@ _Check linked files to more details._
 
 ### Settings Files:
 
-- [.gitconfig](.gitconfig) - basic git settings.
-- [.gitignore_global](.gitignore_global) - global gitignore.
+- [.gitconfig](.gitconfig) - basic _git_ settings.
+- [.gitignore_global](.gitignore_global) - global _gitignore_.
 - [.zshrc](.zshrc) - terminal configs with aliases, paths, plugins and theme.
-- [.gitconfig](.gitconfig) - basic git settings.
-- com.googlecode.iterm2.plist - [iTerm2](https://iterm2.com) settings.
+- [com.googlecode.iterm2.plist](com.googlecode.iterm2.plist) - [iTerm2](https://iterm2.com) settings.
 
 **Note:** _These files are permanent._.
 
