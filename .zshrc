@@ -85,15 +85,17 @@ SPACESHIP_CHAR_SUFFIX=" "
 plugins=(
   colored-man-pages
   extract
+  fast-syntax-highlighting
   git
   npm
   osx
   sudo
-  zsh_reload
   z
+  zsh-autosuggestions
+  zsh-completions
+  zsh_reload
 )
 
-# External plugins (installed by Homebrew)
 # Homebrew Command Not Found
 if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)"; fi
 
@@ -101,18 +103,6 @@ if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew comma
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
-
-# zsh-autosuggestions
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# zsh-autosuggestions color
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=12"
-
-# zsh-completions
-fpath=(/usr/local/share/zsh-completions $fpath)
-
-# zsh-syntax-highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source $ZSH/oh-my-zsh.sh
 
