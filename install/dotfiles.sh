@@ -21,8 +21,8 @@ git clone https://github.com/zdharma/fast-syntax-highlighting.git ~/.oh-my-zsh/c
 # Install Spaceship ZSH theme
 # Spaceship is a minimalistic, powerful and extremely customizable Zsh prompt.
 # Check out https://denysdovhan.com/spaceship-prompt/ for more details
-git clone https://github.com/denysdovhan/spaceship-prompt.git ~/.oh-my-zsh/themes/spaceship-prompt
-ln -s ~/.oh-my-zsh/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/themes/spaceship.zsh-theme
+git clone https://github.com/denysdovhan/spaceship-prompt.git ~/.oh-my-zsh/custom/themes/spaceship-prompt
+ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
 
 # Set Dracula theme and preferences for iTerm2
 # See more about Dracula theme: https://draculatheme.com
