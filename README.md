@@ -7,7 +7,7 @@ This is a simple and flexible dotfiles and scripts to setup _macOS_.
 1. [What are dotfiles](#what-are-dotfiles)
 1. [Features](#features)
 1. [Installation](#installation)
-1. [Manual setup after installation](#manual-setup-after-installation)
+1. [Manual setup](#manual-setup)
 1. [Screenshot](#screenshot)
 1. [Resources](#resources)
 
@@ -31,21 +31,23 @@ _Check linked files to more details._
 
 - [apps.sh](install/apps.sh) - installs Homebrew, Cask, Homebrew Cask Upgrade and some apps.
 - [dock.sh](install/dock.sh) - dock customization.
-- [dotfiles.sh](install/dock.sh) - Oh My Zsh installer and git configs.
+- [dotfiles.sh](install/dotfiles.sh) - Oh My Zsh installer and git configs.
 - [macos.sh](install/macos.sh) - macOS defaults configs.
 - [npm.sh](install/npm.sh) - install npm packages.
 - [setup.sh](install/setup.sh) - main installer.
 - [util.sh](install/util.sh) - support functions for other installers.
 
-**Note:** _These files will be discarded later._  
+**Note:** _These files will be discarded later._
 
 ### Settings Files:
 
-- [gitconfig](.gitconfig) - basic git settings.
-- [gitignore_global](.gitignore_global) - global gitignore.
-- [zshrc](.zshrc) - terminal configs with aliases, paths, plugins and theme.
+- [.gitconfig](.gitconfig) - basic git settings.
+- [.gitignore_global](.gitignore_global) - global gitignore.
+- [.zshrc](.zshrc) - terminal configs with aliases, paths, plugins and theme.
+- [.gitconfig](.gitconfig) - basic git settings.
+- com.googlecode.iterm2.plist - [iTerm2](https://iterm2.com) settings.
 
-**Note:** _These files are permanent._. 
+**Note:** _These files are permanent._.
 
 ## Installation:
 
@@ -59,7 +61,7 @@ git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 
 ### Explaining the process
 
-The [setup.sh](install/setup.sh) process will ask if you want to install the following scripts, in this order:   
+The [setup.sh](install/setup.sh) process will ask if you want to install the following scripts, in this order:
 **Note:** I suggest you read these files and turn your preferences on/off before installation.
 
 - [apps.sh](install/apps.sh) - install _Homebrew_, _Cask Upgrade_ and applications.
@@ -67,11 +69,11 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
 
   - Install Homebrew;
   - Homebrew apps: Git, Nano, Node, nvm, Python, Ruby, Unrar, Yarn, Zsh;
-  - Homebrew cask fonts: caskroom/fonts, caskroom/drivers, caskroom/versions;
+  - Homebrew taps: homebrew/fonts, homebrew/drivers, homebrew/versions, homebrew/command-not-found;
   - Homebrew casks: Adguard, Adobe Creative Cloud, Dash, Font Fira Code, Google Chrome, IINA, iTerm2, Paragon NTFS, PDF Expert, qBittorrent, Spotify and VSCode;
   - Homebrew Cask Upgrade;
 
-- [dotfiles.sh](install/dotfiles.sh) - install Oh My Zsh, some Zsh plugins, Spaceship theme and z. Open [gitconfig](.gitconfig) so that the user can put his data.
+- [dotfiles.sh](install/dotfiles.sh) - install Oh My Zsh, some Zsh plugins, Spaceship theme and set iTerm2 preferences. This step also opens [gitconfig](.gitconfig) so that the user can put his data.
 - [npm.sh](install/npm.sh) - install some npm packages.
 - [macos.sh](install/macos.sh) - set custom macOS preferences.
 - [dock.sh](install/dock.sh) - install _dockutil_ and set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
@@ -80,25 +82,27 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
 - Create a directory called _Developer_ in _Home_ directory for projects and development.
 - Cleanup cached downloads and remove the installation zip and folder.
 
-## Manual setup after installation
+## Manual setup
 
-### iTerm2 - Change the color theme:  
+[iTerm2](https://iterm2.com) settings are changed by [dotfiles.sh](install/dotfiles.sh), but you can change them manually if you prefer. My VSCode settings are loaded by the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension, so you will have to change manually or load your settings.
+
+### iTerm2 - Change the color theme:
 
 iTerm → Preferences → Profiles → Colors → Color presets. I use [Dracula](https://draculatheme.com) theme.
 
-### iTerm2 - Change font:  
+### iTerm2 - Change font:
 
 iTerm → Preferences → Profiles → Text → Change Font. I use Fira Code with 13px.
 
-### iTerm2 - Enable word jumps and word deletion, aka natural text selection:  
+### iTerm2 - Enable word jumps and word deletion, aka natural text selection:
 
 By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to: iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing
 
 ### Visual Studio Code config:
 
-Code → Preference → Settings (or CMD + ,) and add or edit the following values:    
-`"terminal.integrated.fontFamily": "Fira Code"`    
-`"terminal.integrated.fontSize": 14`  
+Code → Preference → Settings (or CMD + ,) and add or edit the following values:
+`"terminal.integrated.fontFamily": "Fira Code"`
+`"terminal.integrated.fontSize": 14`
 
 ## Screenshot:
 
