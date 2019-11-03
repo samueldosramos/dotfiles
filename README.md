@@ -29,7 +29,7 @@ _Check linked files to more details._
 
 ### Installation files:
 
-- [apps.sh](install/apps.sh) - installs Homebrew, Cask, Homebrew Cask Upgrade and some apps.
+- [apps.sh](install/apps.sh) - installs Homebrew, Homebrew Cask Upgrade and some apps.
 - [dock.sh](install/dock.sh) - dock customization.
 - [dotfiles.sh](install/dotfiles.sh) - Oh My Zsh installer and git configs.
 - [macos.sh](install/macos.sh) - macOS defaults configs.
@@ -67,17 +67,17 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
 - [apps.sh](install/apps.sh) - install _Homebrew_, _Cask Upgrade_ and applications.
   I suggest you comment apps that should not be installed and include those that are not listed. This script will install in the following order:
 
-  - Install Homebrew;
-  - Homebrew apps: Git, Nano, Node, nvm, Python, Ruby, Unrar, Yarn, Zsh;
-  - Homebrew taps: homebrew/fonts, homebrew/drivers, homebrew/versions, homebrew/command-not-found;
-  - Homebrew casks: Adguard, Adobe Creative Cloud, Dash, Font Fira Code, Google Chrome, IINA, iTerm2, Paragon NTFS, PDF Expert, qBittorrent, Spotify and VSCode;
-  - Homebrew Cask Upgrade;
+  - Install [Homebrew](https://brew.sh/);
+  - Homebrew apps: [Git](https://git-scm.com), [Nano](https://www.nano-editor.org), [Node](https://nodejs.org/), [nvm](https://github.com/nvm-sh/nvm), [Python](https://www.python.org), [Ruby](https://www.ruby-lang.org/), [Unrar](https://www.rarlab.com/), [Yarn](https://yarnpkg.com/), [Zsh](https://www.zsh.org);
+  - Homebrew taps: [homebrew/fonts](https://github.com/Homebrew/homebrew-cask-fonts), [homebrew/drivers](https://github.com/Homebrew/homebrew-cask-drivers), [homebrew/versions](https://github.com/Homebrew/homebrew-cask-versions), [homebrew/command-not-found](https://github.com/Homebrew/homebrew-command-not-found);
+  - Homebrew casks: [Adguard](https://adguard.com/), [Adobe Creative Cloud](https://creative.adobe.com/products/creative-cloud), [Dash](https://kapeli.com/dash), [Font Fira Code](https://github.com/tonsky/FiraCode), [Google Chrome](https://www.google.com/chrome/), [IINA](https://iina.io/), [iTerm2](https://iterm2.com), [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/), [PDF Expert](https://pdfexpert.com/), [qBittorrent](https://www.qbittorrent.org/) and [Visual Studio Code](https://code.visualstudio.com);
+  - Install [Homebrew Cask Upgrade](https://github.com/buo/homebrew-cask-upgrade);
 
-- [dotfiles.sh](install/dotfiles.sh) - install Oh My Zsh, some Zsh plugins, Spaceship theme and set iTerm2 preferences. This step also opens [gitconfig](.gitconfig) so that the user can put his data.
+- [dotfiles.sh](install/dotfiles.sh) - install [Oh My Zsh](https://ohmyz.sh), some Zsh plugins, [Spaceship ZSH](https://denysdovhan.com/spaceship-prompt/) theme and set _iTerm2_ preferences. This step also opens [gitconfig](.gitconfig) so that the user can put his data.
 - [npm.sh](install/npm.sh) - install some npm packages.
 - [macos.sh](install/macos.sh) - set custom macOS preferences.
-- [dock.sh](install/dock.sh) - install _dockutil_ and set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
-- Generate _ssh_.
+- [dock.sh](install/dock.sh) - install [dockutil](https://github.com/kcrawford/dockutil) and set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
+- Generate _SSH_.
 - Update _hostname_ (MacBook name).
 - Create a directory called _Developer_ in _Home_ directory for projects and development.
 - Cleanup cached downloads and remove the installation zip and folder.
