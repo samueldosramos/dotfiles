@@ -27,6 +27,8 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 
 _Check linked files to more details._
 
+### Installation files:
+
 - [apps.sh](install/apps.sh) - installs _Homebrew_, _Homebrew Cask Upgrade_ and some _apps_.
 - [dock.sh](install/dock.sh) - macOS Dock items customization.
 - [dotfiles.sh](install/dotfiles.sh) - _Oh My Zsh_ installer, _.zshrc_ and _git_ configs.
