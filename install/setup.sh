@@ -49,7 +49,7 @@ else
   e_warning "Skipped Dock settings update."
 fi
 
-# Generate ssh
+# Generate SSH
 seek_confirmation "Warning: This step generate SSH"
 if is_confirmed; then
   ask "Please provide an email address: " && printf "\n"
