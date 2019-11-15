@@ -124,6 +124,9 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 # Dock and hot corners
 ###############################################################################
 
+# Enable Dock magnification
+defaults write com.apple.dock magnification -bool true
+
 # Icon size of magnified Dock items
 defaults write com.apple.dock largesize -int 76
 
