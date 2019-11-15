@@ -124,9 +124,6 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 # Dock and hot corners
 ###############################################################################
 
-# Screen Edge Position
-defaults write com.apple.dock orientation -string left
-
 # Icon size of magnified Dock items
 defaults write com.apple.dock largesize -int 76
 
