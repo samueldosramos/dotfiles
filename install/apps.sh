@@ -12,7 +12,7 @@ keep_sudo_alive
 brew update
 brew upgrade
 
-# Install Homebrew formulaes
+# Install Homebrew formulas
 brew install git
 brew install nano
 brew install node
