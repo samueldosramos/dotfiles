@@ -39,6 +39,9 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Turn off keyboard illumination when computer is not used for 5 minutes
 defaults write com.apple.BezelServices kDimTime -int 300
 
+# Increase sound quality for Bluetooth headphones/headsets
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+
 ###############################################################################
 # Screen
 ###############################################################################
