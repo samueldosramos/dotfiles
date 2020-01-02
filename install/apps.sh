@@ -24,8 +24,8 @@ brew install yarn
 brew install zsh
 
 # Install Homebrew taps
-brew tap homebrew/cask-fonts
 brew tap homebrew/cask-drivers
+brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 brew tap homebrew/command-not-found
 
