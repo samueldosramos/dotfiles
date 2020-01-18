@@ -100,6 +100,9 @@ By default, word jumps (option + → or ←) and word deletions (option + backsp
 ### Visual Studio Code config:
 
 Code → Preference → Settings (or CMD + ,) and add or edit the following values:   
+`"editor.fontFamily": "JetBrains Mono"`   
+`"editor.fontLigatures": true`  
+`"editor.fontSize": 13`  
 `"terminal.integrated.fontFamily": "JetBrains Mono"`    
 `"terminal.integrated.fontSize": 13`     
 
