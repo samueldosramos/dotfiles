@@ -30,7 +30,7 @@ brew tap homebrew/cask-versions
 brew tap homebrew/command-not-found
 
 # Install Homebrew casks
-brew cask install font-fira-code
+brew cask install font-jetbrains-mono
 brew cask install google-chrome
 brew cask install iina
 brew cask install iterm2

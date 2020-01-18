@@ -27,7 +27,7 @@ ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-z
 # Set Dracula theme and preferences for iTerm2
 # See more about Dracula theme: https://draculatheme.com
 # Enable word jumps and word deletion (Natural Text Editing) in iTerm2
-# Change terminal font to Fira Code
+# Change terminal font to JetBrains Mono
 replace "com.googlecode.iterm2.plist"  "Library/Preferences/com.googlecode.iterm2.plist"
 
 # Move/replace setting files to /Home
