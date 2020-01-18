@@ -69,7 +69,7 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
   - Install [Homebrew](https://brew.sh/);
   - Homebrew formulas: [Git](https://git-scm.com), [Nano](https://www.nano-editor.org), [Node](https://nodejs.org/), [nvm](https://github.com/nvm-sh/nvm), [Python](https://www.python.org), [Ruby](https://www.ruby-lang.org/), [Unrar](https://www.rarlab.com/), [Yarn](https://yarnpkg.com/), [Zsh](https://www.zsh.org);
   - Homebrew taps: [homebrew/fonts](https://github.com/Homebrew/homebrew-cask-fonts), [homebrew/drivers](https://github.com/Homebrew/homebrew-cask-drivers), [homebrew/versions](https://github.com/Homebrew/homebrew-cask-versions), [homebrew/command-not-found](https://github.com/Homebrew/homebrew-command-not-found);
-  - Homebrew casks: [Fira Code](https://github.com/tonsky/FiraCode), [Google Chrome](https://www.google.com/chrome/), [IINA](https://iina.io/), [iTerm2](https://iterm2.com), [qBittorrent](https://www.qbittorrent.org/) and [Visual Studio Code](https://code.visualstudio.com);
+  - Homebrew casks: [JetBrains Mono](https://jetbrains.com/mono), [Google Chrome](https://www.google.com/chrome/), [IINA](https://iina.io/), [iTerm2](https://iterm2.com), [qBittorrent](https://www.qbittorrent.org/) and [Visual Studio Code](https://code.visualstudio.com);
   - Install [Homebrew Cask Upgrade](https://github.com/buo/homebrew-cask-upgrade);
 
 - [dotfiles.sh](install/dotfiles.sh) - install [Oh My Zsh](https://ohmyz.sh), some Zsh plugins, [Spaceship ZSH](https://denysdovhan.com/spaceship-prompt/) theme and set _iTerm2_ preferences. This step also opens [gitconfig](.gitconfig) so that the user can put his data.
@@ -91,7 +91,7 @@ iTerm → Preferences → Profiles → Colors → Color presets. I use [Dracula]
 
 ### iTerm2 - Change font:
 
-iTerm → Preferences → Profiles → Text → Change Font. I use [Fira Code](https://github.com/tonsky/FiraCode) with 13px.
+iTerm → Preferences → Profiles → Text → Change Font. I use [JetBrains Mono](https://jetbrains.com/mono) with 13px.
 
 ### iTerm2 - Enable word jumps and word deletion, aka natural text selection:
 
@@ -100,8 +100,8 @@ By default, word jumps (option + → or ←) and word deletions (option + backsp
 ### Visual Studio Code config:
 
 Code → Preference → Settings (or CMD + ,) and add or edit the following values:   
-`"terminal.integrated.fontFamily": "Fira Code"`    
-`"terminal.integrated.fontSize": 14`     
+`"terminal.integrated.fontFamily": "JetBrains Mono"`    
+`"terminal.integrated.fontSize": 13`     
 
 ## Screenshot:
 
