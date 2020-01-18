@@ -5,7 +5,6 @@
 # Configure applications you want to set in dock
 
 source ./install/utils.sh
-keep_sudo_alive
 
 # Install dockutil
 brew install dockutil

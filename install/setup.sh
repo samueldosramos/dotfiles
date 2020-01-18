@@ -5,7 +5,6 @@
 # Main install script
 
 source ./install/utils.sh
-keep_sudo_alive
 
 # Install applications
 seek_confirmation "Warning: This step install applications."

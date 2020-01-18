@@ -4,7 +4,6 @@
 # Install dotfiles and configure git
 
 source ./install/utils.sh
-keep_sudo_alive
 
 # Install Oh My Zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh

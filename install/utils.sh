@@ -51,11 +51,6 @@ ask() {
   read -r
 }
 
-# Keep-alive: update existing `sudo` time stamp until process has finished
-keep_sudo_alive() {
-  while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-}
-
 # Force move/replace files
 replace() {
   mv -f "${DOTFILES_DIRECTORY}/${1}" "${HOME}/${2}"

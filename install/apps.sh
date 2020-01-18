@@ -5,7 +5,6 @@
 # Comment (with #) what should not be installed and add the applications you want to install.
 
 source ./install/utils.sh
-keep_sudo_alive
 
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

@@ -4,7 +4,6 @@
 # Add or exclude packages before installation
 
 source ./install/utils.sh
-keep_sudo_alive
 
 if which node &> /dev/null; then
   brew install node
