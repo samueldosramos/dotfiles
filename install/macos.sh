@@ -269,13 +269,6 @@ sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CriticalUpdate
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 ###############################################################################
-# Contacts
-###############################################################################
-
-# Sort contacts by first name
-defaults write com.apple.AddressBook ABNameSortingFormat -string "sortingFirstName sortingLastName"
-
-###############################################################################
 # Printers & Scanners
 ###############################################################################
 
