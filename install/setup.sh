@@ -25,11 +25,19 @@ else
 fi
 
 # Install npm packages
-seek_confirmation "Warning: This step install npm packages"
+seek_confirmation "Warning: This step install npm packages."
 if is_confirmed; then
   bash ./install/npm.sh
 else
   e_warning "Skipped npm settings update."
+fi
+
+# Install Python packages
+seek_confirmation "Warning: This step install Python packages."
+if is_confirmed; then
+  bash ./install/python.sh
+else
+  e_warning "Skipped Python settings update."
 fi
 
 # Run macOS defaults
@@ -49,7 +57,7 @@ else
 fi
 
 # Generate SSH
-seek_confirmation "Warning: This step generate SSH"
+seek_confirmation "Warning: This step generate SSH."
 if is_confirmed; then
   ask "Please provide an email address: " && printf "\n"
   ssh-keygen -t ed25519 -o -a 100 -C "$REPLY"
@@ -63,7 +71,7 @@ else
 fi
 
 # Hostname
-seek_confirmation "Warning: This step update hostname (MacBook name)"
+seek_confirmation "Warning: This step update hostname (MacBook name)."
 if is_confirmed; then
   ask "Please provide an hostname (MacBook name): " && printf "\n"
   sudo scutil --set ComputerName "$REPLY"

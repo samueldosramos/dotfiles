@@ -17,7 +17,6 @@ brew install nano
 brew install node
 brew install nvm
 brew install python
-brew install pipenv
 brew install ruby
 brew install unrar
 brew install yarn
