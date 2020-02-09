@@ -10,6 +10,4 @@
 [core]
 	editor = nano
 	excludesfile = ~/.gitignore_global
-
-[color]
-	ui = auto
+	trustctime = false
