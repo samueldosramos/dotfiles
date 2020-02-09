@@ -84,11 +84,11 @@ else
 fi
 
 # Create a directory for projects and development
-e_header "Creating Developer directory in Home"
+e_header "Creating Developer directory in Home."
 mkdir ${HOME}/Developer
 
 # Cleanup cached downloads and remove the installation zip and folder
-e_header "Removing unnecessary files"
+e_header "Removing unnecessary files."
 brew cleanup && brew cleanup
 rm -rf ${HOME}/dotfiles.tar.gz
 rm -rf ${HOME}/dotfiles.zip
