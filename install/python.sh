@@ -13,7 +13,7 @@ fi
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Brew formulas
-brew install autopep8
+brew install black
 brew install pyenv
 brew install pipenv
 
