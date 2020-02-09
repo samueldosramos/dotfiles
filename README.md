@@ -34,6 +34,7 @@ _Check linked files to more details._
 - [dotfiles.sh](install/dotfiles.sh) - _Oh My Zsh_ installer, _.zshrc_ and _git_ configs.
 - [macos.sh](install/macos.sh) - macOS defaults configs.
 - [npm.sh](install/npm.sh) - install _npm_ packages.
+- [python.sh](install/python.sh) - install _Python_ packages.
 - [setup.sh](install/setup.sh) - main installer.
 - [util.sh](install/util.sh) - support functions for other installers.
 
@@ -74,6 +75,7 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
 
 - [dotfiles.sh](install/dotfiles.sh) - install [Oh My Zsh](https://ohmyz.sh), some Zsh plugins, [Spaceship ZSH](https://denysdovhan.com/spaceship-prompt/) theme and set _iTerm2_ preferences. This step also opens [gitconfig](.gitconfig) so that the user can put his data.
 - [npm.sh](install/npm.sh) - install some npm packages.
+- [python.sh](install/python.sh) - install some Python packages.
 - [macos.sh](install/macos.sh) - set custom macOS preferences.
 - [dock.sh](install/dock.sh) - install [dockutil](https://github.com/kcrawford/dockutil) and set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
 - Generate _SSH_.
