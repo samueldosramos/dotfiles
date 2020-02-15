@@ -22,6 +22,7 @@ brew install git
 brew install nano
 brew install node
 brew install nvm
+brew install postgresql
 brew install python
 brew install ruby
 brew install unrar
