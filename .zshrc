@@ -12,6 +12,9 @@ export PATH="/usr/local/sbin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 source $(brew --prefix nvm)/nvm.sh
 
+# pyenv init
+eval "$(pyenv init -)"
+
 # Python 3 path
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
