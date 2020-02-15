@@ -11,6 +11,12 @@ source ./install/utils.sh
 brew update
 brew upgrade
 
+# Install Homebrew taps
+brew tap homebrew/cask-drivers
+brew tap homebrew/cask-fonts
+brew tap homebrew/cask-versions
+brew tap homebrew/command-not-found
+
 # Install Homebrew formulas
 brew install git
 brew install nano
@@ -21,12 +27,6 @@ brew install ruby
 brew install unrar
 brew install yarn
 brew install zsh
-
-# Install Homebrew taps
-brew tap homebrew/cask-drivers
-brew tap homebrew/cask-fonts
-brew tap homebrew/cask-versions
-brew tap homebrew/command-not-found
 
 # Install Homebrew casks
 brew cask install font-jetbrains-mono
