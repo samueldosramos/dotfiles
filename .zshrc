@@ -8,6 +8,9 @@ export ZSH=$HOME/.oh-my-zsh
 # Homebrew path
 export PATH="/usr/local/sbin:$PATH"
 
+# curl path
+export PATH="/usr/local/opt/curl/bin:$PATH"
+
 # nvm path
 export NVM_DIR="$HOME/.nvm"
 source $(brew --prefix nvm)/nvm.sh

@@ -18,6 +18,7 @@ brew tap homebrew/cask-versions
 brew tap homebrew/command-not-found
 
 # Install Homebrew formulas
+brew install curl
 brew install git
 brew install nano
 brew install node
