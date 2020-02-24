@@ -35,6 +35,7 @@ brew cask install font-jetbrains-mono
 brew cask install google-chrome
 brew cask install iina
 brew cask install iterm2
+brew cask install postman
 brew cask install qbittorrent
 brew cask install visual-studio-code
 
