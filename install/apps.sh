@@ -32,10 +32,14 @@ brew install zsh
 brew install TomAnthony/brews/itermocil
 
 # Install Homebrew casks
+brew cask install adguard
+brew cask install dash
 brew cask install font-jetbrains-mono
 brew cask install google-chrome
 brew cask install iina
+brew cask install istat-menus
 brew cask install iterm2
+brew cask install pdf-expert
 brew cask install postman
 brew cask install qbittorrent
 brew cask install visual-studio-code
