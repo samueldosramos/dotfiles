@@ -11,3 +11,6 @@
 	editor = nano
 	excludesfile = ~/.gitignore_global
 	trustctime = false
+
+[credential]
+	helper = osxkeychain
