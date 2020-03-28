@@ -61,7 +61,7 @@ seek_confirmation "Warning: This step generate SSH."
 if is_confirmed; then
   ask "Please provide an email address: " && printf "\n"
   ssh-keygen -t ed25519 -o -a 100 -C "$REPLY"
-  ssh-add -K ~/.ssh/id_rsa
+  ssh-add -K ~/.ssh/id_ed25519
   touch ~/.ssh/config
   echo -e "Host *\n UseKeychain yes\n AddKeysToAgent yes\n" >> ~/.ssh/config
   e_success "Generated SSH key."
