@@ -43,8 +43,8 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-# Save screenshots to the Pictures folder
-defaults write com.apple.screencapture location ~/Pictures
+# Save screenshots to the Grab folder in iCloud Drive
+defaults write com.apple.screencapture location ~/Library/Mobile\ Documents/com~apple~Grab/Documents
 
 ###############################################################################
 # Finder
