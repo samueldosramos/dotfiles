@@ -46,6 +46,9 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # Save screenshots to the Pictures folder
 defaults write com.apple.screencapture location ~/Pictures
 
+# Change the default screenshots name to English
+defaults write com.apple.screencapture name "Screenshot"
+
 ###############################################################################
 # Finder
 ###############################################################################
