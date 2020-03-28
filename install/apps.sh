@@ -29,6 +29,7 @@ brew install ruby
 brew install unrar
 brew install yarn
 brew install zsh
+brew install TomAnthony/brews/itermocil
 
 # Install Homebrew casks
 brew cask install font-jetbrains-mono
