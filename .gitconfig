@@ -3,11 +3,19 @@
 [user]
 	name = "Your name here"
 	email = Your e-mail here
-
 [github]
 	user = Your username here
-
+[credential]
+	helper = osxkeychain
 [core]
-	editor = nano
+	editor = code --wait
 	excludesfile = ~/.gitignore_global
 	trustctime = false
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff
