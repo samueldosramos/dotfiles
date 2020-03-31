@@ -78,7 +78,7 @@ mkdir ${HOME}/Developer
 
 # Cleanup cached downloads and remove the installation zip and folder
 e_header "Removing unnecessary files."
-brew cleanup && brew cleanup
+brew cleanup
 rm -rf ${HOME}/dotfiles.tar.gz
 rm -rf ${HOME}/dotfiles.zip
 rm -rf ${DOTFILES_DIRECTORY}
