@@ -114,7 +114,7 @@ Code → Preference → Settings (or CMD + ,) and add or edit the following valu
 ## Screenshot:
 
 Standard installation (can be configured):
-![macOS print](./images/macOS.png)
+![macOS print](./images/macOS.jpg)
 
 ## Resources:
 
