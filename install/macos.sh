@@ -198,9 +198,6 @@ defaults write com.apple.Safari WebContinuousSpellCheckingEnabled -bool true
 # Warn about fraudulent websites
 defaults write com.apple.Safari WarnAboutFraudulentWebsites -bool true
 
-# Update extensions automatically
-defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
-
 ###############################################################################
 # Terminal & iTerm 2
 ###############################################################################
