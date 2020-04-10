@@ -158,8 +158,10 @@ defaults write com.apple.dock mru-spaces -bool false
 # Safari & WebKit
 ###############################################################################
 
-# Privacy: don’t send search queries to Apple
-defaults write com.apple.Safari UniversalSearchEnabled -bool false
+# Include Spotlight Suggestions
+defaults write com.apple.Safari UniversalSearchEnabled -bool true
+
+# Include search engine suggestions
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
 # Press Tab to highlight each item on a web page
