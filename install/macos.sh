@@ -158,6 +158,9 @@ defaults write com.apple.dock mru-spaces -bool false
 # Safari & WebKit
 ###############################################################################
 
+# Set home page to `about:blank` for faster loading
+defaults write com.apple.Safari HomePage -string 'about:blank'
+
 # Include Spotlight Suggestions
 defaults write com.apple.Safari UniversalSearchEnabled -bool true
 
