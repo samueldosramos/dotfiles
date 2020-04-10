@@ -26,6 +26,7 @@ brew install nvm
 brew install postgresql
 brew install python
 brew install ruby
+brew install tree
 brew install unrar
 brew install yarn
 brew install zsh
