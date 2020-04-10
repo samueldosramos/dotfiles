@@ -200,9 +200,6 @@ defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
 # Remove useless icons from Safari’s bookmarks bar
 defaults write com.apple.Safari ProxiesInBookmarksBar "()"
 
-# Hide Safari’s bookmarks bar by default
-defaults write com.apple.Safari ShowFavoritesBar -bool false
-
 ###############################################################################
 # Terminal & iTerm 2
 ###############################################################################
