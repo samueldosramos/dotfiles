@@ -56,9 +56,6 @@ defaults write com.apple.screencapture name "Screenshot"
 # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
 defaults write com.apple.finder QuitMenuItem -bool true
 
-# Finder: disable window animations and Get Info animations
-defaults write com.apple.finder DisableAllAnimations -bool true
-
 # Set default location for new Finder windows
 # For other Desktop, use `PfDe` and `file://${HOME}/Desktop/`
 # For other paths, use `PfLo` and `file:///full/path/here/`
