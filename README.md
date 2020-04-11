@@ -13,7 +13,7 @@ This is a simple and flexible dotfiles and scripts to setup _macOS_.
 
 ## What are dotfiles
 
-Dotfiles are configuration files on Unix-based systems. At first they are just hidden configuration files of the system (that's why the reason for starting with "."). However, we can use them to make it easier to configure our computers, with many advantages:
+Dotfiles are configuration files on Unix-based systems. At first they are just hidden configuration files of the system (that's why the reason for starting with `.`). However, we can use them to make it easier to configure our computers, with many advantages:
 
 - Easy to format a new computer;
 - Automation of tasks;
@@ -27,7 +27,7 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 
 _Check linked files to more details._
 
-### Installation files:
+### Installation files
 
 - [apps.sh](install/apps.sh) - installs _Homebrew_, _Homebrew Cask Upgrade_ and some _apps_.
 - [dock.sh](install/dock.sh) - macOS Dock items customization.
@@ -40,7 +40,7 @@ _Check linked files to more details._
 
 **Note:** _These files will be discarded later._
 
-### Settings Files:
+### Settings Files
 
 - [.gitconfig](.gitconfig) - basic _git_ settings.
 - [.gitignore_global](.gitignore_global) - global _gitignore_.
@@ -49,9 +49,9 @@ _Check linked files to more details._
 
 **Note:** _These files are permanent._.
 
-## Installation:
+## Installation
 
-```
+```bash
 git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 
 ./install/setup.sh
@@ -85,23 +85,29 @@ The [setup.sh](install/setup.sh) process will ask if you want to install the fol
 
 ## Manual setup
 
-[iTerm2](https://iterm2.com) settings are changed by [dotfiles.sh](install/dotfiles.sh), but you can change them manually if you prefer. My [Visual Studio Code](https://code.visualstudio.com) settings are loaded by the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension, so you will have to change manually or load your settings.
+[iTerm2](https://iterm2.com) settings are changed by [dotfiles.sh](install/dotfiles.sh) and it will look the same as [screenshot](#screenshot), but you can change them manually if you prefer. My [Visual Studio Code](https://code.visualstudio.com) settings are loaded by the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension, so you will have to change manually or load your settings.
 
-### iTerm2 - Change the color theme:
+### iTerm2 - Change the color theme
 
-iTerm → Preferences → Profiles → Colors → Color presets. I use [Dracula](https://draculatheme.com) theme.
+You can use the default theme or switch to your preferred theme. I use [Dracula](https://draculatheme.com) theme.
 
-### iTerm2 - Change font:
+`iTerm2 → Preferences → Profiles → Colors → Color presets`
 
-iTerm → Preferences → Profiles → Text → Change Font. I use [JetBrains Mono](https://jetbrains.com/mono) with 13px.
+### iTerm2 - Change font
 
-### iTerm2 - Enable word jumps and word deletion, aka natural text selection:
+You can use the default font or switch to your preferred font. I use [JetBrains Mono](https://jetbrains.com/mono) with 13px.
 
-By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to: iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing
+`iTerm2 → Preferences → Profiles → Text → Change Font`
 
-### Visual Studio Code config:
+### iTerm2 - Enable word jumps and word deletion, aka natural text selection
 
-Code → Preference → Settings (or CMD + ,) and add or edit the following values:
+By default, word jumps (`option` + `→` or `←`) and word deletions (`option` + `backspace`) do not work.
+
+`iTerm2 → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing`
+
+### Visual Studio Code - Config
+
+`Code → Preference → Settings (or CMD + ,) and add or edit the following values:`
 
 ```json
 "editor.fontFamily": "JetBrains Mono",
@@ -111,12 +117,23 @@ Code → Preference → Settings (or CMD + ,) and add or edit the following valu
 "terminal.integrated.fontSize": 13,
 ```
 
-## Screenshot:
+### Visual Studio Code - Configurable External Terminal
 
-Standard installation (can be configured):
-![macOS print](./images/macOS.jpg)
+If you are using [iTerm2](https://iterm2.com) as a default terminal, you need to configure this in [Visual Studio Code](https://code.visualstudio.com).
 
-## Resources:
+`Code → Preference → Settings (or CMD + ,) and add or edit the following values:`
+
+```json
+"terminal.external.osxExec": "iTerm.app",
+```
+
+## Screenshot
+
+Default installation (can be configured):
+
+![macOS print](./images/macOS.png)
+
+## Resources
 
 - [Dotfiles Repositories](https://dotfiles.github.io/)
 - [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles)
