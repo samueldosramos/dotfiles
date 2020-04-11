@@ -15,13 +15,13 @@ This is a simple and flexible dotfiles and scripts to setup _macOS_.
 
 Dotfiles are configuration files on Unix-based systems. At first they are just hidden configuration files of the system (that's why the reason for starting with `.`). However, we can use them to make it easier to configure our computers, with many advantages:
 
-- Easy to format a new computer;
-- Automation of tasks;
-- Easy maintenance;
-- Storage in remote locations (GitHub, Dropbox, etc);
-- Versioning;
-- Import to multiple computers;
-- Customize the terminal.
+- Easy to format a new computer
+- Automation of tasks
+- Easy maintenance
+- Storage in remote locations (GitHub, Dropbox, etc)
+- Versioning
+- Import to multiple computers
+- Customize the terminal
 
 ## Features
 
@@ -49,7 +49,7 @@ _Check linked files to more details._
 - [.zshrc][] - terminal configs with aliases, paths, plugins and theme.
 - [com.googlecode.iterm2.plist][] - [iTerm2][] settings.
 
-**Note:** _These files are permanent._.
+**Note:** _These files are permanent_.
 
 ## Installation
 
@@ -68,11 +68,11 @@ The [setup.sh][] process will ask if you want to install the following scripts, 
 - [apps.sh][] - install _Homebrew_, _Homebrew Cask Upgrade_ and applications.
   I suggest you comment apps that should not be installed and include those that are not listed. This script will install in the following order:
 
-  - Install [Homebrew][];
-  - Homebrew formulas: [curl][], [Git][], [iTermocil][], [Nano][], [Node][], [nvm][], [postgresql][], [Python][], [Ruby][], [tree][], [Unrar][], [Yarn][], [Zsh][];
-  - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][];
-  - Homebrew casks: [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Postman][], [qBittorrent][] and [Visual Studio Code][];
-  - Install [Homebrew Cask Upgrade][];
+  - Install [Homebrew][].
+  - Homebrew formulas: [curl][], [Git][], [iTermocil][], [Nano][], [Node][], [nvm][], [postgresql][], [Python][], [Ruby][], [tree][], [Unrar][], [Yarn][], [Zsh][].
+  - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
+  - Homebrew casks: [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Postman][], [qBittorrent][] and [Visual Studio Code][].
+  - Install [Homebrew Cask Upgrade][].
 
 - [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [Spaceship ZSH][] theme and set _iTerm2_ preferences (including [Dracula Theme][]). This step also opens [.gitconfig][] so that the user can put his data.
 - [npm.sh][] - install some npm packages.
