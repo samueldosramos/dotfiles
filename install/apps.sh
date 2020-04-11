@@ -43,6 +43,7 @@ brew cask install iterm2
 brew cask install pdf-expert
 brew cask install postman
 brew cask install qbittorrent
+brew cask install sip
 brew cask install visual-studio-code
 
 # Install Homebrew Cask Upgrade
