@@ -74,7 +74,7 @@ The [setup.sh][] process will ask if you want to install the following scripts, 
   - Homebrew casks: [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Postman][], [qBittorrent][] and [Visual Studio Code][];
   - Install [Homebrew Cask Upgrade][];
 
-- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [Spaceship ZSH][] theme and set _iTerm2_ preferences. This step also opens [.gitconfig][] so that the user can put his data.
+- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [Spaceship ZSH][] theme and set _iTerm2_ preferences (including [Dracula Theme][]). This step also opens [.gitconfig][] so that the user can put his data.
 - [npm.sh][] - install some npm packages.
 - [python.sh][] - install some Python packages.
 - [macos.sh][] - set custom macOS preferences.
@@ -92,7 +92,7 @@ The [setup.sh][] process will ask if you want to install the following scripts, 
 
 ### iTerm2 - Change the color theme
 
-You can use the default theme or switch to your preferred theme. I use [Dracula theme][].
+You can use the default theme or switch to your preferred theme. I use [Dracula Theme][].
 
 `iTerm2 → Preferences → Profiles → Colors → Color presets`
 
