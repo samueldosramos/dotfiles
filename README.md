@@ -132,9 +132,9 @@ If you are using [iTerm2][] as a default terminal, you need to configure this in
 
 ## Screenshot
 
-Default installation (can be configured):
+Default install (can be configured):
 
-![macOS print][]
+![macOS screenshot][]
 
 ## Resources
 
@@ -177,7 +177,7 @@ Default installation (can be configured):
 [iterm2]: https://iterm2.com
 [itermocil]: https://github.com/TomAnthony/itermocil
 [jetbrains mono]: https://jetbrains.com/mono
-[macos print]: ./images/macOS.jpg
+[macos screenshot]: ./images/macOS.jpg 'macOS screenshot with default install'
 [macos.sh]: install/macos.sh
 [manual setup]: #manual-setup
 [nano]: https://www.nano-editor.org
