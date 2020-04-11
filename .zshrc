@@ -23,6 +23,7 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Ruby path
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="$(gem environment gemdir)/bin:$PATH"
 
 # Support 256 colors path
 export TERM="xterm-256color"
