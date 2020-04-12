@@ -69,7 +69,7 @@ The [setup.sh][] process will ask if you want to install the following scripts, 
   I suggest you comment apps that should not be installed and include those that are not listed. This script will install in the following order:
 
   - Install [Homebrew][].
-  - Homebrew formulas: [curl][], [Git][], [iTermocil][], [Nano][], [Node][], [nvm][], [postgresql][], [Python][], [Ruby][], [tree][], [Unrar][], [Yarn][], [Zsh][].
+  - Homebrew formulas: [curl][], [Git][], [iTermocil][], [Nano][], [Node][], [nvm][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Unrar][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
   - Homebrew casks: [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Postman][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
