@@ -79,8 +79,8 @@ The [setup.sh][] process will ask if you want to install the following scripts, 
 - [python.sh][] - install some Python packages.
 - [macos.sh][] - set custom macOS preferences.
 - [dock.sh][] - install [dockutil][] and set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
-- Generate _SSH_.
-- Update _hostname_ (MacBook name).
+- [ssh.sh][] - Generate _SSH_.
+- [hostname.sh][] - Update _hostname_ (MacBook name).
 - Create a directory called _Developer_ in _Home_ directory for projects and development.
 - Cleanup cached downloads and remove the installation zip and folder.
 
