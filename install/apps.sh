@@ -40,6 +40,7 @@ brew cask install google-chrome
 brew cask install iina
 brew cask install istat-menus
 brew cask install iterm2
+brew cask install openinterminal
 brew cask install pdf-expert
 brew cask install postman
 brew cask install qbittorrent
