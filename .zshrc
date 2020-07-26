@@ -158,12 +158,6 @@ alias cleanup="brew cleanup"
 # Update macOS using Command Line Software Update Tool
 alias macupdate="sudo softwareupdate -ia"
 
-# List npm packages installed globally
-alias npmlist="npm list -g --depth=0"
-
-# Update npm packages globally
-alias npmupdate="npm update -g"
-
 # Undo the last commit
 alias uncommit="git reset HEAD~1"
 

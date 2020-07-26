@@ -14,6 +14,7 @@ npm install -g create-react-app
 npm install -g create-react-native-app
 npm install -g eslint
 npm install -g gulp-cli
+npm install -g npm-check
 npm install -g prettier
 npm install -g sass
 npm install -g typescript
