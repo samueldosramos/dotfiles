@@ -14,6 +14,7 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Brew formulas
 brew install black
+brew install flake8
 brew install pyenv
 brew install pipenv
 
