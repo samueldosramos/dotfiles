@@ -17,6 +17,7 @@ source $(brew --prefix nvm)/nvm.sh
 
 # pyenv init
 eval "$(pyenv init -)"
+$(pyenv root)/completions/pyenv.zsh
 
 # Python 3 path
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
