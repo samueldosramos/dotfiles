@@ -22,7 +22,7 @@ PACKAGES=(
   typescript
 )
 
-for package in ${PACKAGES}
+for package in ${PACKAGES[@]}
 do
   npm install -g $package
 done

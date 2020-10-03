@@ -19,7 +19,7 @@ TAPS=(
   homebrew/command-not-found
 )
 
-for tap in ${TAPS}
+for tap in ${TAPS[@]}
 do
   brew tap $tap
 done
@@ -41,7 +41,7 @@ FORMULAS=(
   TomAnthony/brews/itermocil
 )
 
-for formula in ${FORMULAS}
+for formula in ${FORMULAS[@]}
 do
   brew install $formula
 done
@@ -57,7 +57,7 @@ CASKS=(
   visual-studio-code
 )
 
-for app in ${CASKS}
+for app in ${CASKS[@]}
 do
   brew cask install $app
 done

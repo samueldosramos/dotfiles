@@ -20,7 +20,7 @@ FORMULAS=(
   pipenv
 )
 
-for formula in ${FORMULAS}
+for formula in ${FORMULAS[@]}
 do
   brew install $formula
 done
@@ -30,7 +30,7 @@ PACKAGES=(
   pylint
 )
 
-for pip in ${PACKAGES}
+for pip in ${PACKAGES[@]}
 do
   pip install $pip
 done
