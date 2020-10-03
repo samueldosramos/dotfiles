@@ -36,4 +36,4 @@ do
 done
 
 # Finish
-e_success "Finished npm packages settings."
+echo_success "Finished npm packages settings."

@@ -69,4 +69,4 @@ brew update
 brew cu
 
 # Finish
-e_success "Finished applications installation."
+echo_success "Finished applications installation."

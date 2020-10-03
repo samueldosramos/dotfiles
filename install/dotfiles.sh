@@ -35,7 +35,7 @@ replace ".gitignore_global" ".gitignore_global"
 replace ".zshrc"            ".zshrc"
 
 # Git configs
-e_header "Configure your Git settings: "
+echo_info "Configure your Git settings: "
 nano ${HOME}/.gitconfig
 
 # Fix “zsh compinit: insecure directories” warnings
@@ -43,4 +43,4 @@ nano ${HOME}/.gitconfig
 chmod go-w "$(brew --prefix)/share"
 
 # Finish
-e_success "Dotfiles update complete."
+echo_success "Dotfiles update complete."
