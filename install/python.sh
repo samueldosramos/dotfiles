@@ -13,13 +13,27 @@ fi
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Brew formulas
-brew install black
-brew install flake8
-brew install pyenv
-brew install pipenv
+FORMULAS=(
+  black
+  flake8
+  pyenv
+  pipenv
+)
 
-# Pip packages
-pip install pylint
+for formula in ${FORMULAS}
+do
+  brew install $formula
+done
+
+# pip packages
+PACKAGES=(
+  pylint
+)
+
+for pip in ${PACKAGES}
+do
+  pip install $pip
+done
 
 # Finish
 e_success "Finished npm packages settings."
