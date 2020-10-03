@@ -25,10 +25,8 @@ echo_warning() {
 
 # Ask for confirmation before proceeding
 ask_confirmation() {
-  printf "\n"
   echo_warning "$@"
   read -p "Continue? (y/n) " -n 1
-  printf "\n"
 }
 
 # Test whether the result of an 'ask' is a confirmation
@@ -41,10 +39,8 @@ is_confirmed() {
 
 # Ask for something
 ask_something() {
-  printf "\n"
   echo_info "$1"
   read -r
-  printf "\n"
 }
 
 # Force move/replace files
