@@ -71,7 +71,7 @@ The [setup.sh][] process will ask if you want to install the following scripts, 
   - Install [Homebrew][].
   - Homebrew formulas: [curl][], [Git][], [iTermocil][], [Nano][], [Node][], [nvm][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Unrar][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
-  - Homebrew casks: [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Postman][], [qBittorrent][] and [Visual Studio Code][].
+  - Homebrew casks: [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Insomnia][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
 - [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [Spaceship ZSH][] theme and set _iTerm2_ preferences (including [Dracula Theme][]). This step also opens [.gitconfig][] so that the user can put his data.
@@ -173,6 +173,7 @@ Default install (can be configured):
 [homebrew/versions]: https://github.com/Homebrew/homebrew-cask-versions
 [hostname.sh]: install/hostname.sh
 [iina]: https://iina.io/
+[insomnia]: https://insomnia.rest
 [installation]: #installation
 [iterm2]: https://iterm2.com
 [itermocil]: https://github.com/TomAnthony/itermocil
@@ -186,7 +187,6 @@ Default install (can be configured):
 [nvm]: https://github.com/nvm-sh/nvm
 [oh my zsh]: https://ohmyz.sh
 [postgresql]: https://www.postgresql.org
-[postman]: https://www.postman.com
 [python.sh]: install/python.sh
 [python]: https://www.python.org
 [qbittorrent]: https://www.qbittorrent.org/
