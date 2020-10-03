@@ -4,7 +4,7 @@
 
 source ./install/utils.sh
 
-ask_something "Please provide an hostname (MacBook name): " && printf "\n"
+ask_something "Please provide an hostname (MacBook name): "
 sudo scutil --set ComputerName "$REPLY"
 sudo scutil --set LocalHostName "$REPLY"
 sudo scutil --set HostName "$REPLY"

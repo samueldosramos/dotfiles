@@ -41,8 +41,10 @@ is_confirmed() {
 
 # Ask for something
 ask_something() {
+  printf "\n"
   echo_info "$1"
   read -r
+  printf "\n"
 }
 
 # Force move/replace files

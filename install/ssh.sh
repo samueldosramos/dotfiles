@@ -4,7 +4,7 @@
 
 source ./install/utils.sh
 
-ask_something "Please provide an email address: " && printf "\n"
+ask_something "Please provide an email address: "
 ssh-keygen -t ed25519 -o -a 100 -C "$REPLY"
 touch ~/.ssh/config
 echo -e "Host *\n UseKeychain yes\n AddKeysToAgent yes\n" >> ~/.ssh/config
