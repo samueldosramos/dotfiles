@@ -48,6 +48,7 @@ done
 
 # Install Homebrew casks
 CASKS=(
+  beekeeper-studio
   font-jetbrains-mono
   google-chrome
   iina
