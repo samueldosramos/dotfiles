@@ -35,6 +35,7 @@ brew install TomAnthony/brews/itermocil
 # Install Homebrew casks
 brew cask install adguard
 brew cask install dash
+brew cask install docker
 brew cask install font-jetbrains-mono
 brew cask install google-chrome
 brew cask install iina
