@@ -35,14 +35,13 @@ export TERM="xterm-256color"
 ZSH_THEME="spaceship"
 SPACESHIP_PROMPT_ORDER=(
   jobs          # Background jobs indicator
-  exit_code     # Exit code section
   char          # Prompt character
 )
-SPACESHIP_USER_SHOW=always
-SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_CHAR_SYMBOL="❯"
 SPACESHIP_CHAR_SYMBOL_ROOT="#"
 SPACESHIP_CHAR_SUFFIX=" "
+SPACESHIP_JOBS_SHOW=true
+SPACESHIP_PROMPT_ADD_NEWLINE=false
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
