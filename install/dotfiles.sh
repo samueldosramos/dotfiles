@@ -17,11 +17,11 @@ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugi
 # Install plugin fast-syntax-highlighting
 git clone https://github.com/zdharma/fast-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
 
-# Install Spaceship ZSH theme
-# Spaceship is a minimalistic, powerful and extremely customizable Zsh prompt.
-# Check out https://denysdovhan.com/spaceship-prompt/ for more details
-git clone https://github.com/denysdovhan/spaceship-prompt.git ~/.oh-my-zsh/custom/themes/spaceship-prompt
-ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
+# Install Starship ZSH theme
+# The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+# Check out https://starship.rs for more details
+brew install starship
+replace "starship.toml" ".config/starship.toml"
 
 # Set Dracula theme and preferences for iTerm2
 # See more about Dracula theme: https://draculatheme.com

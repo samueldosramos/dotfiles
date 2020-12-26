@@ -74,7 +74,7 @@ The [setup.sh][] process will ask if you want to install the following scripts, 
   - Homebrew casks: [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Insomnia][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
-- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [Spaceship ZSH][] theme and set _iTerm2_ preferences (including [Dracula Theme][]). This step also opens [.gitconfig][] so that the user can put his data.
+- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [Starship][] theme and set _iTerm2_ preferences (including [Dracula Theme][]). This step also opens [.gitconfig][] so that the user can put his data.
 - [npm.sh][] - install some npm packages.
 - [python.sh][] - install some Python packages.
 - [macos.sh][] - set custom macOS preferences.
@@ -146,7 +146,7 @@ Default install (can be configured):
 - [Sensible macOS defaults][]
 - [Awesome OSX Command Line][]
 - [Oh My Zsh][]
-- [Spaceship ZSH][]
+- [Starship][]
 - [Dracula Theme][]
 
 [.gitconfig]: .gitconfig
@@ -197,7 +197,7 @@ Default install (can be configured):
 [sensible macos defaults]: https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 [settings sync]: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 [setup.sh]: install/setup.sh
-[spaceship zsh]: https://denysdovhan.com/spaceship-prompt/
+[starship]: https://starship.rs
 [ssh.sh]: install/ssh.sh
 [tree]: http://mama.indstate.edu/users/ice/tree/
 [unrar]: https://www.rarlab.com/
