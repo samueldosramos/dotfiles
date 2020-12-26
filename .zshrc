@@ -78,16 +78,10 @@ alias copyssh="pbcopy < ~/.ssh/id_ed25519.pub | echo '=> Public key copied to pa
 alias zshconfig="code ~/.zshrc"
 
 # ------------------------------ Theme ----------------------------------------
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="spaceship"
-SPACESHIP_PROMPT_ORDER=(
-  jobs          # Background jobs indicator
-  char          # Prompt character
-)
-SPACESHIP_CHAR_SYMBOL="❯"
-SPACESHIP_CHAR_SYMBOL_ROOT="#"
-SPACESHIP_CHAR_SUFFIX=" "
-SPACESHIP_JOBS_SHOW=true
-SPACESHIP_PROMPT_ADD_NEWLINE=false
+# Starship ZSH theme
+# The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+# Check out https://starship.rs for more details
+eval "$(starship init zsh)"
+
+# Starship path to load .config
+export PATH="/usr/local/opt/starship/bin:$PATH"
