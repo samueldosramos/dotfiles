@@ -37,11 +37,7 @@ plugins=(
   colored-man-pages
   extract
   fast-syntax-highlighting
-  git
-  npm
   osx
-  sudo
-  z
   zsh-autosuggestions
   zsh-completions
   zsh_reload
