@@ -15,8 +15,11 @@ export PATH="/usr/local/opt/curl/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 source $(brew --prefix nvm)/nvm.sh
 
-# Python 3 path
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+# pyenv init
+eval "$(pyenv init -)"
+
+# Python 3 path (use only without pyenv)
+# export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Ruby path
 export PATH="/usr/local/opt/ruby/bin:$PATH"
@@ -99,7 +102,6 @@ plugins=(
   git
   npm
   osx
-  pyenv
   sudo
   z
   zsh-autosuggestions
