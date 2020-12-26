@@ -60,7 +60,7 @@ CASKS=(
 
 for app in ${CASKS[@]}
 do
-  brew cask install $app
+  brew install --cask $app
 done
 
 # Install Homebrew Cask Upgrade
