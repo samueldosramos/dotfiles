@@ -80,7 +80,7 @@ alias uncommit="git reset HEAD~1"
 alias copyssh="pbcopy < ~/.ssh/id_ed25519.pub | echo '=> Public key copied to pasteboard.'"
 
 # Open .zshrc in VSCode
-alias zshconfig="code ~/.zshrc"
+alias zshcfg="code ~/.zshrc"
 
 # ------------------------------ Theme ----------------------------------------
 # Starship ZSH theme
