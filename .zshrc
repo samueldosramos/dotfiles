@@ -13,7 +13,7 @@ export PATH="/usr/local/opt/curl/bin:$PATH"
 
 # nvm path
 export NVM_DIR="$HOME/.nvm"
-source $(brew --prefix nvm)/nvm.sh
+source /usr/local/opt/nvm/nvm.sh
 
 # pyenv init
 eval "$(pyenv init -)"
@@ -80,6 +80,7 @@ alias zshconfig="code ~/.zshrc"
 # Starship ZSH theme
 # The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 # Check out https://starship.rs for more details
+ZSH_THEME=""
 eval "$(starship init zsh)"
 
 # Starship path to load .config
