@@ -30,7 +30,6 @@ FORMULAS=(
   git
   nano
   node
-  nvm
   postgresql
   python
   ruby
