@@ -44,7 +44,10 @@ plugins=(
 )
 
 # Homebrew Command Not Found
-if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)"; fi
+HB_CNF_HANDLER="$(brew --prefix)/Homebrew/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
+if [ -f "$HB_CNF_HANDLER" ]; then
+  source "$HB_CNF_HANDLER";
+fi
 
 # Homebrew Shell Completion
 if type brew &>/dev/null; then
