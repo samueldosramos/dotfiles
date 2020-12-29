@@ -12,6 +12,11 @@
 	editor = code --wait
 	excludesfile = ~/.gitignore_global
 	trustctime = false
+[alias]
+	pr-size = diff --stat master
+[oh-my-zsh]
+	hide-dirty = 1
+  hide-status = 1
 [merge]
 	tool = vscode
 [mergetool "vscode"]

@@ -21,4 +21,4 @@ dockutil --no-restart --add "/System/Applications/Notes.app"
 killall Dock
 
 # Finish
-e_success "Dock settings updated."
+echo_success "Dock settings updated."
