@@ -48,6 +48,7 @@ _Check linked files to more details._
 - [.gitignore_global][] - global _gitignore_.
 - [.zshrc][] - terminal configs with aliases, paths, plugins and theme.
 - [com.googlecode.iterm2.plist][] - [iTerm2][] settings.
+- [starship.toml][] - [Starship][] theme settings.
 
 **Note:** _These files are permanent_.
 
@@ -156,6 +157,7 @@ Default install (can be configured):
 [awesome dotfiles]: https://github.com/webpro/awesome-dotfiles
 [awesome osx command line]: https://github.com/herrbischoff/awesome-osx-command-line
 [com.googlecode.iterm2.plist]: com.googlecode.iterm2.plist
+[starship.toml]: starship.toml
 [curl]: https://curl.haxx.se
 [dock.sh]: install/dock.sh
 [dockutil]: https://github.com/kcrawford/dockutil
