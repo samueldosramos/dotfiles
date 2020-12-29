@@ -80,10 +80,7 @@ It will then install the following scripts, in this order:
   - Install [Homebrew][].
   - Homebrew formulas: [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
-    <<<<<<< HEAD
-  - # Homebrew casks: [Beekeeper Studio][], [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Insomnia][], [qBittorrent][] and [Visual Studio Code][].
-  - Homebrew casks: [Adguard][], [Dash][], [Google Chrome][], [IINA][], [iStat Menus][], [iTerm2][], [JetBrains Mono][], [PDF Expert][], [Postman][], [qBittorrent][], [Sip][] and [Visual Studio Code][].
-    > > > > > > > 3b89c81 (docs: update README.md)
+  - Homebrew casks: [Adguard][], [Beekeeper Studio][], [Dash][], [Google Chrome][], [IINA][], [iStat Menus][], [iTerm2][], [JetBrains Mono][], [Paw][], [PDF Expert][], [qBittorrent][], [Sip][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
 - [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme, set _iTerm2_ preferences (including [Dracula Theme][]) and set **.gitconfig**.
