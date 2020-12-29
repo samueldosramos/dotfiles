@@ -54,10 +54,10 @@ CASKS=(
   font-jetbrains-mono
   google-chrome
   iina
-  insomnia
   istat-menus
   iterm2
   openinterminal
+  paw
   pdf-expert
   qbittorrent
   sip

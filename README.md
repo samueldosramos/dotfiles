@@ -72,7 +72,7 @@ The [setup.sh][] process will ask if you want to install the following scripts, 
   - Install [Homebrew][].
   - Homebrew formulas: [curl][], [Git][], [iTermocil][], [Nano][], [Node][], [nvm][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Unrar][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
-  - Homebrew casks: [Adguard][], [Dash][], [Google Chrome][], [IINA][], [iStat Menus][], [iTerm2][], [JetBrains Mono][], [Insomnia][], [PDF Expert][], [qBittorrent][], [Sip][] and [Visual Studio Code][].
+  - Homebrew casks: [Adguard][], [Dash][], [Google Chrome][], [IINA][], [iStat Menus][], [iTerm2][], [JetBrains Mono][], [Paw][], [PDF Expert][], [qBittorrent][], [Sip][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
 - [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [Starship][] theme and set _iTerm2_ preferences (including [Dracula Theme][]). This step also opens [.gitconfig][] so that the user can put his data.
@@ -177,7 +177,6 @@ Default install (can be configured):
 [homebrew/versions]: https://github.com/Homebrew/homebrew-cask-versions
 [hostname.sh]: install/hostname.sh
 [iina]: https://iina.io/
-[insomnia]: https://insomnia.rest
 [installation]: #installation
 [istat menus]: https://bjango.com/mac/istatmenus/
 [iterm2]: https://iterm2.com
@@ -191,6 +190,7 @@ Default install (can be configured):
 [npm.sh]: install/npm.sh
 [nvm]: https://github.com/nvm-sh/nvm
 [oh my zsh]: https://ohmyz.sh
+[paw]: https://paw.cloud
 [pdf expert]: https://pdfexpert.com
 [postgresql]: https://www.postgresql.org
 [python.sh]: install/python.sh
