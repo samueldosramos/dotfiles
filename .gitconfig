@@ -17,6 +17,8 @@
 [oh-my-zsh]
 	hide-dirty = 1
 	hide-status = 1
+[pull]
+	ff = only
 [merge]
 	tool = vscode
 [mergetool "vscode"]
