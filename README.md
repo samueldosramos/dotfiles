@@ -99,7 +99,7 @@ You can use the default theme or switch to your preferred theme. I use [Dracula 
 
 ### iTerm2 - Change font
 
-You can use the default font or switch to your preferred font. I use [JetBrains Mono][] with 13px.
+You can use the default font or switch to your preferred font. I use [JetBrains Mono][] with 12px.
 
 `iTerm2 → Preferences → Profiles → Text → Change Font`
 
@@ -116,9 +116,9 @@ By default, word jumps (`option` + `→` or `←`) and word deletions (`option` 
 ```json
 "editor.fontFamily": "JetBrains Mono",
 "editor.fontLigatures": true,
-"editor.fontSize": 13,
+"editor.fontSize": 12,
 "terminal.integrated.fontFamily": "JetBrains Mono",
-"terminal.integrated.fontSize": 13,
+"terminal.integrated.fontSize": 12,
 ```
 
 ### Visual Studio Code - Configurable External Terminal
