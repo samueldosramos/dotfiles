@@ -35,7 +35,6 @@ FORMULAS=(
   pyenv
   ruby
   tree
-  unrar
   yarn
   zsh
   TomAnthony/brews/itermocil
