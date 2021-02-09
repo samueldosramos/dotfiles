@@ -32,6 +32,7 @@ FORMULAS=(
   node
   postgresql
   python
+  pyenv
   ruby
   tree
   unrar
