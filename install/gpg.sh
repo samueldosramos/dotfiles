@@ -10,7 +10,7 @@ if which gpg &> /dev/null; then
 fi
 
 gpg --list-secret-keys
-echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
+echo "pinentry-program /opt/homebrew/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
 gpgconf --kill gpg-agent
 
 git config --global user.signingkey "<Your GPG key here>"
