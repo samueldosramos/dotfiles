@@ -7,7 +7,7 @@
 source ./install/utils.sh
 
 # Install Rosetta for Apple Silicon hardware
-if [[ `uname -m` == 'arm64' ]]; then
+if [[ `uname -p` == 'arm' ]]; then
   softwareupdate --install-rosetta --agree-to-license
 fi
 
