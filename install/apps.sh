@@ -6,6 +6,11 @@
 
 source ./install/utils.sh
 
+# Install Rosetta for Apple Silicon hardware
+if [[ `uname -m` == 'arm64' ]]; then
+  softwareupdate --install-rosetta --agree-to-license
+fi
+
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update
