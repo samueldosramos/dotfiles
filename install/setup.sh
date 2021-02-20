@@ -57,7 +57,7 @@ else
 fi
 
 # Install GPG packages
-seek_confirmation "Warning: This step install GPG configs."
+ask_confirmation "Warning: This step install GPG configs."
 if is_confirmed; then
   bash ./install/gpg.sh
 else
