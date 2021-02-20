@@ -59,6 +59,7 @@ git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 ./install/setup.sh
 ```
 
+**Note:** For hardware with an Intel processor use the [v3.7][] release.  
 **Note:** You can also download a specific [release][].
 
 ### Explaining the process
@@ -202,6 +203,7 @@ Default install (can be configured):
 [tree]: http://mama.indstate.edu/users/ice/tree/
 [util.sh]: install/util.sh
 [visual studio code]: https://code.visualstudio.com
+[v3.7]: https://github.com/samuelramox/dotfiles/releases/tag/v3.7
 [what are dotfiles]: #what-are-dotfiles
 [yarn]: https://yarnpkg.com/
 [zsh]: https://www.zsh.org
