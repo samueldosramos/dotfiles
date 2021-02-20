@@ -59,7 +59,7 @@ git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 ./install/setup.sh
 ```
 
-**Note:** For hardware with an Intel processor use the [v3.7][] release.  
+**Note:** For hardware with an __Intel__ processor use the [v3.7][] release.  
 **Note:** You can also download a specific [release][].
 
 ### Explaining the process
