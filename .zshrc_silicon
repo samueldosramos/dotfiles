@@ -67,6 +67,9 @@ alias cleandocker="docker system prune -a -f --volumes"
 # Copy SSH
 alias copyssh="pbcopy < ~/.ssh/id_ed25519.pub | echo '=> Public key copied to pasteboard.'"
 
+# Open .gitconfig in VSCode
+alias gitcfg="code ~/.gitconfig"
+
 # Update macOS using Command Line Software Update Tool
 alias macupdate="sudo softwareupdate -ia"
 
