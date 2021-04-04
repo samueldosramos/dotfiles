@@ -19,3 +19,5 @@
 	hide-status = 1
 [pull]
 	ff = only
+[init]
+	defaultBranch = main
