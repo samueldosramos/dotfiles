@@ -79,6 +79,9 @@ alias uncommit="git reset HEAD~1"
 # Copy SSH
 alias copyssh="pbcopy < ~/.ssh/id_ed25519.pub | echo '=> Public key copied to pasteboard.'"
 
+# Open .gitconfig in VSCode
+alias gitcfg="code ~/.gitconfig"
+
 # Open .zshrc in VSCode
 alias zshcfg="code ~/.zshrc"
 
