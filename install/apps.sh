@@ -61,6 +61,7 @@ CASKS=(
   iina
   istat-menus
   iterm2
+  logitech-options
   openinterminal
   paw
   pdf-expert
