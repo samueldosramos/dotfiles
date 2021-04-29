@@ -59,6 +59,9 @@ fi
 source $ZSH/oh-my-zsh.sh
 
 # --------------------------- Aliases ----------------------------------
+# Clean Docker space on device
+alias cleandocker="docker system prune -a -f --volumes"
+
 # Cleanup Homebrew and Cask cache
 alias cleanup="brew cleanup"
 
