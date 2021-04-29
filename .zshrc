@@ -67,6 +67,9 @@ alias update="brew update && brew upgrade && brew cu --all"
 # Cleanup Homebrew and Cask cache
 alias cleanup="brew cleanup"
 
+# Clean Docker space on device
+alias cleandocker="docker system prune -a -f --volumes"
+
 # Update macOS using Command Line Software Update Tool
 alias macupdate="sudo softwareupdate -ia"
 
