@@ -13,7 +13,7 @@
 	excludesfile = ~/.gitignore_global
 	trustctime = false
 [alias]
-	pr-size = diff --stat master
+	pr-size = diff --stat main
 [oh-my-zsh]
 	hide-dirty = 1
 	hide-status = 1
