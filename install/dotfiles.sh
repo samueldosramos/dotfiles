@@ -47,6 +47,9 @@ fi
 echo_info "Configure your Git settings: "
 nano ${HOME}/.gitconfig
 
+# Suppress the ‘Last Login’ on terminal launch
+touch ~/.hushlogin
+
 # Fix “zsh compinit: insecure directories” warnings
 # See https://docs.brew.sh/Shell-Completion
 chmod go-w "$(brew --prefix)/share"
