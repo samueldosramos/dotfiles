@@ -20,6 +20,7 @@ PACKAGES=(
   prettier
   sass
   typescript
+  yalc
 )
 
 for package in ${PACKAGES[@]}
