@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # Command line tool for managing dock items
 # Check out https://github.com/kcrawford/dockutil for more details

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # ~/.macos — https://mths.be/macos
 # Turn your preferences on/off before installation
