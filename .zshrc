@@ -11,12 +11,6 @@ export PATH="/opt/homebrew/bin:$PATH"
 # curl path
 export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 
-# nvm path (zsh-nvm plugin)
-export NVM_LAZY_LOAD=true
-export NVM_COMPLETION=true
-export NVM_NO_USE=true
-export NVM_AUTO_USE=true
-
 # pyenv init
 eval "$(pyenv init -)"
 
@@ -36,13 +30,13 @@ export TERM="xterm-256color"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  asdf
   colored-man-pages
   extract
   fast-syntax-highlighting
   osx
   zsh-autosuggestions
   zsh-completions
-  zsh-nvm
   zsh_reload
 )
 
