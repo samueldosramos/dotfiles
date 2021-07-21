@@ -16,7 +16,7 @@ else
   echo_warning "Skipped applications install."
 fi
 
-# Dotfiles configs
+# Install dotfiles
 ask_confirmation "Warning: This step may overwrite your existing dotfiles and git configs."
 if is_confirmed; then
   bash ./install/dotfiles.sh
