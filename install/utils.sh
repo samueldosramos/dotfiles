@@ -46,5 +46,5 @@ ask_something() {
 
 # Force move/replace files
 replace() {
-  mv -f "${DOTFILES_DIRECTORY}/${1}" "${HOME}/${2}"
+  cp -f "${DOTFILES_DIRECTORY}/${1}" "${HOME}/${2}"
 }
