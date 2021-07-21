@@ -11,12 +11,6 @@ export PATH="/opt/homebrew/bin:$PATH"
 # curl path
 export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 
-# pyenv init
-eval "$(pyenv init -)"
-
-# Python 3 path (use only without pyenv)
-# export PATH="/opt/homebrew/opt/python/libexec/bin"
-
 # Ruby path
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="$(gem environment gemdir)/bin:$PATH"
