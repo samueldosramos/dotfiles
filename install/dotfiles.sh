@@ -17,7 +17,7 @@ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugi
 # Install plugin fast-syntax-highlighting
 git clone https://github.com/zdharma/fast-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
 
-# Install plugin asdf
+# Install asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 
 # Install Starship ZSH theme
