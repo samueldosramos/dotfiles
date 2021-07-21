@@ -33,10 +33,15 @@ replace "starship.toml" ".config/starship.toml"
 # Change terminal font to JetBrains Mono
 replace "com.googlecode.iterm2.plist"  "Library/Preferences/com.googlecode.iterm2.plist"
 
-# Move/replace setting files to /Home
+# Move permanent files to Home directory
 replace ".gitconfig"        ".gitconfig"
 replace ".gitignore_global" ".gitignore_global"
-replace ".zshrc"            ".zshrc"
+
+if [[ `uname -p` == "arm" ]]; then
+  replace ".zshrc_silicon" ".zshrc"
+else
+  replace ".zshrc_intel" ".zshrc"
+fi
 
 # Git configs
 echo_info "Configure your Git settings: "
