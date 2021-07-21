@@ -37,7 +37,6 @@ FORMULAS=(
   node
   postgresql
   python
-  pyenv
   ruby
   tree
   yarn
