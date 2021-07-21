@@ -17,8 +17,8 @@ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugi
 # Install plugin fast-syntax-highlighting
 git clone https://github.com/zdharma/fast-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
 
-# Install plugin zsh-nvm
-git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
+# Install plugin asdf
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 
 # Install Starship ZSH theme
 # The minimal, blazing-fast, and infinitely customizable prompt for any shell!
