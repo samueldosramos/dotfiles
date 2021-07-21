@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # mascOS setup script
 # Font: https://github.com/samuelramox/dotfiles
