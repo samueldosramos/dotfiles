@@ -4,6 +4,8 @@
 
 # Global variables
 DOTFILES_DIRECTORY="$PWD"
+
+# Homebrew path for macOS
 export PATH="/opt/homebrew/bin:$PATH"
 
 # Info message
