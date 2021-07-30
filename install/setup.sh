@@ -6,63 +6,30 @@
 
 source ./install/utils.sh
 
-# Install applications
-ask_confirmation "Warning: This step install applications."
-if is_confirmed; then
-  echo_info "Please, configure you applications before installation:"
-  nano ${DOTFILES_DIRECTORY}/install/apps.sh
-  bash ./install/apps.sh
-else
-  echo_warning "Skipped applications install."
-fi
+# Add Olister data
+echo_info "Add your data:"
+nano ./install/user.sh
+
+# Install apps
+bash ./install/apps.sh
 
 # Install dotfiles
-ask_confirmation "Warning: This step may overwrite your existing dotfiles and git configs."
-if is_confirmed; then
-  bash ./install/dotfiles.sh
-else
-  echo_warning "Skipped dotfiles settings."
-fi
+bash ./install/dotfiles.sh
 
 # Install npm packages
-ask_confirmation "Warning: This step install npm packages."
-if is_confirmed; then
-  bash ./install/npm.sh
-else
-  echo_warning "Skipped npm settings update."
-fi
+bash ./install/npm.sh
 
 # Run macOS defaults
-ask_confirmation "Warning: This step may modify your macOS system defaults."
-if is_confirmed; then
-  bash ./install/macos.sh
-else
-  echo_warning "Skipped macOS settings update."
-fi
+bash ./install/macos.sh
 
 # Dock settings
-ask_confirmation "Warning: This step may modify your dock system defaults."
-if is_confirmed; then
-  bash ./install/dock.sh
-else
-  echo_warning "Skipped Dock settings update."
-fi
+bash ./install/dock.sh
 
 # Generate SSH
-ask_confirmation "Warning: This step generate SSH."
-if is_confirmed; then
-  bash ./install/ssh.sh
-else
-  echo_warning "Skipped SSH settings."
-fi
+bash ./install/ssh.sh
 
 # Set hostname
-ask_confirmation "Warning: This step update hostname (MacBook name)."
-if is_confirmed; then
-  bash ./install/hostname.sh
-else
-  echo_warning "Skipped hostname settings."
-fi
+bash ./install/hostname.sh
 
 # Create a directory for projects and development
 echo_info "Creating Developer directory in Home."

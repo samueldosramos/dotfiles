@@ -4,11 +4,12 @@
 
 source ./install/utils.sh
 
-ask_something "Please provide an hostname (MacBook name): "
-sudo scutil --set ComputerName "$REPLY"
-sudo scutil --set LocalHostName "$REPLY"
-sudo scutil --set HostName "$REPLY"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$REPLY"
+echo_info "Setting hostname (MacBook name)..."
+
+sudo scutil --set ComputerName "$HOSTNAME"
+sudo scutil --set LocalHostName "$HOSTNAME"
+sudo scutil --set HostName "$HOSTNAME"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$HOSTNAME"
 
 # Finish
 echo_success "Hostname is updated."

@@ -2,6 +2,8 @@
 #
 # Some functions used in install scripts
 
+source ./install/user.sh
+
 # Global variables
 DOTFILES_DIRECTORY="$PWD"
 
@@ -24,26 +26,6 @@ echo_success() {
 echo_warning() {
   printf "\n$(tput setaf 136)! %s$(tput sgr0)\n" "$@"
   sleep 2
-}
-
-# Ask for confirmation before proceeding
-ask_confirmation() {
-  echo_warning "$@"
-  read -p "Continue? (y/n) " -n 1
-}
-
-# Test whether the result of an 'ask' is a confirmation
-is_confirmed() {
-  if [[ "$REPLY" =~ ^[Yy]$ ]]; then
-    return 0
-  fi
-  return 1
-}
-
-# Ask for something
-ask_something() {
-  echo_info "$1"
-  read -r
 }
 
 # Force move/replace files
