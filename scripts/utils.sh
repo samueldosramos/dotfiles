@@ -2,7 +2,7 @@
 #
 # Some functions used in install scripts
 
-source ./install/user.sh
+source ./scripts/user.sh
 
 # Global variables
 DOTFILES_DIRECTORY="$PWD"

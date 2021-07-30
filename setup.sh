@@ -4,32 +4,32 @@
 # Font: https://github.com/samuelramox/dotfiles
 # Main install script
 
-source ./install/utils.sh
+source ./scripts/utils.sh
 
 # Add Olister data
 echo_info "Add your data:"
-nano ./install/user.sh
+nano ./scripts/user.sh
 
 # Install apps
-bash ./install/apps.sh
+bash ./scripts/apps.sh
 
 # Install dotfiles
-bash ./install/dotfiles.sh
+bash ./scripts/dotfiles.sh
 
 # Install npm packages
-bash ./install/npm.sh
+bash ./scripts/npm.sh
 
 # Run macOS defaults
-bash ./install/macos.sh
+bash ./scripts/macos.sh
 
 # Dock settings
-bash ./install/dock.sh
+bash ./scripts/dock.sh
 
 # Generate SSH
-bash ./install/ssh.sh
+bash ./scripts/ssh.sh
 
 # Set hostname
-bash ./install/hostname.sh
+bash ./scripts/hostname.sh
 
 # Create a directory for projects and development
 echo_info "Creating Developer directory in Home."

@@ -4,7 +4,7 @@
 # Check out https://github.com/kcrawford/dockutil for more details
 # Configure apps you want to set in dock
 
-source ./install/utils.sh
+source ./scripts/utils.sh
 
 echo_info "Setting Dock..."
 
