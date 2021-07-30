@@ -45,10 +45,10 @@ _Check linked files to more details._
 ### Settings Files
 
 - [.gitignore_global][] - global _gitignore_.
+- [.zshrc_intel][] - terminal configs with aliases, paths, plugins and theme for Macs with Intel.
+- [.zshrc_silicon][] - terminal configs with aliases, paths, plugins and theme for Macs with Apple Silicon.
 - [com.googlecode.iterm2.plist][] - [iTerm2][] settings.
 - [starship.toml][] - [Starship][] theme settings.
-- [zshrc_intel][] - terminal configs with aliases, paths, plugins and theme for Macs with Intel.
-- [zshrc_silicon][] - terminal configs with aliases, paths, plugins and theme for Macs with Apple Silicon.
 
 **Note:** _These files are permanent_.
 
@@ -149,6 +149,8 @@ Default install (can be configured):
 - [Dracula Theme][]
 
 [.gitignore_global]: configs/gitignore_global
+[.zshrc_intel]: configs/.zshrc_intel
+[.zshrc_silicon]: configs/.zshrc_silicon
 [apps.sh]: scripts/apps.sh
 [awesome dotfiles]: https://github.com/webpro/awesome-dotfiles
 [awesome osx command line]: https://github.com/herrbischoff/awesome-osx-command-line
@@ -205,5 +207,3 @@ Default install (can be configured):
 [what are dotfiles]: #what-are-dotfiles
 [yarn]: https://yarnpkg.com/
 [zsh]: https://www.zsh.org
-[zshrc_intel]: configs/zshrc_intel
-[zshrc_silicon]: configs/zshrc_silicon
