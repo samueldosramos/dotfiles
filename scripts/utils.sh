@@ -7,7 +7,7 @@ source ./scripts/user.sh
 # Global variables
 DOTFILES_DIRECTORY="$PWD"
 
-# Homebrew path for macOS
+# Homebrew path for Apple Silicon
 export PATH="/opt/homebrew/bin:$PATH"
 
 # Info message
