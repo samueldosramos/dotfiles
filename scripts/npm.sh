@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 #
 # npm packages
 # Add or exclude packages before installation

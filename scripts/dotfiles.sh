@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 #
 # Install Oh My Zsh and set dotfiles
 # Install dotfiles and configure git
