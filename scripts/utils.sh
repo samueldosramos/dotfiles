@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 #
 # Some functions used in install scripts
 

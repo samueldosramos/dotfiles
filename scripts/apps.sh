@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 #
 # Install Homebrew and applications
 # Check out https://brew.sh for more details
