@@ -5,6 +5,8 @@
 
 source ./install/utils.sh
 
+echo_info "Installing dotfiles..."
+
 # Install Oh My Zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
@@ -34,7 +36,6 @@ replace "starship.toml" ".config/starship.toml"
 replace "com.googlecode.iterm2.plist"  "Library/Preferences/com.googlecode.iterm2.plist"
 
 # Move permanent files to Home directory
-replace ".gitconfig"        ".gitconfig"
 replace ".gitignore_global" ".gitignore_global"
 
 if [[ `uname -p` == "arm" ]]; then
@@ -44,8 +45,16 @@ else
 fi
 
 # Git configs
-echo_info "Configure your Git settings: "
-nano ${HOME}/.gitconfig
+git config --global user.name "$GIT_NAME"
+git config --global user.email "$GIT_EMAIL"
+git config --global credential.helper osxkeychain
+git config --global core.editor "code --wait"
+git config --global core.excludesfile "~/.gitignore_global"
+git config --global core.trustctime false
+git config --global init.defaultBranch main
+git config --global --add oh-my-zsh.hide-dirty 1
+git config --global --add oh-my-zsh.hide-status 1
+git config --global pull.ff only
 
 # Suppress the ‘Last Login’ on terminal launch
 touch ~/.hushlogin
