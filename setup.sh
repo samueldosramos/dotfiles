@@ -26,10 +26,14 @@ bash ./scripts/macos.sh
 bash ./scripts/dock.sh
 
 # Generate SSH
-bash ./scripts/ssh.sh
+if [[ $SSH_EMAIL ]]; then
+  bash ./scripts/ssh.sh
+fi
 
 # Set hostname
-bash ./scripts/hostname.sh
+if [[ $HOSTNAME ]]; then
+  bash ./scripts/hostname.sh
+fi
 
 # Create a directory for projects and development
 echo_info "Creating Developer directory in Home."
