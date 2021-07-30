@@ -3,7 +3,7 @@
 # Install Oh My Zsh and set dotfiles
 # Install dotfiles and configure git
 
-source ./install/utils.sh
+source ./scripts/utils.sh
 
 echo_info "Installing dotfiles..."
 
@@ -27,21 +27,21 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 # Check out https://starship.rs for more details
 brew install starship
 mkdir ${HOME}/.config
-replace "starship.toml" ".config/starship.toml"
+replace "./configs/starship.toml" ".config/starship.toml"
 
 # Set Dracula theme and preferences for iTerm2
 # See more about Dracula theme: https://draculatheme.com
 # Enable word jumps and word deletion (Natural Text Editing) in iTerm2
 # Change terminal font to JetBrains Mono
-replace "com.googlecode.iterm2.plist"  "Library/Preferences/com.googlecode.iterm2.plist"
+replace "./configs/com.googlecode.iterm2.plist"  "Library/Preferences/com.googlecode.iterm2.plist"
 
 # Move permanent files to Home directory
-replace ".gitignore_global" ".gitignore_global"
+replace "./configs/.gitignore_global" ".gitignore_global"
 
 if [[ `uname -p` == "arm" ]]; then
-  replace ".zshrc_silicon" ".zshrc"
+  replace "./configs/.zshrc_silicon" ".zshrc"
 else
-  replace ".zshrc_intel" ".zshrc"
+  replace "./configs/.zshrc_intel" ".zshrc"
 fi
 
 # Git configs

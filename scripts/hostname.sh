@@ -2,7 +2,7 @@
 #
 # Hostname settings
 
-source ./install/utils.sh
+source ./scripts/utils.sh
 
 echo_info "Setting hostname (MacBook name)..."
 

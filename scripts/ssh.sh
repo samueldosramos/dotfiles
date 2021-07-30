@@ -2,7 +2,7 @@
 #
 # Generate SSH
 
-source ./install/utils.sh
+source ./scripts/utils.sh
 
 echo_info "Generating SSH Key..."
 
