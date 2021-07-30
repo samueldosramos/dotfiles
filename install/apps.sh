@@ -43,7 +43,6 @@ FORMULAS=(
   tree
   yarn
   zsh
-  TomAnthony/brews/itermocil
 )
 
 for formula in ${FORMULAS[@]}
