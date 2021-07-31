@@ -64,17 +64,26 @@ git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 
 ### Explaining the process
 
-The [setup.sh][] process will open [user.sh][] to your add your user data. Then, install the following scripts, in this order:
+The [setup.sh][] process will open [user.sh][] for you to add your user data. This data is necessary for the configuration and functioning of Git and SSH.
+
+```bash
+# - GIT_NAME: name and surname to use in Git settings.
+# - GIT_EMAIL: email to use in Git settings.
+# - SSH_EMAIL: email to use in SSH settings.
+# - HOSTNAME: hostname/computer name (MacBook name). Optional, leave empty if you don't want to change.
+```
+
+It will then install the following scripts, in this order:
 
 - [apps.sh][] - install _Homebrew_, _Homebrew Cask Upgrade_ and applications.
 
   - Install [Homebrew][].
-  - Homebrew formulas: [curl][], [Git][], [iTermocil][], [Nano][], [Node][], [nvm][], [PostgreSQL][], [pyenv][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
+  - Homebrew formulas: [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
-  - Homebrew casks: [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Insomnia][], [qBittorrent][] and [Visual Studio Code][].
+  - Homebrew casks: [Beekeeper Studio][], [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Insomnia][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
-- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [Starship][] theme and set _iTerm2_ preferences (including [Dracula Theme][]). This step also opens [.gitconfig][] so that the user can put his data.
+- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme and set _iTerm2_ preferences (including [Dracula Theme][]). This step also opens [.gitconfig][] so that the user can put his data.
 - [npm.sh][] - install some npm packages.
 - [macos.sh][] - set custom macOS preferences.
 - [dock.sh][] - install [dockutil][] and set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
@@ -152,8 +161,10 @@ Default install (can be configured):
 [.zshrc_intel]: configs/.zshrc_intel
 [.zshrc_silicon]: configs/.zshrc_silicon
 [apps.sh]: scripts/apps.sh
+[asdf]: https://asdf-vm.com
 [awesome dotfiles]: https://github.com/webpro/awesome-dotfiles
 [awesome osx command line]: https://github.com/herrbischoff/awesome-osx-command-line
+[beekeeper studio]: https://www.beekeeperstudio.io
 [com.googlecode.iterm2.plist]: configs/com.googlecode.iterm2.plist
 [curl]: https://curl.haxx.se
 [dock.sh]: scripts/dock.sh
@@ -175,7 +186,6 @@ Default install (can be configured):
 [insomnia]: https://insomnia.rest
 [installation]: #installation
 [iterm2]: https://iterm2.com
-[itermocil]: https://github.com/TomAnthony/itermocil
 [jetbrains mono]: https://jetbrains.com/mono
 [macos screenshot]: ./images/macOS.jpg 'macOS screenshot with default install'
 [macos.sh]: scripts/macos.sh
@@ -183,10 +193,8 @@ Default install (can be configured):
 [nano]: https://www.nano-editor.org
 [node]: https://nodejs.org/
 [npm.sh]: scripts/npm.sh
-[nvm]: https://github.com/nvm-sh/nvm
 [oh my zsh]: https://ohmyz.sh
 [postgresql]: https://www.postgresql.org
-[pyenv]: https://github.com/pyenv/pyenv
 [python]: https://www.python.org
 [qbittorrent]: https://www.qbittorrent.org/
 [release]: https://github.com/samuelramox/dotfiles/releases
