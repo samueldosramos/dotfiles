@@ -83,7 +83,7 @@ It will then install the following scripts, in this order:
   - Homebrew casks: [Beekeeper Studio][], [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Insomnia][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
-- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme and set _iTerm2_ preferences (including [Dracula Theme][]). This step also opens [.gitconfig][] so that the user can put his data.
+- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme, set _iTerm2_ preferences (including [Dracula Theme][]) and set **.gitconfig**.
 - [npm.sh][] - install some npm packages.
 - [macos.sh][] - set custom macOS preferences.
 - [dock.sh][] - install [dockutil][] and set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
