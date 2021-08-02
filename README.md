@@ -31,7 +31,7 @@ _Check linked files to more details._
 
 - [apps.sh][] - installs _Homebrew_, _Homebrew Cask Upgrade_ and some _apps_.
 - [dock.sh][] - macOS Dock items customization.
-- [dotfiles.sh][] - _Oh My Zsh_ installer, _.zshrc_ and _git_ configs.
+- [dotfiles.sh][] - installs _Oh My Zsh_, _.zshrc_ and _git_ configs.
 - [hostname.sh][] - change _hostname_ (MacBook name).
 - [macos.sh][] - macOS defaults configs.
 - [npm.sh][] - install _npm_ packages.
