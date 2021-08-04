@@ -2,8 +2,12 @@
 #
 # Some functions used in install scripts
 
+source ./scripts/user.sh
+
 # Global variables
 DOTFILES_DIRECTORY="$PWD"
+
+# Homebrew path for Apple Silicon
 export PATH="/opt/homebrew/bin:$PATH"
 
 # Info message
@@ -24,27 +28,7 @@ echo_warning() {
   sleep 2
 }
 
-# Ask for confirmation before proceeding
-ask_confirmation() {
-  echo_warning "$@"
-  read -p "Continue? (y/n) " -n 1
-}
-
-# Test whether the result of an 'ask' is a confirmation
-is_confirmed() {
-  if [[ "$REPLY" =~ ^[Yy]$ ]]; then
-    return 0
-  fi
-  return 1
-}
-
-# Ask for something
-ask_something() {
-  echo_info "$1"
-  read -r
-}
-
 # Force move/replace files
 replace() {
-  mv -f "${DOTFILES_DIRECTORY}/${1}" "${HOME}/${2}"
+  cp -f "${DOTFILES_DIRECTORY}/${1}" "${HOME}/${2}"
 }

@@ -18,7 +18,7 @@ Dotfiles are configuration files on Unix-based systems. At first they are just h
 - Easy to format a new computer
 - Automation of tasks
 - Easy maintenance
-- Storage in remote locations (GitHub, Dropbox, etc)
+- Storage in remote locations (GitHub, iCloud, Dropbox, etc)
 - Versioning
 - Import to multiple computers
 - Customize the terminal
@@ -31,21 +31,22 @@ _Check linked files to more details._
 
 - [apps.sh][] - installs _Homebrew_, _Homebrew Cask Upgrade_ and some _apps_.
 - [dock.sh][] - macOS Dock items customization.
-- [dotfiles.sh][] - _Oh My Zsh_ installer, _.zshrc_ and _git_ configs.
+- [dotfiles.sh][] - installs _Oh My Zsh_, _.zshrc_ and _git_ configs.
 - [hostname.sh][] - change _hostname_ (MacBook name).
 - [macos.sh][] - macOS defaults configs.
 - [npm.sh][] - install _npm_ packages.
 - [setup.sh][] - main installer.
 - [ssh.sh][] - generate _SSH_.
+- [user.sh][] - user data to configuration of Git and SSH.
 - [util.sh][] - support functions for other installers.
 
 **Note:** _These files will be discarded later._
 
 ### Settings Files
 
-- [.gitconfig][] - basic _git_ settings.
 - [.gitignore_global][] - global _gitignore_.
-- [.zshrc][] - terminal configs with aliases, paths, plugins and theme.
+- [.zshrc_intel][] - terminal configs with aliases, paths, plugins and theme for Macs with Intel.
+- [.zshrc_silicon][] - terminal configs with aliases, paths, plugins and theme for Macs with Apple Silicon.
 - [com.googlecode.iterm2.plist][] - [iTerm2][] settings.
 - [starship.toml][] - [Starship][] theme settings.
 
@@ -56,7 +57,7 @@ _Check linked files to more details._
 ```bash
 git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 
-./install/setup.sh
+./setup.sh
 ```
 
 **Note:** For hardware with an __Intel__ processor use the [v3.7][] release.  
@@ -64,18 +65,26 @@ git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
 
 ### Explaining the process
 
-The [setup.sh][] process will ask if you want to install the following scripts, in this order:
+The [setup.sh][] process will open [user.sh][] for you to add your user data. This data is necessary for the configuration and functioning of Git and SSH.
+
+```bash
+# - GIT_NAME: name and surname to use in Git settings.
+# - GIT_EMAIL: email to use in Git settings.
+# - SSH_EMAIL: email to use in SSH settings.
+# - HOSTNAME: hostname/computer name (optional, leave empty if you don't want to change).
+```
+
+It will then install the following scripts, in this order:
 
 - [apps.sh][] - install _Homebrew_, _Homebrew Cask Upgrade_ and applications.
-  I suggest you comment apps that should not be installed and include those that are not listed. This script will install in the following order:
 
   - Install [Homebrew][].
-  - Homebrew formulas: [curl][], [Git][], [iTermocil][], [Nano][], [Node][], [nvm][], [PostgreSQL][], [pyenv][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
+  - Homebrew formulas: [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
-  - Homebrew casks: [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Insomnia][], [qBittorrent][] and [Visual Studio Code][].
+  - Homebrew casks: [Beekeeper Studio][], [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Insomnia][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
-- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [Starship][] theme and set _iTerm2_ preferences (including [Dracula Theme][]). This step also opens [.gitconfig][] so that the user can put his data.
+- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme, set _iTerm2_ preferences (including [Dracula Theme][]) and set **.gitconfig**.
 - [npm.sh][] - install some npm packages.
 - [macos.sh][] - set custom macOS preferences.
 - [dock.sh][] - install [dockutil][] and set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
@@ -149,18 +158,19 @@ Default install (can be configured):
 - [Starship][]
 - [Dracula Theme][]
 
-[.gitconfig]: .gitconfig
-[.gitignore_global]: .gitignore_global
-[.zshrc]: .zshrc
-[apps.sh]: install/apps.sh
+[.gitignore_global]: configs/gitignore_global
+[.zshrc_intel]: configs/.zshrc_intel
+[.zshrc_silicon]: configs/.zshrc_silicon
+[apps.sh]: scripts/apps.sh
+[asdf]: https://asdf-vm.com
 [awesome dotfiles]: https://github.com/webpro/awesome-dotfiles
 [awesome osx command line]: https://github.com/herrbischoff/awesome-osx-command-line
-[com.googlecode.iterm2.plist]: com.googlecode.iterm2.plist
-[starship.toml]: starship.toml
+[beekeeper studio]: https://www.beekeeperstudio.io
+[com.googlecode.iterm2.plist]: configs/com.googlecode.iterm2.plist
 [curl]: https://curl.haxx.se
-[dock.sh]: install/dock.sh
+[dock.sh]: scripts/dock.sh
 [dockutil]: https://github.com/kcrawford/dockutil
-[dotfiles.sh]: install/dotfiles.sh
+[dotfiles.sh]: scripts/dotfiles.sh
 [dotfiles repositories]: https://dotfiles.github.io/
 [dracula theme]: https://draculatheme.com
 [features]: #features
@@ -172,23 +182,20 @@ Default install (can be configured):
 [homebrew/drivers]: https://github.com/Homebrew/homebrew-cask-drivers
 [homebrew/fonts]: https://github.com/Homebrew/homebrew-cask-fonts
 [homebrew/versions]: https://github.com/Homebrew/homebrew-cask-versions
-[hostname.sh]: install/hostname.sh
+[hostname.sh]: scripts/hostname.sh
 [iina]: https://iina.io/
 [insomnia]: https://insomnia.rest
 [installation]: #installation
 [iterm2]: https://iterm2.com
-[itermocil]: https://github.com/TomAnthony/itermocil
 [jetbrains mono]: https://jetbrains.com/mono
 [macos screenshot]: ./images/macOS.jpg 'macOS screenshot with default install'
-[macos.sh]: install/macos.sh
+[macos.sh]: scripts/macos.sh
 [manual setup]: #manual-setup
 [nano]: https://www.nano-editor.org
 [node]: https://nodejs.org/
-[npm.sh]: install/npm.sh
-[nvm]: https://github.com/nvm-sh/nvm
+[npm.sh]: scripts/npm.sh
 [oh my zsh]: https://ohmyz.sh
 [postgresql]: https://www.postgresql.org
-[pyenv]: https://github.com/pyenv/pyenv
 [python]: https://www.python.org
 [qbittorrent]: https://www.qbittorrent.org/
 [release]: https://github.com/samuelramox/dotfiles/releases
@@ -197,11 +204,13 @@ Default install (can be configured):
 [screenshot]: #screenshot
 [sensible macos defaults]: https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 [settings sync]: https://code.visualstudio.com/docs/editor/settings-sync
-[setup.sh]: install/setup.sh
+[setup.sh]: scripts/setup.sh
 [starship]: https://starship.rs
-[ssh.sh]: install/ssh.sh
+[starship.toml]: configs/starship.toml
+[ssh.sh]: scripts/ssh.sh
 [tree]: http://mama.indstate.edu/users/ice/tree/
-[util.sh]: install/util.sh
+[user.sh]: scripts/user.sh
+[util.sh]: scripts/util.sh
 [visual studio code]: https://code.visualstudio.com
 [v3.7]: https://github.com/samuelramox/dotfiles/releases/tag/v3.7
 [what are dotfiles]: #what-are-dotfiles

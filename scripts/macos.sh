@@ -3,7 +3,9 @@
 # ~/.macos — https://mths.be/macos
 # Turn your preferences on/off before installation
 
-source ./install/utils.sh
+source ./scripts/utils.sh
+
+echo_info "Setting macOS defaults..."
 
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change

@@ -2,9 +2,11 @@
 #
 # Command line tool for managing dock items
 # Check out https://github.com/kcrawford/dockutil for more details
-# Configure applications you want to set in dock
+# Configure apps you want to set in dock
 
-source ./install/utils.sh
+source ./scripts/utils.sh
+
+echo_info "Setting Dock..."
 
 # Install dockutil
 brew install dockutil

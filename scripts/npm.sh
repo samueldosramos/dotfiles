@@ -3,7 +3,9 @@
 # npm packages
 # Add or exclude packages before installation
 
-source ./install/utils.sh
+source ./scripts/utils.sh
+
+echo_info "Installing npm packages..."
 
 if which node &> /dev/null; then
   brew install node

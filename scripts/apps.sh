@@ -4,7 +4,9 @@
 # Check out https://brew.sh for more details
 # Comment (with #) what should not be installed and add the applications you want to install.
 
-source ./install/utils.sh
+source ./scripts/utils.sh
+
+echo_info "Installing apps..."
 
 # Install Rosetta for Apple Silicon hardware
 if [[ `uname -p` == 'arm' ]]; then
@@ -41,7 +43,6 @@ FORMULAS=(
   tree
   yarn
   zsh
-  TomAnthony/brews/itermocil
 )
 
 for formula in ${FORMULAS[@]}
