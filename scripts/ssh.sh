@@ -4,7 +4,7 @@
 
 source ./scripts/utils.sh
 
-echo_info "Generating SSH Key..."
+echo_info "Generating SSH key..."
 
 ssh-keygen -q -t ed25519 -o -a 100 -C "$SSH_EMAIL"
 touch ~/.ssh/config

@@ -25,7 +25,7 @@ bash ./scripts/macos.sh
 # Dock settings
 bash ./scripts/dock.sh
 
-# Generate SSH
+# Generate SSH key
 if [[ $SSH_EMAIL ]]; then
   bash ./scripts/ssh.sh
 fi
