@@ -12,16 +12,6 @@ eval "$(starship init zsh)"
 # Starship path to load .config
 export PATH="/opt/homebrew/opt/starship/bin:$PATH"
 
-# --------------------------- Theme ------------------------------------
-# Starship ZSH theme
-# The minimal, blazing-fast, and infinitely customizable prompt for any shell!
-# Check out https://starship.rs for more details
-ZSH_THEME=""
-eval "$(starship init zsh)"
-
-# Starship path to load .config
-export PATH="/opt/homebrew/opt/starship/bin:$PATH"
-
 # --------------------------- Paths ------------------------------------
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
