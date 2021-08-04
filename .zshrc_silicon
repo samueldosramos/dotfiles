@@ -1,5 +1,16 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+#!/bin/bash
+#
+# Zsh configuration file
+
+# --------------------------- Theme ------------------------------------
+# Starship ZSH theme
+# The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+# Check out https://starship.rs for more details
+ZSH_THEME=""
+eval "$(starship init zsh)"
+
+# Starship path to load .config
+export PATH="/opt/homebrew/opt/starship/bin:$PATH"
 
 # --------------------------- Theme ------------------------------------
 # Starship ZSH theme
@@ -63,6 +74,9 @@ alias cleanup="brew cleanup"
 
 # Copy SSH
 alias copyssh="pbcopy < ~/.ssh/id_ed25519.pub | echo '=> Public key copied to pasteboard.'"
+
+# Open .gitconfig in VSCode
+alias gitcfg="code ~/.gitconfig"
 
 # Update macOS using Command Line Software Update Tool
 alias macupdate="sudo softwareupdate -ia"
