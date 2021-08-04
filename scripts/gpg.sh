@@ -12,7 +12,11 @@ if which gpg &> /dev/null; then
 fi
 
 gpg --list-secret-keys
-echo "pinentry-program /opt/homebrew/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
+if [[ `uname -p` == "arm" ]]; then
+  echo "pinentry-program /opt/homebrew/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
+else
+  echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
+fi
 gpgconf --kill gpg-agent
 
 git config --global user.signingkey "$GPG_KEY"
