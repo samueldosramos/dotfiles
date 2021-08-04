@@ -59,7 +59,6 @@ CASKS=(
   font-jetbrains-mono
   google-chrome
   iina
-  istat-menus
   iterm2
   logitech-options
   openinterminal
