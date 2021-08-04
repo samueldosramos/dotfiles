@@ -2,7 +2,9 @@
 #
 # GPG setup
 
-source ./install/utils.sh
+source ./scripts/utils.sh
+
+echo_info "Setting GPG key..."
 
 if which gpg &> /dev/null; then
   brew install gnupg
@@ -13,7 +15,7 @@ gpg --list-secret-keys
 echo "pinentry-program /opt/homebrew/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
 gpgconf --kill gpg-agent
 
-git config --global user.signingkey "<Your GPG key here>"
+git config --global user.signingkey "$GPG_KEY"
 git config --global commit.gpgsign true
 
 e_warning "Import your existing GPG key or create a new one after installation."

@@ -9,15 +9,18 @@ GIT_NAME=""
 GIT_EMAIL=""
 SSH_EMAIL=""
 HOSTNAME=""
+GPG_KEY=""
 
 # Guidance
 # - GIT_NAME: name and surname to use in Git settings.
 # - GIT_EMAIL: email to use in Git settings.
 # - SSH_EMAIL: email to use in SSH settings.
 # - HOSTNAME: hostname/computer name (optional, leave empty if you don't want to change).
+# - GPG_KEY: GPG key
 
 # Example
 # - GIT_NAME: "John Doe"
 # - GIT_EMAIL: "johndoe@example"
 # - SSH_EMAIL: "johndoe@example"
 # - HOSTNAME: "MacBook"
+# - GPG_KEY: "9999999999999999"

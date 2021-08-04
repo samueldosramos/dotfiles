@@ -30,6 +30,9 @@ if [[ $SSH_EMAIL ]]; then
   bash ./scripts/ssh.sh
 fi
 
+# Install GPG key
+bash ./scripts/gpg.sh
+
 # Set hostname
 if [[ $HOSTNAME ]]; then
   bash ./scripts/hostname.sh
