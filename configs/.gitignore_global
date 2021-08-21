@@ -1,5 +1,6 @@
-# Created by https://www.gitignore.io/api/macos and slightly modified
-# Edit at https://www.gitignore.io/?templates=macos
+
+# Created by https://www.toptal.com/developers/gitignore/api/macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos
 
 ### macOS ###
 # General
@@ -26,4 +27,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/macos
+# End of https://www.toptal.com/developers/gitignore/api/macos
+
+### asdf ###
+.tool-versions
