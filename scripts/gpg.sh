@@ -6,10 +6,8 @@ source ./scripts/utils.sh
 
 echo_info "Setting GPG key..."
 
-if which gpg &> /dev/null; then
-  brew install gnupg
-  brew install pinentry-mac
-fi
+brew install gnupg
+brew install pinentry-mac
 
 gpg --list-secret-keys
 if [[ `uname -p` == "arm" ]]; then
