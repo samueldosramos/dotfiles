@@ -18,7 +18,6 @@ PACKAGES=(
   eslint
   eslint-plugin-mdx
   gulp-cli
-  npm-check
   prettier
   sass
   typescript
