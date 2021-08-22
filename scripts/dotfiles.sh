@@ -54,7 +54,6 @@ git config --global core.trustctime false
 git config --global init.defaultBranch main
 git config --global --add oh-my-zsh.hide-dirty 1
 git config --global --add oh-my-zsh.hide-status 1
-git config --global pull.ff only
 
 # Suppress the ‘Last Login’ on terminal launch
 touch ~/.hushlogin
