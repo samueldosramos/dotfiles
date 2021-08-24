@@ -75,8 +75,14 @@ alias macupdate="sudo softwareupdate -ia"
 # Include -f to update apps that are marked as latest
 alias update="brew update && brew upgrade && brew cu --all"
 
+# List outdated npm packages installed globally
+alias npmcheck="npm outdated -g --depth=0"
+
 # List npm packages installed globally
 alias npmlist="npm list -g --depth=0"
+
+# Update npm packages installed globally
+alias npmupdate="npm update -g"
 
 # Undo the last commit
 alias uncommit="git reset HEAD~1"
