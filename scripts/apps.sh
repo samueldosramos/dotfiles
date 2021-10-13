@@ -53,7 +53,6 @@ done
 # Install Homebrew casks
 CASKS=(
   adguard
-  beekeeper-studio
   dash
   docker
   font-jetbrains-mono
@@ -66,6 +65,7 @@ CASKS=(
   pdf-expert
   qbittorrent
   sip
+  tableplus
   visual-studio-code
 )
 
