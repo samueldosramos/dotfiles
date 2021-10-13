@@ -42,7 +42,6 @@ plugins=(
   osx
   zsh-autosuggestions
   zsh-completions
-  zsh_reload
 )
 
 # Homebrew Command Not Found
