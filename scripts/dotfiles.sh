@@ -48,16 +48,16 @@ fi
 git config --global user.name "$GIT_NAME"
 git config --global user.email "$GIT_EMAIL"
 git config --global credential.helper osxkeychain
-git config --global core.editor "code --wait"
 git config --global core.excludesfile "~/.gitignore_global"
 git config --global core.trustctime false
-git config --global init.defaultBranch main
-git config --global --add oh-my-zsh.hide-dirty 1
-git config --global --add oh-my-zsh.hide-status 1
+git config --global core.editor "code --wait"
 git config --global diff.tool vscode
 git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
 git config --global merge.tool vscode
 git config --global mergetool.vscode.cmd 'code --wait $MERGED'
+git config --global init.defaultBranch main
+git config --global --add oh-my-zsh.hide-dirty 1
+git config --global --add oh-my-zsh.hide-status 1
 
 # Suppress the ‘Last Login’ on terminal launch
 touch ~/.hushlogin
