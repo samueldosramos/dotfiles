@@ -4,12 +4,16 @@
 # Add or exclude packages before installation
 
 source ./scripts/utils.sh
+. $HOME/.asdf/asdf.sh
 
 echo_info "Installing npm packages..."
 
 if which node &> /dev/null; then
   brew install node
 fi
+
+asdf plugin-add nodejs
+asdf global nodejs system
 
 # npm packages
 PACKAGES=(

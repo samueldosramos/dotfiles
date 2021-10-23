@@ -2,16 +2,6 @@
 #
 # Zsh configuration file
 
-# --------------------------- Theme ------------------------------------
-# Starship ZSH theme
-# The minimal, blazing-fast, and infinitely customizable prompt for any shell!
-# Check out https://starship.rs for more details
-ZSH_THEME=""
-eval "$(starship init zsh)"
-
-# Starship path to load .config
-export PATH="/usr/local/opt/starship/bin:$PATH"
-
 # --------------------------- Paths ------------------------------------
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -42,7 +32,6 @@ plugins=(
   osx
   zsh-autosuggestions
   zsh-completions
-  zsh_reload
 )
 
 # Homebrew Command Not Found
@@ -57,6 +46,16 @@ if type brew &>/dev/null; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+
+# --------------------------- Theme ------------------------------------
+# Starship ZSH theme
+# The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+# Check out https://starship.rs for more details
+ZSH_THEME=""
+eval "$(starship init zsh)"
+
+# Starship path to load .config
+export PATH="/usr/local/opt/starship/bin:$PATH"
 
 # --------------------------- Aliases ----------------------------------
 # Cleanup Homebrew and Cask cache
@@ -75,8 +74,14 @@ alias macupdate="sudo softwareupdate -ia"
 # Include -f to update apps that are marked as latest
 alias update="brew update && brew upgrade && brew cu --all"
 
+# List outdated npm packages installed globally
+alias npmcheck="npm outdated -g --depth=0"
+
 # List npm packages installed globally
 alias npmlist="npm list -g --depth=0"
+
+# Update npm packages installed globally
+alias npmupdate="npm update -g"
 
 # Undo the last commit
 alias uncommit="git reset HEAD~1"
