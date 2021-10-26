@@ -80,7 +80,7 @@ It will then install the following scripts, in this order:
   - Install [Homebrew][].
   - Homebrew formulas: [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
-  - Homebrew casks: [Beekeeper Studio][], [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Insomnia][], [qBittorrent][] and [Visual Studio Code][].
+  - Homebrew casks: [Beekeeper Studio][], [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Postman][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
 - [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme, set _iTerm2_ preferences (including [Dracula Theme][]) and set **.gitconfig**.
@@ -183,7 +183,6 @@ Default install (can be configured):
 [homebrew/versions]: https://github.com/Homebrew/homebrew-cask-versions
 [hostname.sh]: scripts/hostname.sh
 [iina]: https://iina.io/
-[insomnia]: https://insomnia.rest
 [installation]: #installation
 [iterm2]: https://iterm2.com
 [jetbrains mono]: https://jetbrains.com/mono
@@ -195,6 +194,7 @@ Default install (can be configured):
 [npm.sh]: scripts/npm.sh
 [oh my zsh]: https://ohmyz.sh
 [postgresql]: https://www.postgresql.org
+[postman]: https://www.postman.com
 [python]: https://www.python.org
 [qbittorrent]: https://www.qbittorrent.org/
 [release]: https://github.com/samuelramox/dotfiles/releases
