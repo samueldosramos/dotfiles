@@ -29,12 +29,6 @@ brew install starship
 mkdir ${HOME}/.config
 replace "./configs/starship.toml" ".config/starship.toml"
 
-# Set Dracula theme and preferences for iTerm2
-# See more about Dracula theme: https://draculatheme.com
-# Enable word jumps and word deletion (Natural Text Editing) in iTerm2
-# Change terminal font to JetBrains Mono
-replace "./configs/com.googlecode.iterm2.plist"  "Library/Preferences/com.googlecode.iterm2.plist"
-
 # Move permanent files to Home directory
 replace "./configs/.gitignore_global" ".gitignore_global"
 

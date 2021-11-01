@@ -56,7 +56,6 @@ CASKS=(
   font-jetbrains-mono
   google-chrome
   iina
-  iterm2
   postman
   qbittorrent
   visual-studio-code
