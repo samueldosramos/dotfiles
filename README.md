@@ -181,7 +181,6 @@ Default install (can be configured):
 [user.sh]: scripts/user.sh
 [util.sh]: scripts/util.sh
 [visual studio code]: https://code.visualstudio.com
-[v3.7]: https://github.com/samuelramox/dotfiles/releases/tag/v3.7
 [what are dotfiles]: #what-are-dotfiles
 [yarn]: https://yarnpkg.com/
 [zsh]: https://www.zsh.org
