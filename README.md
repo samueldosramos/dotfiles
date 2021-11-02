@@ -79,7 +79,7 @@ It will then install the following scripts, in this order:
   - Install [Homebrew][].
   - Homebrew formulas: [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
-  - Homebrew casks: [Adguard][], [Beekeeper Studio][], [Dash][], [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Paw][], [PDF Expert][], [qBittorrent][] and [Visual Studio Code][].
+  - Homebrew casks: [Adguard][], [Beekeeper Studio][], [Dash][], [Google Chrome][], [IINA][], [JetBrains Mono][], [Paw][], [PDF Expert][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
 - [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme and set **.gitconfig**.

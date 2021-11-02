@@ -58,7 +58,6 @@ CASKS=(
   font-jetbrains-mono
   google-chrome
   iina
-  iterm2
   logitech-options
   openinterminal
   paw
