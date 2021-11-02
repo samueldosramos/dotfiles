@@ -31,13 +31,13 @@ _Check linked files to more details._
 
 - [apps.sh][] - installs _Homebrew_, _Homebrew Cask Upgrade_ and some _apps_.
 - [dock.sh][] - macOS Dock items customization.
-- [dotfiles.sh][] - installs _Oh My Zsh_, _.zshrc_ and _git_ configs.
+- [dotfiles.sh][] - installs _Oh My Zsh_, _.zshrc_ and _Git_ configs.
 - [hostname.sh][] - change _hostname_ (MacBook name).
 - [macos.sh][] - macOS defaults configs.
 - [npm.sh][] - install _npm_ packages.
 - [setup.sh][] - main installer.
 - [ssh.sh][] - generate _SSH_.
-- [user.sh][] - user data to configuration of Git and SSH.
+- [user.sh][] - user data to configuration of _Git_ and _SSH_.
 - [util.sh][] - support functions for other installers.
 
 **Note:** _These files will be discarded later._
@@ -45,8 +45,8 @@ _Check linked files to more details._
 ### Settings Files
 
 - [.gitignore_global][] - global _gitignore_.
-- [.zshrc_intel][] - terminal configs with aliases, paths, plugins and theme for Macs with Intel.
-- [.zshrc_silicon][] - terminal configs with aliases, paths, plugins and theme for Macs with Apple Silicon.
+- [.zshrc_intel][] - terminal configs with aliases, paths, plugins and theme for Macs with _Intel_.
+- [.zshrc_silicon][] - terminal configs with aliases, paths, plugins and theme for Macs with _Apple Silicon_.
 - [starship.toml][] - [Starship][] theme settings.
 
 **Note:** _These files are permanent_.
