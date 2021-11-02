@@ -79,7 +79,7 @@ It will then install the following scripts, in this order:
   - Install [Homebrew][].
   - Homebrew formulas: [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
-  - Homebrew casks: [Adguard][], [Beekeeper Studio][], [Dash][], [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Paw][], [PDF Expert][], [qBittorrent][], [Sip][] and [Visual Studio Code][].
+  - Homebrew casks: [Adguard][], [Beekeeper Studio][], [Dash][], [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Paw][], [PDF Expert][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
 - [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme and set **.gitconfig**.
@@ -174,7 +174,6 @@ Default install (can be configured):
 [sensible macos defaults]: https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 [settings sync]: https://code.visualstudio.com/docs/editor/settings-sync
 [setup.sh]: scripts/setup.sh
-[sip]: http://sipapp.io
 [starship]: https://starship.rs
 [starship.toml]: configs/starship.toml
 [ssh.sh]: scripts/ssh.sh

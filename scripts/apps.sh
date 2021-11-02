@@ -64,7 +64,6 @@ CASKS=(
   paw
   pdf-expert
   qbittorrent
-  sip
   tableplus
   visual-studio-code
 )
