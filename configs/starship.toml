@@ -23,7 +23,7 @@ disabled = true
 disabled = true
 
 [directory]
-disabled = true
+disabled = false
 
 [docker_context]
 disabled = true
@@ -56,7 +56,7 @@ disabled = true
 disabled = true
 
 [git_status]
-disabled = true
+disabled = false
 
 [golang]
 disabled = true

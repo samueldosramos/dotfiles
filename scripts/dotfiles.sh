@@ -29,12 +29,6 @@ brew install starship
 mkdir ${HOME}/.config
 replace "./configs/starship.toml" ".config/starship.toml"
 
-# Set Dracula theme and preferences for iTerm2
-# See more about Dracula theme: https://draculatheme.com
-# Enable word jumps and word deletion (Natural Text Editing) in iTerm2
-# Change terminal font to JetBrains Mono
-replace "./configs/com.googlecode.iterm2.plist"  "Library/Preferences/com.googlecode.iterm2.plist"
-
 # Move permanent files to Home directory
 replace "./configs/.gitignore_global" ".gitignore_global"
 
@@ -48,9 +42,13 @@ fi
 git config --global user.name "$GIT_NAME"
 git config --global user.email "$GIT_EMAIL"
 git config --global credential.helper osxkeychain
-git config --global core.editor "code --wait"
 git config --global core.excludesfile "~/.gitignore_global"
 git config --global core.trustctime false
+git config --global core.editor "code --wait"
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd 'code --wait $MERGED'
 git config --global init.defaultBranch main
 git config --global --add oh-my-zsh.hide-dirty 1
 git config --global --add oh-my-zsh.hide-status 1

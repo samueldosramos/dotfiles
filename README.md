@@ -47,7 +47,6 @@ _Check linked files to more details._
 - [.gitignore_global][] - global _gitignore_.
 - [.zshrc_intel][] - terminal configs with aliases, paths, plugins and theme for Macs with Intel.
 - [.zshrc_silicon][] - terminal configs with aliases, paths, plugins and theme for Macs with Apple Silicon.
-- [com.googlecode.iterm2.plist][] - [iTerm2][] settings.
 - [starship.toml][] - [Starship][] theme settings.
 
 **Note:** _These files are permanent_.
@@ -83,7 +82,7 @@ It will then install the following scripts, in this order:
   - Homebrew casks: [Adguard][], [Beekeeper Studio][], [Dash][], [Google Chrome][], [IINA][], [iTerm2][], [JetBrains Mono][], [Paw][], [PDF Expert][], [qBittorrent][], [Sip][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
-- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme, set _iTerm2_ preferences (including [Dracula Theme][]) and set **.gitconfig**.
+- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme and set **.gitconfig**.
 - [npm.sh][] - install some npm packages.
 - [macos.sh][] - set custom macOS preferences.
 - [dock.sh][] - install [dockutil][] and set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
@@ -96,25 +95,7 @@ It will then install the following scripts, in this order:
 
 ## Manual setup
 
-[iTerm2][] settings are changed by [dotfiles.sh][] and it will look the same as [screenshot][], but you can change them manually if you prefer. My [Visual Studio Code][] settings are loaded by the [Settings Sync][], so you will have to change manually or load your settings.
-
-### iTerm2 - Change the color theme
-
-You can use the default theme or switch to your preferred theme. I use [Dracula Theme][].
-
-`iTerm2 → Preferences → Profiles → Colors → Color presets`
-
-### iTerm2 - Change font
-
-You can use the default font or switch to your preferred font. I use [JetBrains Mono][] with 12px.
-
-`iTerm2 → Preferences → Profiles → Text → Change Font`
-
-### iTerm2 - Enable word jumps and word deletion, aka natural text selection
-
-By default, word jumps (`option` + `→` or `←`) and word deletions (`option` + `backspace`) do not work.
-
-`iTerm2 → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing`
+[Visual Studio Code][] settings are loaded by the [Settings Sync][], so you will have to change manually or load your settings.
 
 ### Visual Studio Code - Config
 
@@ -123,19 +104,6 @@ By default, word jumps (`option` + `→` or `←`) and word deletions (`option` 
 ```json
 "editor.fontFamily": "JetBrains Mono",
 "editor.fontLigatures": true,
-"editor.fontSize": 12,
-"terminal.integrated.fontFamily": "JetBrains Mono",
-"terminal.integrated.fontSize": 12,
-```
-
-### Visual Studio Code - Configurable External Terminal
-
-If you are using [iTerm2][] as a default terminal, you need to configure this in [Visual Studio Code][].
-
-`Code → Preference → Settings (or CMD + ,) and add or edit the following values:`
-
-```json
-"terminal.external.osxExec": "iTerm.app",
 ```
 
 ## Screenshot
@@ -166,7 +134,6 @@ Default install (can be configured):
 [awesome dotfiles]: https://github.com/webpro/awesome-dotfiles
 [awesome osx command line]: https://github.com/herrbischoff/awesome-osx-command-line
 [beekeeper studio]: https://www.beekeeperstudio.io
-[com.googlecode.iterm2.plist]: configs/com.googlecode.iterm2.plist
 [curl]: https://curl.haxx.se
 [dash]: https://kapeli.com/dash
 [dock.sh]: scripts/dock.sh
@@ -186,7 +153,6 @@ Default install (can be configured):
 [hostname.sh]: scripts/hostname.sh
 [iina]: https://iina.io/
 [installation]: #installation
-[iterm2]: https://iterm2.com
 [jetbrains mono]: https://jetbrains.com/mono
 [macos screenshot]: ./images/macOS.jpg 'macOS screenshot with default install'
 [macos.sh]: scripts/macos.sh
@@ -198,6 +164,7 @@ Default install (can be configured):
 [paw]: https://paw.cloud
 [pdf expert]: https://pdfexpert.com
 [postgresql]: https://www.postgresql.org
+[postman]: https://www.postman.com
 [python]: https://www.python.org
 [qbittorrent]: https://www.qbittorrent.org/
 [release]: https://github.com/samuelramox/dotfiles/releases

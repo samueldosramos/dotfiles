@@ -189,7 +189,7 @@ defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
 defaults write com.apple.Safari ProxiesInBookmarksBar "()"
 
 ###############################################################################
-# Terminal & iTerm 2
+# Terminal
 ###############################################################################
 
 # Only use UTF-8 in Terminal.app
@@ -204,9 +204,6 @@ defaults write com.apple.Terminal ShowLineMarks -int 0
 
 # Hide scrollbars in Terminal
 defaults write com.apple.Terminal AppleShowScrollBars -string "Automatic"
-
-# Don’t display the annoying prompt when quitting iTerm
-defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 ###############################################################################
 # Time Machine
