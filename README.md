@@ -123,7 +123,6 @@ Default install (can be configured):
 - [Awesome OSX Command Line][]
 - [Oh My Zsh][]
 - [Starship][]
-- [Dracula Theme][]
 
 [.gitignore_global]: configs/gitignore_global
 [.zshrc_intel]: configs/.zshrc_intel
@@ -138,7 +137,6 @@ Default install (can be configured):
 [dockutil]: https://github.com/kcrawford/dockutil
 [dotfiles.sh]: scripts/dotfiles.sh
 [dotfiles repositories]: https://dotfiles.github.io/
-[dracula theme]: https://draculatheme.com
 [features]: #features
 [git]: https://git-scm.com
 [google chrome]: https://www.google.com/chrome/
