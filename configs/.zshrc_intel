@@ -29,7 +29,7 @@ plugins=(
   colored-man-pages
   extract
   fast-syntax-highlighting
-  osx
+  macos
   zsh-autosuggestions
   zsh-completions
 )
