@@ -41,6 +41,7 @@ FORMULAS=(
   python
   ruby
   tree
+  unar
   yarn
   zsh
 )
