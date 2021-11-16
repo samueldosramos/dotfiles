@@ -8,7 +8,6 @@ This is a simple and flexible dotfiles and scripts to setup _macOS_.
 1. [Features][]
 1. [Installation][]
 1. [Manual setup][]
-1. [Screenshot][]
 1. [Resources][]
 
 ## What are dotfiles
@@ -106,12 +105,6 @@ It will then install the following scripts, in this order:
 "editor.fontLigatures": true,
 ```
 
-## Screenshot
-
-Default install (can be configured):
-
-![macOS screenshot][]
-
 ## Resources
 
 - [Dotfiles Repositories][]
@@ -150,7 +143,6 @@ Default install (can be configured):
 [iina]: https://iina.io/
 [installation]: #installation
 [jetbrains mono]: https://jetbrains.com/mono
-[macos screenshot]: ./images/macOS.jpg 'macOS screenshot with default install'
 [macos.sh]: scripts/macos.sh
 [manual setup]: #manual-setup
 [nano]: https://www.nano-editor.org
@@ -164,7 +156,6 @@ Default install (can be configured):
 [release]: https://github.com/samuelramox/dotfiles/releases
 [resources]: #resources
 [ruby]: https://www.ruby-lang.org/
-[screenshot]: #screenshot
 [sensible macos defaults]: https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 [settings sync]: https://code.visualstudio.com/docs/editor/settings-sync
 [setup.sh]: scripts/setup.sh
