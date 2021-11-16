@@ -20,7 +20,7 @@ gpgconf --kill gpg-agent
 git config --global user.signingkey "$GPG_KEY"
 git config --global commit.gpgsign true
 
-e_warning "Import your existing GPG key or create a new one after installation."
-e_warning "See https://help.github.com/pt/github/authenticating-to-github/managing-commit-signature-verification"
+echo_warning "Import your existing GPG key or create a new one after installation."
+echo_warning "See https://help.github.com/pt/github/authenticating-to-github/managing-commit-signature-verification"
 
-e_success "GPG setup is finished."
+echo_success "GPG setup is finished."
