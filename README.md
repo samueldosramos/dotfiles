@@ -78,7 +78,7 @@ It will then install the following scripts, in this order:
   - Install [Homebrew][].
   - Homebrew formulas: [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
-  - Homebrew casks: [Adguard][], [Beekeeper Studio][], [Dash][], [Google Chrome][], [IINA][], [JetBrains Mono][], [Paw][], [PDF Expert][], [qBittorrent][] and [Visual Studio Code][].
+  - Homebrew casks: [Adguard][], [Beekeeper Studio][], [Dash][], [DevUtils][], [Google Chrome][], [IINA][], [JetBrains Mono][], [Paw][], [PDF Expert][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
 - [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme and set **.gitconfig**.
@@ -128,6 +128,7 @@ It will then install the following scripts, in this order:
 [beekeeper studio]: https://www.beekeeperstudio.io
 [curl]: https://curl.haxx.se
 [dash]: https://kapeli.com/dash
+[devutils]: https://devutils.app
 [dock.sh]: scripts/dock.sh
 [dockutil]: https://github.com/kcrawford/dockutil
 [dotfiles.sh]: scripts/dotfiles.sh

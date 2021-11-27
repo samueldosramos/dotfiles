@@ -55,6 +55,7 @@ done
 CASKS=(
   adguard
   dash
+  devutils
   docker
   font-jetbrains-mono
   google-chrome
