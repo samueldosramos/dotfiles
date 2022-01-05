@@ -9,6 +9,7 @@ source ./scripts/utils.sh
 # Add Olister data
 echo_info "Add your data:"
 nano ./scripts/user.sh
+source ./scripts/user.sh
 
 # Install apps
 bash ./scripts/apps.sh
