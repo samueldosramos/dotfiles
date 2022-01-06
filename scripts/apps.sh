@@ -60,7 +60,6 @@ CASKS=(
   font-jetbrains-mono
   google-chrome
   iina
-  logitech-options
   openinterminal
   paw
   pdf-expert
