@@ -54,7 +54,6 @@ done
 # Install Homebrew casks
 CASKS=(
   adguard
-  dash
   devutils
   docker
   font-jetbrains-mono
