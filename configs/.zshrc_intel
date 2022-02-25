@@ -16,9 +16,6 @@ export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="$(gem environment gemdir)/bin:$PATH"
 
-# Support 256 colors path
-export TERM="xterm-256color"
-
 # --------------------------- Plugins ----------------------------------
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
