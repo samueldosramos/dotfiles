@@ -6,7 +6,7 @@
 
 source ./scripts/utils.sh
 
-# Add Olister data
+# Add your data
 echo_info "Add your data:"
 nano ./scripts/user.sh
 source ./scripts/user.sh
