@@ -54,7 +54,6 @@ done
 # Install Homebrew casks
 CASKS=(
   adguard
-  devutils
   font-jetbrains-mono
   google-chrome
   iina
