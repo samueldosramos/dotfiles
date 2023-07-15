@@ -58,9 +58,6 @@ export PATH="/opt/homebrew/opt/starship/bin:$PATH"
 # Cleanup Homebrew and Cask cache
 alias cleanup="brew cleanup"
 
-# Remove unused data in Docker
-alias cleandocker="docker system prune -a -f --volumes"
-
 # Copy SSH
 alias copyssh="pbcopy < ~/.ssh/id_ed25519.pub | echo '=> Public key copied to pasteboard.'"
 

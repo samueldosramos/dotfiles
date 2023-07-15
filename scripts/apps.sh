@@ -55,7 +55,6 @@ done
 CASKS=(
   adguard
   devutils
-  docker
   font-jetbrains-mono
   google-chrome
   iina
