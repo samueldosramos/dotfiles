@@ -57,7 +57,7 @@ CASKS=(
   google-chrome
   iina
   openinterminal
-  paw
+  rapidapi
   pdf-expert
   qbittorrent
   tableplus
