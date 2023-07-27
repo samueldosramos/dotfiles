@@ -56,7 +56,6 @@ CASKS=(
   google-chrome
   iina
   postman
-  qbittorrent
   visual-studio-code
 )
 

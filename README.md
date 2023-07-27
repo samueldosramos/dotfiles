@@ -78,7 +78,7 @@ It will then install the following scripts, in this order:
   - Install [Homebrew][].
   - Homebrew formulas: [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
-  - Homebrew casks: [Beekeeper Studio][], [Google Chrome][], [IINA][], [JetBrains Mono][], [Postman][], [qBittorrent][] and [Visual Studio Code][].
+  - Homebrew casks: [Beekeeper Studio][], [Google Chrome][], [IINA][], [JetBrains Mono][], [Postman][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
 - [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme and set **.gitconfig**.
@@ -152,7 +152,6 @@ It will then install the following scripts, in this order:
 [postgresql]: https://www.postgresql.org
 [postman]: https://www.postman.com
 [python]: https://www.python.org
-[qbittorrent]: https://www.qbittorrent.org/
 [release]: https://github.com/samuelramox/dotfiles/releases
 [resources]: #resources
 [ruby]: https://www.ruby-lang.org/
