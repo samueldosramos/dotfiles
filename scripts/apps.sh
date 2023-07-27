@@ -37,7 +37,6 @@ FORMULAS=(
   nano
   node
   postgresql
-  python
   ruby
   tree
   unar
