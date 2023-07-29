@@ -17,11 +17,8 @@ asdf global nodejs system
 
 # npm packages
 PACKAGES=(
-  create-react-app
-  create-react-native-app
   eslint
   eslint-plugin-mdx
-  gulp-cli
   prettier
   sass
   typescript
