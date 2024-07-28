@@ -20,8 +20,6 @@ brew upgrade
 
 # Install Homebrew taps
 TAPS=(
-  homebrew/cask-fonts
-  homebrew/cask-versions
   homebrew/command-not-found
 )
 
