@@ -8,11 +8,6 @@ source ./scripts/utils.sh
 
 echo_info "Installing apps..."
 
-# Install Rosetta for Apple Silicon hardware
-if [[ `uname -p` == 'arm' ]]; then
-  softwareupdate --install-rosetta --agree-to-license
-fi
-
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update
@@ -20,8 +15,6 @@ brew upgrade
 
 # Install Homebrew taps
 TAPS=(
-  homebrew/cask-fonts
-  homebrew/cask-versions
   homebrew/command-not-found
 )
 

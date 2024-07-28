@@ -152,7 +152,6 @@ It will then install the following scripts, in this order:
 [rapidapi]: https://paw.cloud
 [pdf expert]: https://pdfexpert.com
 [postgresql]: https://www.postgresql.org
-[postman]: https://www.postman.com
 [python]: https://www.python.org
 [qbittorrent]: https://www.qbittorrent.org/
 [release]: https://github.com/samuelramox/dotfiles/releases
