@@ -25,6 +25,7 @@ done
 
 # Install Homebrew formulas
 FORMULAS=(
+  asdf
   curl
   git
   nano
