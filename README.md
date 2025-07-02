@@ -76,12 +76,12 @@ It will then install the following scripts, in this order:
 - [apps.sh][] - install _Homebrew_, _Homebrew Cask Upgrade_ and applications.
 
   - Install [Homebrew][].
-  - Homebrew formulas: [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
+  - Homebrew formulas: [asdf][], [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
   - Homebrew casks: [Google Chrome][], [IINA][], [JetBrains Mono][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
 
-- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [asdf][], [Starship][] theme and set **.gitconfig**.
+- [dotfiles.sh][] - install [Oh My Zsh][], some Zsh plugins, [Starship][] theme and set **.gitconfig**.
 - [npm.sh][] - install some npm packages.
 - [macos.sh][] - set custom macOS preferences.
 - [dock.sh][] - install [dockutil][] and set custom permanent apps in Dock. _Finder_ and _Recycle Bin_ are already permanent (unless you change this).
